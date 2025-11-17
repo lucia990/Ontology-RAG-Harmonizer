@@ -1,4 +1,4 @@
-Ontology-RAG-Harmonizer
+# Ontology-RAG-Harmonizer
 
 ## Project Overview
 
