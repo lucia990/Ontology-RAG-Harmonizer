@@ -1,10 +1,10 @@
 Ontology-RAG-Harmonizer
 
-🌟 Project Overview
+## Project Overview
 
 This system is an Ontology-RAG-Harmonization pipeline designed to automatically infer a structured, ontology-based schema from raw datasets. By utilizing Retrieval-Augmented Generation (RAG) and specialized LLM Agents, the project accelerates the creation of reusable data models necessary for high-quality data integration and analysis.
 
-⚙️ Core Architecture
+## Core Architecture
 
 The schema extraction process is managed by two specialized LLM Agents interacting with a Vector Store:
 
@@ -16,11 +16,11 @@ Schema Agent (Generation): Generates the target ontology structure (classes, pro
 
 Output: A structured, machine-readable schema definition (e.g., JSON-LD, RDF) ready for harmonization.
 
-🚀 Future Scope: Data Harmonization
+## Future Scope: Data Harmonization
 
 The next phase will implement a pipeline that uses this derived schema as a target template. LLM agents will generate automated transformation rules to map new, inbound datasets into this standardized, harmonized structure.
 
-🛠️ Getting Started
+## Getting Started
 
 (Placeholder instructions. Replace with actual setup steps.)
 
@@ -30,12 +30,12 @@ git clone [https://github.com/your-username/Ontology-RAG-Harmonizer.git](https:/
 cd Ontology-RAG-Harmonizer
 
 
-Install Dependencies:
+### Install Dependencies:
 
 pip install -r requirements.txt
 
 
-Setup Environment Variables:
+### Setup Environment Variables:
 
 OPENAI_API_KEY (or equivalent for your chosen LLM provider)
 
