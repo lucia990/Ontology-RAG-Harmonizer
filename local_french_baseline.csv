@@ -1,0 +1,116 @@
+,CUI,Variable,Ontology_name
+0,C0943693,"colonoscopy_reason [“6”, “Trouble du transit digestif à type de diarrhée”]",Colonoscopy study through stoma:Find:Stdy:Colon:Doc:Colonoscopy
+1,C0943694,"colonoscopy_reason [“7”, “Trouble du transit digestif à type de constipation”]",Study observation:Finding:Duration of the study:Colon:Nominal:Colonoscopy.thru stoma
+2,C1882982,"colonoscopy_reason [“9”, “Présence de sang dans les selles”]",Screening colonoscopy
+3,C4751324,laxative_use,Laxative therapeutic role
+4,C0337664,is_smoker,Smoker
+5,C4552100,is_lynch,Lynch syndrome
+6,C3266736,previous_colonoscopy_nb,History of colonoscopy
+7,C0334294,polyp adenomas family,Multiple adenomatous polyps
+8,C4303556,aspirin_treatment,Aspirin therapy
+9,C0004057,aspirin,aspirin
+10,C4552100,lynch_familial_background,Lynch syndrome
+11,C5926819,fap_familial_background,Family history of familial adenomatous polyposis
+12,C1290884,is_inflammatory_disease,Inflammatory disorder
+13,C0192817,colon_surgery,Operation on colon
+14,C0009378,colonoscopy_done,Colonoscopy
+15,C0009378,is_colonoscopy_complete,Colonoscopy
+16,C0730516,is_colonoscopy_anomaly,Colonoscopy abnormal
+17,C0998265,is_cancer,Cancer
+18,C3840862,age_between_50y_75y,75+ years
+19,C3266797,number of relatives with colorectal cancer,Family history of colorectal cancer
+20,C5699739,colonoscopy_date,Date of colonoscopy
+21,C5688897,colonoscopy_report_obtained,Colonoscopy service
+22,C1316209,polyps_report_obtained,Polyps:Find:Pt:Specimen:Nar
+23,C5699739,previous_colonoscopy_date,Date of colonoscopy
+24,C3266736,previous_colonoscopy_nb,History of colonoscopy
+25,C3842346,previous_polyps_nb,Prior polyps
+26,C3669167,smoking_cessation_date,Date quit tobacco smoking
+27,C0459838,ex_smoker_cigarette_nb,Ex-cigarette smoker
+28,C0459838,ex_smoker_smoking_duration,Ex-cigarette smoker
+29,C4034855,study_consent,Research study consent
+30,C1511481,consent_opposition,Consent
+31,C3875410,colonoscopy_planned,Colonoscopy planned
+32,C0455051,stool_sample_consent,Collection of stool specimen
+33,C4757946,previous_study_participation,Invitation to participate in research study
+34,C3874450,email_consent,Consent given for communication by email
+35,C4297707,gastroenterologist_FG_invitation,Letter:Find:Pt:{Setting}:Doc:Gastroenterology
+36,C5969729,complementary_study_proposed,Complementary
+37,C1369627,gastroenterologist_consultation_date,Consultation note:Find:Pt:{Setting}:Doc:Gastroenterology
+38,C1369627,gastroenterologist_consultation_place,Consultation note:Find:Pt:{Setting}:Doc:Gastroenterology
+39,C0259901,gastroenterologist_name,Gastroenterologist
+40,C3875410,planned_colonoscopy_date,Colonoscopy planned
+41,C3844672,fit_test_sent,Test submission
+42,C4553125,fit test,Fit
+43,C5395320,fit_test_date,Date fecal test due
+44,C0576710,fit_test_result_obtained,Finding relating to fit
+45,C5395320,fit_test_result_date,Date fecal test due
+46,C0576710,fit_test_result,Finding relating to fit
+47,C5395320,fit_test_date,Date fecal test due
+48,C4067903,test de dépistage de cancer colorecta,Color vision exam method
+49,C4553125,fit_test_name,Fit
+50,C0576710,fit_test_result,Finding relating to fit
+51,C0420734,fit_test_blood_quantity,Blood test due
+52,C5699739,colonoscopy_date,Date of colonoscopy
+53,C0009378,colonoscopy_place,Colonoscopy
+54,C0943694,colonoscopy_postal_code,Study observation:Finding:Duration of the study:Colon:Nominal:Colonoscopy.thru stoma
+55,C5688897,colonoscopy_gastroenterologist,Colonoscopy service
+56,C3875410,colonoscopy_preparation_type,Colonoscopy planned
+57,C0009378,colonoscopy_instrument,Colonoscopy
+58,C5570618,boston score,Boston stroke scale (BOSS)
+59,C5570618,boston score,Boston stroke scale (BOSS)
+60,C3875410,colonoscopy_preparation_quality,Colonoscopy planned
+61,C0940830,color endoscopy,Chromoscopy
+62,C1522661,endoscipy_type,Endosinusial use (qualifier value)
+63,C3173299,cancer_site,Cancer site - type
+64,C5923708,retired_polyps_number,Number of polyps
+65,C0521210,polyps_complete_exerese,Resection of polyp
+66,C0334108,is_other_polyps,Multiple polyps
+67,C1316209,other_polyps_precision,Polyps:Find:Pt:Specimen:Nar
+68,C5545528,polyps_fixator_used,Flexible polypectomy snare
+69,C1316209,polyps_result_date,Polyps:Find:Pt:Specimen:Nar
+70,C0521210,polyp_1_biopsy,Resection of polyp
+71,C0521210,polyp_1_resection,Resection of polyp
+72,C0032584,polyp_1_analysis,Polyp
+73,C2977628,"colonoscopy_reason [""1"", ""Surveillance pour antécédent personnel de polypes""]",Encounter for screening colonoscopy NOS
+74,C3260361,"colonoscopy_reason [""2"", ""Surveillance pour antécédent personnel de cancer""] colorectal",In the past 2Y have you had a colonoscopy:Find:2Y:^Patient:Ord:PhenX
+75,C1882982,"colonoscopy_reason [""3"", ""Antécédent familial de cancer colorectal""]",Screening colonoscopy
+76,C1882982,"colonoscopy_reason  [""4"", ""Antécédent familial de polype du colon""]",Screening colonoscopy
+77,C2977628,"colonoscopy_reason [""5"", ""Anémie / carence en fer""]",Encounter for screening colonoscopy NOS
+78,C1882982,"colonoscopy_reason ["" 8"", ""Douleur abdominale inhabituelle""]",Screening colonoscopy
+79,C0015672,fatigue,Fatigue
+80,C3842346,previous_polyps,Prior polyps
+81,C3842346,previous_polyps,Prior polyps
+82,C3176846,intense_activity_minutes_nb,Activity intensity
+83,C4482418,moderate_activity_minutes_nb,Moderate physical activity
+84,C3833417,no_moderate_activity,Moderate activity
+85,C1299488,polyp_1_topography,Polyp configuration
+86,C1299488,polyp_1_topography,Polyp configuration
+87,C1299488,polyp_1_topography,Polyp configuration
+88,C3173299,cancer_site,Cancer site - type
+89,C1299213,polyp_1_size,"Polyp size, dimension 1"
+90,C0032584,polyp_1_aspect,Polyp
+91,C1299488,polyp_1_topography,Polyp configuration
+92,C5923708,polyps_number,Number of polyps
+93,C1299213,polyp_1_size,"Polyp size, dimension 1"
+94,C0032584,polyp_1_aspect,Polyp
+95,C1299488,polyp_1_topography,Polyp configuration
+96,C1299213,polyp_1_size,"Polyp size, dimension 1"
+97,C0032584,polyp_1_aspect,Polyp
+98,C1299488,polyp_1_topography,Polyp configuration
+99,C1299213,polyp_1_size,"Polyp size, dimension 1"
+100,C0032584,polyp_1_aspect,Polyp
+101,C1299488,polyp_1_topography,Polyp configuration
+102,C5923708,polyps_number,Number of polyps
+103,C1299213,polyp_1_size,"Polyp size, dimension 1"
+104,C0032584,polyp_1_aspect,Polyp
+105,C1299488,polyp_1_topography,Polyp configuration
+106,C5923708,polyps_number,Number of polyps
+107,C1299213,polyp_1_size,"Polyp size, dimension 1"
+108,C0032584,polyp_1_aspect,Polyp
+109,C1299488,polyp_1_topography,Polyp configuration
+110,C5923708,polyps_number,Number of polyps
+111,C1299213,polyp_1_size,"Polyp size, dimension 1"
+112,C0032584,polyp_1_aspect,Polyp
+113,C1299488,polyp_1_topography,Polyp configuration
+114,C5923708,polyps_number,Number of polyps

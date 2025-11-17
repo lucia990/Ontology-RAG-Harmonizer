@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="bbf1146@luigi.zbh.uni-hamburg.de:22 password (3)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="bbf1146@luigi.zbh.uni-hamburg.de:22 password (3)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Schema_DH" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

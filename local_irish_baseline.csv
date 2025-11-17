@@ -1,0 +1,71 @@
+,CUI,Variable,Ontology_name
+0,C0011991,GI symptoms “diarrhea”,Diarrhea
+1,C0009806,GI symptoms constipation,Constipation
+2,C0559225,GI symptoms PR bleeding,History of gastrointestinal bleed
+3,C0474496,GI symptoms diarrhoea and pr bleeding,Diarrhea and vomiting
+4,C3842347,GI symptoms constipation and bleeding,Diarrhea/constipation
+5,C4751324,Laxative use,Laxative therapeutic role
+6,C0337664,Smoker,Smoker
+7,C4510376,"Personal History of Lynch/Polyposis syndrome ""Lynch""",Family history of genetic mutation for Lynch syndrome
+8,C3266736,Previous colonoscopy,History of colonoscopy
+9,C5926819,"Personal History of Lynch/Polyposis syndrome ""FAP""",Family history of familial adenomatous polyposis
+10,C0004057,Aspirin,aspirin
+11,C0004057,Aspirin,aspirin
+12,C4510376,"FH of Lynch/Polyposis syndrome  ""Lynch syndrome""",Family history of genetic mutation for Lynch syndrome
+13,C4510376,"FH of Lynch/Polyposis syndrome  ""FAP""",Family history of genetic mutation for Lynch syndrome
+14,C0267374,IBD,Idiopathic chronic inflammatory bowel disease
+15,C1998338,Previous colon surgery,History of colectomy
+16,C0009378,Colonoscopy,Colonoscopy
+17,C0205197,Complete,Complete
+18,C0205307,Normal,Normal
+19,C2826292,CRC,Cancer related
+20,C0001779,Age (years),Age
+21,C3266797,FHx of CRC,Family history of colorectal cancer
+22,C1522384,Sex,Sex
+23,C3631003,antipapalet,Antipalpus
+24,C0009117,Anti-coagulant,"Coagulant, NOS"
+25,C0021079,Immunosuppression,Immunosuppression
+26,C0003232,Antibiotics,Antibiotics
+27,C3841442,Other meds,Other medical
+28,C1275743,Comorbid conditions,Co-morbid conditions
+29,C0348080,Specific condition,Condition
+30,C1306673,Stage,Stage
+31,C3842346,Previous premalignant Polyps,Prior polyps
+32,C3842346,History of advanced polyp,Prior polyps
+33,C0001430,Adenomas,Adenoma
+34,C2732618,SSL (sessile serrated lesion),Sessile serrated adenoma/polyp
+35,C5922488,History of CRC,History of colorectal neoplasm
+36,C4533678,Exercise sessions/week,W exercise
+37,C4533678,Exercise mins/week,W exercise
+38,C4533678,Exercise mins/week,W exercise
+39,C4533678,Exercise mins/week,W exercise
+40,C3260356,right location of polyps,Location of polyps
+41,C3260356,position of polyps,Location of polyps
+42,C0334108,"Polyp location ""both""",Multiple polyps
+43,C3260320,CRC location,Description of colorectal carcinoma
+44,C5817154,Pre-malignant Polyps,Noninvasive premalignant neoplasm
+45,C5817154,Pre-malignant Polyps,Noninvasive premalignant neoplasm
+46,C5817154,Pre-malignant Polyps,Noninvasive premalignant neoplasm
+47,C5923708,Number of pre malignant polyps,Number of polyps
+48,C5923708,Number of pre malignant polyps,Number of polyps
+49,C5923708,Number of pre malignant polyps,Number of polyps
+50,C5923708,Number of pre malignant polyps,Number of polyps
+51,C4318834,Advanced polyp,Polyp in which invasive carcinoma arose
+52,C4318834,Advanced polyp,Polyp in which invasive carcinoma arose
+53,C4318834,Advanced polyp,Polyp in which invasive carcinoma arose
+54,C5923708,No. of advanced polyps,Number of polyps
+55,C5923708,No. of advanced polyps,Number of polyps
+56,C5923708,No. of advanced polyps,Number of polyps
+57,C5923708,No. of advanced polyps,Number of polyps
+58,C0020507,Hyperplastic,Hyperplasia
+59,C0020507,Hyperplastic,Hyperplasia
+60,C0020507,Hyperplastic,Hyperplasia
+61,C0020507,Hyperplastic,Hyperplasia
+62,C1266025,traditional serrated adenomas,Traditional serrated adenoma
+63,C1266025,traditional serrated adenomas,Traditional serrated adenoma
+64,C1266025,traditional searrated adenomas,Traditional serrated adenoma
+65,C0001430,adenomas,Adenoma
+66,C4319571,High risk criteria,High risk
+67,C4319571,High risk criteria,High risk
+68,C4319571,High risk criteria,High risk
+69,C4319571,High risk criteria,High risk
