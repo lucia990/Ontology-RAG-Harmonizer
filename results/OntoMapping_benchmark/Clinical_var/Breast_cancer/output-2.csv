@@ -1,0 +1,49 @@
+,variable,variable_description,candidate_mappings
+0,Class,"binary classification label that indicates if the patient had a breast cancer recurrence event or not after n years. The time to event is not defined by the dataset, could be 10 years or something else","1. Class (attribute) (C0456387) 
+2. Class (C0456387) 
+3. Classes (C0456387) 
+4. Classes (qualifier value) (C0456387) 
+5. Subclass (C0445604) "
+1,age,"Groups of reported patient age in year at visit time. The years are grouped in timespans of 10 years (10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99)","1. Age (qualifier value) (C0001779) 
+2. Age - descriptor (C0001779) 
+3. Age (observable entity) (C0001779) 
+4. Age (function) (C0001779) 
+5. Age (C0001779) "
+2,breast,Side of the body where the breast carcinoma is located. It is assumed that the cancer is unilateral,"1. Breast (C1268990) 
+2. Breast (C0006141) 
+3. Breast, NOS (C0006141) 
+4. Breast structure (C0006141) 
+5. Breast structure (C0006141) "
+3,breast-quad,Quadrant where the primary carcinoma of the breast is located,"1. Breast quadrant (C0447660) 
+2. Breast quadrant (body structure) (C0447660) 
+3. Structure of breast quadrant (body structure) (C0447660) 
+4. Structure of breast quadrant (C0447660) 
+5. Entire breast quadrant (body structure) (C4513943) "
+4,deg-malig,histological degree of the malignancy score,"1. Degu (C0028828) 
+2. Degu (C0028828) 
+3. Insulin degludec-containing product (C3491971) 
+4. Insulin degludec (substance) (C3491971) 
+5. Product containing insulin degludec (C3491971) "
+5,inv-nodes,"Number of involved lymph nodes. Given in the following classes (0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26, 27-29, 30-32, 33-35, 36-39)","1. Nodality (C0449725) 
+2. Nodal (qualifier value) (C0443268) 
+3. Discrete lymph node (C5231111) 
+4. Adenopathy (C0497156) 
+5. Nodosity (C0332569) "
+6,irradiat,Indicates the procedure of radioation therapy for the patient. The values are binary (yes/no).,"1. Radiotherapy (C1522449) ✓
+2. Irradiation (physical force) (C1282930) 
+3. Irradiation (C1282930) 
+4. Ionizing radiation (C0034538) 
+5. Radiation (C0851346) "
+7,menopause,"menopausal state of the patient. Can be either menopause before or after 40 years or pre menopause. Is given in three classes (lt40, ge40, premeno)","1. Menopause (finding) (C0025320) 
+2. Menopause (observable entity) (C0025320) 
+3. Menopause (C0025320) 
+4. Menopause (C0025320) 
+5. Menopause (C0567312) "
+8,node-caps,Indicates if extracapsular extension (ECE) is present for the given patient,"1. Node of Keith and Flack (C1269552) 
+2. Signal node (C0677944) 
+3. Structure of nodes of Kent (C0457130) 
+4. Node of Tawara (C1269553) 
+5. Virchow node (C0272401) "
+9,tumor-size,"Size of the tumor. It is given in the following classes (0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59)","1. Tumor size (observable entity) (C5441575) 
+2. Tumor size finding (C1302351) 
+3. Tumor size, largest dimension (C1272779) "

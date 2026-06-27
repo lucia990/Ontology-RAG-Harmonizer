@@ -1,0 +1,43 @@
+schemanode_name,schemanode_description,ontology_id,ontology_name,datatype_name,datatype_type,allowed_values,group_node
+Sex at birth,Sex at birth,C5968453,Sex of neonate assigned at birth,Gender,CATEGORICAL,"Male,Female",Meta
+BMI,Body mass index,C1305855,Body mass index,BMI,FLOAT,"[5,100]",Meta
+Diarrhea,Patient has Diarrhea,C0011991,Diarrhea,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Symptoms
+Constipation,Patient has Constipation,C0009806,Constipation,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Symptoms
+Rectal hemorrhage,Patient has rectal hemorrhage,C0267596,Rectal hemorrhage,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Symptoms
+Laxatives,Patient has used laxatives recently,C0282090,Laxatives,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Drug
+Antibiotics,Patient has used antibiotics within the last 3 months,C0003232,Antibiotics,within 3 months,CATEGORICAL,"Yes,No",Drug
+Aspirin Dosage,Amount of Aspirin the patient is taking,C0004057,Aspirin (drug),Dosage,CATEGORICAL,"No,75mg,150mg,300mg",Drug
+Smoker,Patient smokes tobacco,C0337664,Smoker,Smoker,CATEGORICAL,"Current,ex < 1 year,ex > 1 year,Never",Lifestyle
+Exercise mins per week,Exercise minutes per week,C0015259,Exercise,Minutes per week,INT,"[0,5000]",Lifestyle
+Previous colonoscopy performed,Has the patient had a colonoscopy previously? ,C3266736,History of colonoscopy,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",History
+Previous colonoscopy premalignant polyps found,Did the patient have premalignant polyps at the previous colonoscopy,C1997022,History of polyp of colon,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",History
+Lynch,The patient suffers from lynch syndrome,C4552100,Lynch syndrome,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+FAP,The patient suffers from FAP,C2713442,Familial adenomatous polyposis 1,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+SPS,The patient suffers from SPS,C4296896,Hyperplastic polyposis syndrome,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+FDR with Lynch,Does the patient have a  family history of lynch syndrome in a first degree relationship (FDR)?,C4510376,Family history of genetic mutation for Lynch syndrome,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Family History
+FDR with FAP,Does the patient have a  family history of fap in a first degree relationship (FDR)?,C5926819,Family history of familial adenomatous polyposis,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Family History
+FDR with SPS,Does the patient have a  family history of sps in a first degree relationship (FDR)?,CUSTOM_FAMILY_HISTORY_SPS,Familial history of Hyperplastic polyposis syndrome,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Family History
+Family risk CRC,"Defintions for family history of CRC based on Guidelines for the management of hereditary colorectal cancer from the British Society of Gastroenterology (BSG)/Association of Coloproctology of Great Britain and Ireland (ACPGBI)/United Kingdom Cancer Genetics Group (UKCGG).
+- Average risk: No FHCC, or a FHCC which does not fulfil moderate or high-risk categories.
+- Moderate risk FHCC:
+    - One FDR diagnosed with CRC under 50 years, or
+    - Two FDRs (in first degree kinship) diagnosed with CRC at any age, of whom the patient under assessment is an FDR of at least one affected individual.
+- High risk FHCC: Families with a cluster of at least three affected FDRs with CRC diagnosed at any age, across at least two generations, of whom the patient under assessment is an FDR of at least one affected individual.
+",C3266797,Family history of colorectal cancer,Risk,CATEGORICAL,"No,Average,Medium,High",Family History
+Diabetes,The patient suffers from Diabetes Mellitus,C0011849,Diabetes Mellitus,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+Metabolic disease,The patient suffers from a metabolic disease,C0025517,Metabolic Diseases,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+Cardiovascular disease,The patient suffers from a cardiovascular disease,C0007222,Cardiovascular Diseases,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+Respiration Disorder,The patient suffers from a respiration disease,C0035204,Respiration Disorders,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+Gastrointestinal Disease,The patient suffers from a gastrointestinal disease,C0017178,Gastrointestinal Diseases,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+Kidney Disease,The patient suffers from a kidney disease,C0022658,Kidney Diseases,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+nervous system disorder,The patient suffers from a nervous system disorder,C0027765,nervous system disorder,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+Any disease,The patient suffers from any unspecified disease,C0012634,Disease,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+Previous colon surgery performed,The patient had a surgery on its colon in the past,CUSTOM_COLON_SURGERY_HISTORY,Colon surgery performed in the past,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",History
+Colonoscopy performed,A colonoscopy was performed,C0009378,Colonoscopy,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Colonoscopy
+Colonoscopy completed,The colonoscopy performed was completed,C0009556,Colonoscopy complete,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Colonoscopy
+Colonoscopy normal,The result of the colonoscopy was normal (no cancer),C0239081,Colonoscopy normal,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Colonoscopy
+CRC,Patient has colorectal cancer,C0009402,Colorectal Carcinoma,Yes No Unknown,CATEGORICAL,"Yes,No,Unknown",Disease
+Polyp risk level,,C0032584,polyps,Polyp Risk categories,CATEGORICAL,"No,Average,Medium,High",Disease
+Fit test result μg Hb/g,Fecal Immunochemical Test result in μg Hb/g,C2700166,Fecal Immunochemical Test,Fecal Immunochemical Test result in μg Hb/g,FLOAT,"[0, 10000]",Laboratory Results
+Fit test result cutoff based,Fit test result based on a cutoff,C2700166,Fecal Immunochemical Test,Positive Negative Unknown,CATEGORICAL,"Positive,Negative,Unknown",Laboratory Results
+Fit test cutoff value used,Fecal Immunochemical Test cutoff value used (μg Hb/g) for a test to be positive,CUSTOM_FIT_CUTOFF_VALUE,Fecal Immunochemical Test Cutoff value used classifying as positive or negative,Fecal Immunochemical Test cutoff value used (μg Hb/g) for a test to be positive,FLOAT,"[0, 400]",Laboratory Results

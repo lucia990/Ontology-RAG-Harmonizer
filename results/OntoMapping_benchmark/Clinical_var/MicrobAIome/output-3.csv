@@ -1,0 +1,115 @@
+,variable,variable_description,candidate_mappings
+0,Antibiotics,Patient has used antibiotics within the last 3 months,"1. Antibiotic therapy (C0338237) 
+2. Antibacterial drugs (C0279516) 
+3. Antibiotic (C0003232) ✓"
+1,Any disease,The patient suffers from any unspecified disease,"1. Unspecified conditions (disorder) (C0438984) 
+2. Ill-defined disease (C2047937) 
+3. Disease (C0012634) ✓
+4. Non-human disease (C1290829) "
+2,Aspirin Dosage,Amount of Aspirin the patient is taking,"1. Aspirin given (C2315089) 
+2. Aspirin measurement (C0202463) 
+3. Aspirin therapy location (C1320649) 
+4. ASPIRIN BOLUSES (C0308358) 
+5. Aspirin extract (C1445171) "
+3,BMI,Body mass index,1. BMI - Body mass index (C1305855) ✓
+4,CRC,Patient has colorectal cancer,"1. Colorectal cancer (C5848476) 
+2. Colorectal cancer (C4722085) 
+3. Colorectal cancer (C0346629) 
+4. Familial nonpolyposis colorectal cancer (disorder) (C1333990) 
+5. CA - Cancer (C0006826) "
+5,Cardiovascular disease,The patient suffers from a cardiovascular disease,1. Cardiovascular disease (C0007222) ✓
+6,Colonoscopy completed,The colonoscopy performed was completed,"1. Colonoscopy (C0009378) 
+2. Total colonoscopy (C0009556) ✓
+3. Colonoscopy service (C5688897) "
+7,Colonoscopy normal,The result of the colonoscopy was normal (no cancer),"1. Colonoscopy normal (C0239081) ✓
+2. Endoscopy normal (C0419323) "
+8,Colonoscopy performed,A colonoscopy was performed,"1. Colonoscopy (C0009378) ✓
+2. Colonoscopy service (C5688897) 
+3. Colonoscopy (procedure) (C0192900) "
+9,Constipation,Patient has Constipation,1. Constipation (C0009806) ✓
+10,Diabetes,The patient suffers from Diabetes Mellitus,"1. Diabetes mellitus (C0011849) ✓
+2. Diabetes type (C1320657) "
+11,Diarrhea,Patient has Diarrhea,"1. Diarrhea (C0011991) ✓
+2. Diarrhea disorder (C1290807) "
+12,Exercise mins per week,Exercise minutes per week,"1. Time spent exercising (C0556456) 
+2. Minutes/week (C0556975) 
+3. Aerobic exercise once a week (C0425276) 
+4. Aerobic exercise 0 times/week (C0425275) "
+13,FAP,The patient suffers from FAP,"1. FAP - Familial adenomatous polyposis (C0032580) 
+2. Attenuated familial adenomatous polyposis (C2674616) 
+3. Familial intestinal polyposis (C2713443) "
+14,FDR with FAP,Does the patient have a  family history of fap in a first degree relationship (FDR)?,"1. Family history of familial multiple polyposis syndrome (C4041006) 
+2. FAP - Familial adenomatous polyposis (C0032580) 
+3. Family history of MHY-associated polyposis (C4316633) 
+4. Carrier of familial adenomatous polyposis (C4316546) 
+5. Family history of neurofibromatosis (C4040616) "
+15,FDR with Lynch,Does the patient have a  family history of lynch syndrome in a first degree relationship (FDR)?,"1. Family history of Lynch syndrome (C3887009) 
+2. Family history of genetic mutation for Lynch syndrome (C4510376) ✓
+3. Lynch syndrome (C4552100) 
+4. Family history of familial multiple polyposis syndrome (C4041006) 
+5. Lynch Lee Murday syndrome (C2931593) "
+16,FDR with SPS,Does the patient have a  family history of sps in a first degree relationship (FDR)?,"1. Family history of spongy degeneration of central nervous system (C4039429) 
+2. Family history: Relative OS (C0424892) 
+3. Formal complaint about private specialist RE: relative (C0581035) 
+4. Skraban Deardorff syndrome (C4539927) 
+5. Father with learning disability (C4304194) "
+17,Family risk CRC,"Defintions for family history of CRC based on Guidelines for the management of hereditary colorectal cancer from the British Society of Gastroenterology (BSG)/Association of Coloproctology of Great Britain and Ireland (ACPGBI)/United Kingdom Cancer Genetics Group (UKCGG).
+- Average risk: No FHCC, or a FHCC which does not fulfil moderate or high-risk categories.
+- Moderate risk FHCC:
+    - One FDR diagnosed with CRC under 50 years, or
+    - Two FDRs (in first degree kinship) diagnosed with CRC at any age, of whom the patient under assessment is an FDR of at least one affected individual.
+- High risk FHCC: Families with a cluster of at least three affected FDRs with CRC diagnosed at any age, across at least two generations, of whom the patient under assessment is an FDR of at least one affected individual.
+","1. Family history of colorectal cancer (C3266797) ✓
+2. Family history of hereditary nonpolyposis colon cancer (C3887009) 
+3. Familial nonpolyposis colorectal cancer (C1333990) 
+4. At risk of hereditary cancer-predisposing syndrome (C5396506) 
+5. Family history of rectal cancer (C4551314) "
+18,Fit test cutoff value used,Fecal Immunochemical Test cutoff value used (μg Hb/g) for a test to be positive,"1. Convulsion threshold (C0520967) 
+2. Last fit (C4050302) 
+3. Last fit (C0421234) 
+4. Fit frequency (C0149775) 
+5. THRSCNC (C1264646) "
+19,Fit test result cutoff based,Fit test result based on a cutoff,"1. FIT (faecal immunochemical test) positive (C5881044) 
+2. Calculation from signal to cutoff ratio (C3839786) 
+3. Fit frequency (C0149775) 
+4. Fit (C0424576) 
+5. THRSCNC (C1264646) "
+20,Fit test result μg Hb/g,Fecal Immunochemical Test result in μg Hb/g,"1. Micrograms per gram haemoglobin (C1627884) 
+2. mg Hb/g (C1623723) 
+3. Milligram/gram hemoglobin (C0439325) "
+21,Gastrointestinal Disease,The patient suffers from a gastrointestinal disease,1. Disease of gastrointestinal tract (C0017178) ✓
+22,Kidney Disease,The patient suffers from a kidney disease,1. Kidney disease (C0022658) ✓
+23,Laxatives,Patient has used laxatives recently,"1. Laxative (C0282090) ✓
+2. Laxative, cathartic AND/OR purgative (C1268922) "
+24,Lynch,The patient suffers from lynch syndrome,"1. Lynch syndrome (C4552100) ✓
+2. Wilhelmsen-Lynch disease (C3811924) 
+3. Hereditary nonpolyposis colon cancer (C1333990) 
+4. Lynch Lee Murday syndrome (C2931593) "
+25,Metabolic disease,The patient suffers from a metabolic disease,"1. Metabolic disease (C0025517) ✓
+2. Chronic metabolic disease (C1263722) "
+26,Previous colon surgery performed,The patient had a surgery on its colon in the past,"1. History of colectomy (C1998338) 
+2. History of partial resection of colon (C1997055) 
+3. History of sigmoid colectomy (C3698404) 
+4. History of total colectomy (C4039126) 
+5. Other colectomy (C0400032) "
+27,Previous colonoscopy performed,Has the patient had a colonoscopy previously? ,"1. History of colonoscopy (C3266736) ✓
+2. Other therapeutic colonoscopy (C0400022) 
+3. No history of colonoscopy (C5880026) 
+4. Colonoscopy planned (C3875410) 
+5. Referral for colonoscopy (C0579027) "
+28,Previous colonoscopy premalignant polyps found,Did the patient have premalignant polyps at the previous colonoscopy,"1. Adenomatous and/or adenocarcinomatous polyps of colon (& [adenoma or adenocarcinoma in polyposis coli]) (disorder) (C0476102) 
+2. History of colonic polyp (C1997022) ✓
+3. Polyp colon (C0009376) 
+4. Screening for colonic polyp (C0481874) 
+5. Colonic polyp specimen (specimen) (C0586718) "
+29,Rectal hemorrhage,Patient has rectal hemorrhage,1. Rectal hemorrhage (C0267596) ✓
+30,Respiration Disorder,The patient suffers from a respiration disease,"1. Respiratory disorder (C0035204) ✓
+2. Breathing disorder (C1260922) 
+3. Respiratory alteration (C1268764) "
+31,SPS,The patient suffers from SPS,"1. Subparietal sulcus (C1281079) 
+2. Subparietal sulcus (C0228216) 
+3. Superior posterior fissure of cerebellum (C0228493) 
+4. SP (C0231290) "
+32,Sex at birth,Sex at birth,"1. Biological sex at birth (C0419383) 
+2. Sex of baby (C0542460) "
+33,Smoker,Patient smokes tobacco,1. Smoker (C0337664) ✓

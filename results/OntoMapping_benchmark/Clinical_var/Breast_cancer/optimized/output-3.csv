@@ -1,0 +1,29 @@
+,variable,variable_description,candidate_mappings
+0,Binary class for breast cancer recurrence after n years,"binary classification label that indicates if the patient had a breast cancer recurrence event or not after n years. The time to event is not defined by the dataset, could be 10 years or something else","1. Personal history of malignant neoplasm of breast (C0260421) 
+2. Carcinoma in situ of breast (C0154084) 
+3. Family history of malignant neoplasm of breast (C1261325) 
+4. Other carcinoma in situ of breast (C0348409) 
+5. Family history of malignant neoplasm of trachea, bronchus and lung (C0260507) "
+1,Involved lymph nodes (categorical),"Number of involved lymph nodes. Given in the following classes (0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26, 27-29, 30-32, 33-35, 36-39)","1. Lymph nodes (C0154054) 
+2. Enlarged lymph nodes (C4282165) 
+3. Secondary and unspecified malignant neoplasm of lymph nodes (C0686619) 
+4. Lymph node, unspecified (C5779572) 
+5. Lymph nodes of multiple regions (C0348382) "
+2,Patient age (categorical),"Groups of reported patient age in year at visit time. The years are grouped in timespans of 10 years (10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99)",1. Senility (C0231337) 
+3,breast cancer location (right or left),Side of the body where the breast carcinoma is located. It is assumed that the cancer is unilateral,"1. Malignant neoplasm of breast (C0006142) 
+2. Malignant neoplasm of central portion of breast (C0496807) 
+3. Breast (C0496956) 
+4. Personal history of malignant neoplasm of breast (C0260421) 
+5. Malignant neoplasm of bronchus or lung, unspecified (C0348343) "
+4,histological degree of the malignancy score,histological degree of the malignancy score,"1. Abnormal findings in specimens from other organs, abnormal histological findings (C0478184) 
+2. Personal history of malignant neoplasm (C0260455) 
+3. Personal history of diseases of the musculoskeletal system and connective tissue (C0496725) "
+5,menopause state of the patient (categorical),"menopausal state of the patient. Can be either menopause before or after 40 years or pre menopause. Is given in three classes (lt40, ge40, premeno)","1. Menopausal and female climacteric states (C0495121) 
+2. Menopausal and perimenopausal disorder, unspecified (C0495122) 
+3. Menopausal and other perimenopausal disorders (C0495120) 
+4. States associated with artificial menopause (C0156410) 
+5. Postmenopausal osteoporosis (C0029458) "
+6,size of the tumor (categorical),"Size of the tumor. It is given in the following classes (0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59)","1. Malignant neoplasms (C0006826) 
+2. Neoplasms (C0027651) 
+3. Macrostomia (C0024433) 
+4. Mesothelioma (C0025500) "

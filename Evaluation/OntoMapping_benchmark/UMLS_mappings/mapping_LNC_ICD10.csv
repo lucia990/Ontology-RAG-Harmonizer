@@ -1,0 +1,416 @@
+CUI,ICD10_ids,LNC_ids,ICD10_names,LNC_names
+C0000768,['Q89.9'],['LA20354-9'],"['Congenital malformation, unspecified']",['Congenital anomalies']
+C0000786,['O03'],"['LP72032-3', 'MTHU002836']",['Spontaneous abortion'],"['Abortions.spontaneous', 'Abortions.spontaneous']"
+C0000832,"['O45', 'O45.9']",['LA21778-8'],"['Premature separation of placenta [abruptio placentae]', 'Premature separation of placenta, unspecified']",['Abruptio placenta']
+C0001818,['F40.0'],"['LP121554-2', 'MTHU039828']",['Agoraphobia'],"['Agoraphobias', 'Agoraphobias']"
+C0001948,['Z72.1'],"['MTHU047472', 'LP173580-4']",['Alcohol use'],"['Alcohol use', 'Alcohol use']"
+C0001973,['F10.2'],"['LA34535-7', 'LA20350-7', 'LA6152-8']","['Mental and behavioural disorders due to use of alcohol, dependence syndrome']","['Alcohol dependence', 'Alcoholism', 'Alcohol dependency']"
+C0002395,"['G30', 'G30.9']","['LP74474-5', 'MTHU020798', 'LA22313-3']","[""Alzheimer's disease"", ""Alzheimer's disease, unspecified""]","[""Alzheimer's disease"", ""Alzheimer's disease"", ""Alzheimer's disease""]"
+C0002726,"['E85', 'E85.9']",['LP209029-0'],"['Amyloidosis', 'Amyloidosis, unspecified']",['Amyloidosis']
+C0002871,['D64.9'],"['LP74477-8', 'MTHU020823', 'LA18969-8']","['Anaemia, unspecified']","['Anemia', 'Anemia', 'Anemia']"
+C0002895,['D57'],"['LP56775-7', 'MTHU021603']",['Sickle-cell disorders'],"['Sickle cell anemia', 'Sickle cell anemia']"
+C0002902,['Q00.0'],['LA20078-4'],['Anencephaly'],['Anencephaly']
+C0002940,['I72.9'],['LP267219-6'],['Aneurysm of unspecified site'],['Aneurysm']
+C0002962,"['I20', 'I20.9']",['LA14275-4'],"['Angina pectoris', 'Angina pectoris, unspecified']",['Angina pectoris']
+C0002965,['I20.0'],['LA24433-7'],['Unstable angina'],['Unstable angina']
+C0003076,['Q13.1'],['LA24630-8'],['Absence of iris'],['Aniridia']
+C0003126,['R43.0'],"['LA24488-1', 'LA33107-6']",['Anosmia'],"['Anosmia', 'Lost sense of smell']"
+C0003175,"['A22', 'A22.9']",['LA10432-5'],"['Anthrax', 'Anthrax, unspecified']",['Anthrax']
+C0003469,['F41.9'],"['LP74483-6', 'MTHU020812', 'LA27866-5']","['Anxiety disorder, unspecified']","['Anxiety disorder', 'Anxiety disorder', 'Anxiety disorder']"
+C0003492,['Q25.1'],['LA19597-6'],['Coarctation of aorta'],['Coarctation']
+C0003811,['I49.9'],"['LA15419-7', 'LA7414-1', 'LP188713-4', 'MTHU050325', 'LP74586-6', 'MTHU020785', 'LA9536-9']","['Cardiac arrhythmia, unspecified']","['Cardiac arrhythmia', 'Arrhythmia', 'Arrhythmia', 'Arrhythmia', 'Cardiac dysrhythmias', 'Cardiac dysrhythmias', 'cardiac rhythm disturbance']"
+C0003862,['M25.5'],"['LP74999-1', 'MTHU020863', 'LP75343-1', 'MTHU013526']",['Pain in joint'],"['Joint pain', 'Joint pain', 'Painful joints', 'Painful joints']"
+C0003864,['M13.9'],"['LP74502-3', 'MTHU020793', 'LA16981-5', 'LP248203-4']","['Arthritis, unspecified']","['Arthritis', 'Arthritis', 'Arthritis', 'Arthritis']"
+C0003873,['M06.9'],['LA15161-5'],"['Rheumatoid arthritis, unspecified']",['Rheumatoid Arthritis']
+C0003962,['R18'],"['LA17637-2', 'LP428335-6']",['Ascites'],"['Ascites', 'Ascites']"
+C0004063,"['X85-Y09.9', 'Y09']",['LA17119-1'],"['Assault', 'Assault by unspecified means']",['Assault']
+C0004096,"['J45', 'J45.9']","['LP74511-4', 'MTHU020815', 'LA16982-3']","['Asthma', 'Asthma, unspecified']","['Asthma', 'Asthma', 'Asthma']"
+C0004106,['H52.2'],['LA24635-7'],['Astigmatism'],['Astigmatism']
+C0004134,['R27.0'],['LA24636-5'],"['Ataxia, unspecified']",['Ataxia']
+C0004144,['J98.1'],['LA7416-6'],['Pulmonary collapse'],['Atelectasis']
+C0004352,['F84.0'],"['LP74518-9', 'MTHU020585', 'LA24638-1']",['Childhood autism'],"['Autism', 'Autism', 'Autism']"
+C0004576,['B60.0'],['LA10434-1'],['Babesiosis'],['Babesiosis']
+C0004604,"['M54', 'M54.9']","['LP74526-2', 'MTHU020857', 'LA31749-7', 'LA30215-0']","['Dorsalgia', 'Dorsalgia, unspecified']","['Back pain', 'Back pain', 'Back pain', 'Backaches']"
+C0004767,['N75.0'],"['LP175662-8', 'MTHU047584']","[""Cyst of Bartholin's gland""]","['Bartholin cyst', 'Bartholin cyst']"
+C0004936,"['F99-F99.9', 'F99']","['LA22096-4', 'LA10535-5']","['Unspecified mental disorder', 'Mental disorder, not otherwise specified']","['Psychiatric disorder', 'Psychological Disorders']"
+C0004943,['M35.2'],['LA17787-5'],"[""Behcet's disease""]","[""Behcet's syndrome""]"
+C0005283,['D56.1'],['LA18564-7'],['Beta thalassaemia'],['Beta thalassemia']
+C0005586,"['F31', 'F31.9']","['LA29615-4', 'LP75079-1', 'MTHU026189', 'LA30595-5']","['Bipolar affective disorder', 'Bipolar affective disorder, unspecified']","['Bipolar Disorder', 'Manic depression', 'Manic depression', 'Bipolar disorder, unspecified']"
+C0005604,"['P10-P15.9', 'P15.9']","['LP72150-3', 'MTHU015016']","['Birth trauma', 'Birth injury, unspecified']","['Birth injury', 'Birth injury']"
+C0005716,"['B40', 'B40.9']",['LA10436-6'],"['Blastomycosis', 'Blastomycosis, unspecified']",['Blastomycosis']
+C0005745,['H02.4'],['LA24862-7'],['Ptosis of eyelid'],['Ptosis']
+C0006107,['S06.0'],['LA7422-4'],['Concussion'],['Concussion']
+C0006142,"['C50', 'C50-C50.9', 'C50.9', 'C50.9']",['LA14283-8'],"['Malignant neoplasm of breast', 'Malignant neoplasm of breast', 'Malignant neoplasm of breast, unspecified', 'Breast, unspecified']",['Breast cancer']
+C0006277,['J40'],['LA16983-1'],"['Bronchitis, not specified as acute or chronic']",['Bronchitis']
+C0006309,"['A23', 'A23.9']",['LA10438-2'],"['Brucellosis', 'Brucellosis, unspecified']",['Brucellosis']
+C0006413,"['C83.7', 'C83.7']",['LA26526-6'],"[""Burkitt's tumour"", ""Burkitt's tumour non-Hodgkin's lymphoma""]","['Burkitt lymphoma, NOS']"
+C0006826,"['C00-C97.9', 'C80']","['LA25513-5', 'LP100805-3', 'LP7106-0', 'LP74584-1', 'MTHU010328', 'LA10524-9', 'MTHU051589', 'LP281735-3', 'LP128794-7', 'MTHU040703']","['Malignant neoplasms', 'Malignant neoplasm without specification of site']","['Malignant neoplasm', 'Cancer', 'Cancer', 'Cancer', 'Cancer', 'Cancer', 'Cancer', '^Cancer', 'Malignancy', 'Malignancy']"
+C0007102,"['C18', 'C18.9', 'C18.9']",['LA10537-1'],"['Malignant neoplasm of colon', 'Malignant neoplasm of colon, unspecified', 'Colon, unspecified']",['Colon Cancer']
+C0007114,['C44.9'],['LA10543-9'],"['Malignant neoplasm of skin, unspecified']",['Skin Cancer']
+C0007222,['I51.6'],"['LP97118-1', 'LP193305-2', 'LA32627-4']","['Cardiovascular disease, unspecified']","['Cardiovascular disease', 'Cardiovascular disease', 'Cardiovascular disease']"
+C0007361,['A28.1'],['LA10440-8'],['Cat-scratch disease'],['Cat scratch disease']
+C0007570,['K90.0'],['LA15156-5'],['Coeliac disease'],['Celiac Disease']
+C0007787,['G45.9'],"['LP75781-2', 'MTHU020810', 'LA14278-8']","['Transient cerebral ischaemic attack, unspecified']","['Transient ischemic attack', 'Transient ischemic attack', 'Transient ischemic attack - TIA']"
+C0007820,"['I67.9', 'I60-I69.9']",['LA31446-0'],"['Cerebrovascular disease, unspecified', 'Cerebrovascular diseases']",['Cerebrovascular disease']
+C0007859,['M54.2'],['LA31724-0'],['Cervicalgia'],['Neck pain']
+C0007876,['O82.9'],['LA25520-0'],"['Delivery by caesarean section, unspecified']","[""Women's Health: C-section""]"
+C0007947,['A57'],['LA10441-6'],['Chancroid'],['Chancroid']
+C0008031,['R07.4'],"['LP98885-4', 'MTHU035552', 'LA28842-5']","['Chest pain, unspecified']","['Chest pain', 'Chest pain', 'Chest pain']"
+C0008049,['B01'],"['LA10517-3', 'LA17013-6']",['Varicella [chickenpox]'],"['Varicella (Chickenpox)', 'Chicken pox']"
+C0008350,['K80'],['LA14289-5'],['Cholelithiasis'],['Gallstones']
+C0008677,['J42'],['LA10560-3'],['Unspecified chronic bronchitis'],['Chronic Bronchitis']
+C0008924,['Q36'],['LA14411-5'],['Cleft lip'],['Cleft lip']
+C0008925,"['Q35', 'Q35.9']",['LA14412-3'],"['Cleft palate', 'Cleft palate, unspecified']",['Cleft palate']
+C0009080,['R68.3'],['LA18249-5'],['Clubbing of fingers'],['Clubbing (of fingers)']
+C0009088,['G44.0'],['LA15138-3'],['Cluster headache syndrome'],['Cluster headaches']
+C0009186,"['B38', 'B38.9']",['LA10444-0'],"['Coccidioidomycosis', 'Coccidioidomycosis, unspecified']",['Coccidioidomycosis']
+C0009376,['K63.5'],['LA10557-9'],['Polyp of colon'],['Colon Polyps']
+C0009400,['A93.2'],['LA10445-7'],['Colorado tick fever'],['Colorado tick fever']
+C0009421,['R40.2'],"['LP74632-8', 'MTHU020645', 'LA32955-9']","['Coma, unspecified']","['Comatose', 'Comatose', 'Unspecified coma']"
+C0009763,"['H10', 'H10.9']","['LP74649-2', 'MTHU020828']","['Conjunctivitis', 'Conjunctivitis, unspecified']","['Conjunctivitis', 'Conjunctivitis']"
+C0009806,['K59.0'],"['LP74650-0', 'MTHU020768', 'LA22282-0']",['Constipation'],"['Constipation', 'Constipation', 'Constipation']"
+C0010054,['I25.1'],"['LP74501-5', 'MTHU020784']",['Atherosclerotic heart disease'],"['Arteriosclerotic heart disease', 'Arteriosclerotic heart disease']"
+C0010200,['R05'],"['LA33513-5', 'LA16122-6']",['Cough'],"['Coughing', 'Cough']"
+C0010278,['Q75.0'],['LA29639-4'],['Craniosynostosis'],['Craniosynostosis syndrome']
+C0010346,"['K50', 'K50.9']",['LA10554-6'],"[""Crohn's disease [regional enteritis]"", ""Crohn's disease, unspecified""]","[""Crohn's Disease""]"
+C0010414,['B45'],['LA10446-5'],['Cryptococcosis'],['Cryptococcosis']
+C0010418,['A07.2'],['LA10448-1'],['Cryptosporidiosis'],['Cryptosporidiosis']
+C0010674,"['E84', 'E84.9']","['LP56779-9', 'MTHU021607', 'LA22202-8']","['Cystic fibrosis', 'Cystic fibrosis, unspecified']","['Cystic fibrosis', 'Cystic fibrosis', 'Cystic fibrosis']"
+C0010678,"['B69', 'B69.9']",['LA10450-7'],"['Cysticercosis', 'Cysticercosis, unspecified']",['Cysticercosis']
+C0011168,['R13'],"['LP75703-6', 'MTHU029874']",['Dysphagia'],"['Swallowing disorder', 'Swallowing disorder']"
+C0011206,['F05.9'],"['LP89856-6', 'MTHU031955', 'LA7426-5']","['Delirium, unspecified']","['Delirium', 'Delirium', 'Delirium']"
+C0011209,['O80-O84.9'],['LA7555-1'],['Delivery'],['Delivery']
+C0011311,['A90'],['LA10451-5'],['Dengue fever [classical dengue]'],['Dengue Fever']
+C0011849,"['E10-E14.9', 'E14']","['LP74722-7', 'MTHU020781', 'LA14291-1', 'LA27539-8']","['Diabetes mellitus', 'Unspecified diabetes mellitus']","['Diabetes mellitus', 'Diabetes mellitus', 'Diabetes mellitus', 'Diabetes mellitus (DM)']"
+C0011854,['E10'],"['LP36797-6', 'MTHU020217', 'LA21805-9', 'LA33712-3', 'LA10551-2']",['Insulin-dependent diabetes mellitus'],"['Insulin dependent diabetes mellitus', 'Insulin dependent diabetes mellitus', 'T1d', 'Diabetes Type I', 'Diabetes Type 1']"
+C0011860,['E11'],"['LA33713-1', 'LA10552-0']",['Non-insulin-dependent diabetes mellitus'],"['Diabetes Type II', 'Diabetes Type 2']"
+C0011884,['H36.0'],"['LP74724-3', 'MTHU020818']",['Diabetic retinopathy'],"['Diabetic retinopathy', 'Diabetic retinopathy']"
+C0012236,['D82.1'],['LA26660-3'],"[""Di George's syndrome""]",['DiGeorge syndrome']
+C0012546,"['A36', 'A36.9']",['LA10452-3'],"['Diphtheria', 'Diphtheria, unspecified']",['Diphtheria']
+C0012569,['H53.2'],"['LA32598-7', 'LA15082-3']",['Diplopia'],"['Diplopia', 'Double vision']"
+C0012624,['M46.4'],['LA31823-0'],"['Discitis, unspecified']",['Discitis']
+C0013080,"['Q90', 'Q90.9']","['LP74785-4', 'MTHU020584', 'LA20088-3', 'MTHU010201']","[""Down's syndrome"", ""Down's syndrome, unspecified""]","[""Down's syndrome"", ""Down's syndrome"", 'Down syndrome', 'Chromosome 21 trisomy']"
+C0013274,['Q25.0'],"['MTHU070255', 'LP441073-6']",['Patent ductus arteriosus'],"['Patent ductus arteriosis', 'Patent ductus arteriosis']"
+C0013371,"['A03', 'A03.9']",['LA10505-8'],"['Shigellosis', 'Shigellosis, unspecified']",['Shigellosis']
+C0013378,['R43.2'],"['LP74901-7', 'MTHU013239', 'LA24489-9']",['Parageusia'],"['Gustatory alteration', 'Gustatory alteration', 'Parageusia']"
+C0013404,['R06.0'],"['LP115812-2', 'MTHU038266', 'LA17611-7', 'LP75617-8', 'MTHU020850', 'LA17001-1']",['Dyspnoea'],"['Dyspnea', 'Dyspnea', 'Dyspnea', 'Shortness of breath', 'Shortness of breath', 'Shortness of breath']"
+C0013428,"['R30.0', 'R30', 'R30.9']",['LA17661-2'],"['Dysuria', 'Pain associated with micturition', 'Painful micturition, unspecified']",['Dysuria']
+C0013473,"['F50', 'F50.9']","['LA10580-1', 'LP345045-1']","['Eating disorders', 'Eating disorder, unspecified']","['Eating Disorder', 'Eating disorders']"
+C0013481,['Q22.5'],['LA19621-4'],"[""Ebstein's anomaly""]",['Ebstein anomaly']
+C0013581,['Q12.1'],['LA24707-4'],['Congenital displaced lens'],['Ectopia lentis']
+C0013604,['R60.9'],"['LP72527-2', 'MTHU019803', 'LA17263-7', 'LA19035-7']","['Oedema, unspecified']","['Edema', 'Edema', 'Edema', 'Edematous']"
+C0014130,['E34.9'],"['LP56737-7', 'MTHU021570']","['Endocrine disorder, unspecified']","['Endocrine disorders', 'Endocrine disorders']"
+C0014544,"['G40', 'G40.9']","['LP74808-4', 'MTHU020586', 'LA16985-6', 'LP248725-6', 'LA34766-8', 'LP75597-2', 'MTHU020809']","['Epilepsy', 'Epilepsy, unspecified']","['Epilepsy', 'Epilepsy', 'Epilepsy', 'Epilepsy', 'Seizure Disorder', 'Seizure disorder', 'Seizure disorder']"
+C0014867,['I85'],['LA20362-2'],['Oesophageal varices'],['Esophageal varices']
+C0015732,['R15'],"['LP74572-6', 'MTHU013375', 'LA24995-5']",['Faecal incontinence'],"['Bowel incontinence', 'Bowel incontinence', 'Incontinent of bowels']"
+C0015944,"['O42', 'O42.9']","['LA20068-5', 'LA21777-0']","['Premature rupture of membranes', 'Premature rupture of membranes, unspecified']","['Premature rupture of membranes', 'Rupture of membranes prior to onset of labor']"
+C0015967,['R50.9'],"['LP74849-8', 'MTHU013518']","['Fever, unspecified']","['Fever', 'Fever']"
+C0016196,['S22.5'],['LA17342-9'],['Flail chest'],['Flail chest']
+C0016382,['R23.2'],['LA17201-7'],['Flushing'],['Flushed']
+C0016689,['L81.2'],"['LP417946-3', 'MTHU063813']",['Freckles'],"['Freckles', 'Freckles']"
+C0017152,['K29.7'],['LA26033-3'],"['Gastritis, unspecified']",['Gastritis']
+C0017181,['K92.2'],['LP209002-7'],"['Gastrointestinal haemorrhage, unspecified']",['Gastrointestinal bleeding']
+C0017536,['A07.1'],['LA10466-3'],['Giardiasis [lambliasis]'],['Giardiasis']
+C0017572,['K06.0'],['LA8960-2'],['Gingival recession'],['Gingival recession']
+C0017601,"['H40', 'H40-H42.9', 'H40.9']","['LP74892-8', 'MTHU020819', 'LA16302-4']","['Glaucoma', 'Glaucoma', 'Glaucoma, unspecified']","['Glaucoma', 'Glaucoma', 'Glaucoma']"
+C0018081,"['A54', 'A54.9']",['LA10467-1'],"['Gonococcal infection', 'Gonococcal infection, unspecified']",['Gonorrhea']
+C0018099,"['M10', 'M10.9']",['LA14305-9'],"['Gout', 'Gout, unspecified']",['Gout']
+C0018524,['R44.3'],"['LP74902-5', 'MTHU020847', 'LA7438-0']","['Hallucinations, unspecified']","['Hallucinations', 'Hallucinations', 'Hallucinations']"
+C0018674,"['S00-S09.9', 'S09.9']","['LA22090-7', 'LA17540-8']","['Injuries to the head', 'Unspecified injury of head']","['Head injury', 'Injury-head']"
+C0018681,['R51'],"['LP74908-2', 'MTHU020860', 'LA15903-0', 'MTHU053651', 'LP217220-5', 'LA33100-1', 'LA15854-5']",['Headache'],"['Headache', 'Headache', 'Headache', 'Headaches', 'Headaches', 'Headaches', 'Have headaches']"
+C0018777,['H90.2'],['LA24487-3'],"['Conductive hearing loss, unspecified']",['Conductive hearing loss']
+C0018790,"['I46', 'I46.9']","['LP133247-9', 'MTHU041449', 'LA9535-1', 'LA17068-0', 'LA17496-3']","['Cardiac arrest', 'Cardiac arrest, unspecified']","['Cardiac arrest', 'Cardiac arrest', 'Cardiac arrest', 'Asystole', 'Cardiac arrest- asystole']"
+C0018799,['I51.9'],['LA10523-1'],"['Heart disease, unspecified']",['Heart Disease']
+C0018801,"['I50', 'I50.9']","['LP269421-6', 'LP443927-1', 'MTHU071752', 'LA34605-8']","['Heart failure', 'Heart failure, unspecified']","['Heart failure', 'Heart Failure', 'Heart Failure', 'Heart Failure']"
+C0018802,['I50.0'],"['LP74648-4', 'MTHU020787', 'LA31449-4', 'LA12740-9']",['Congestive heart failure'],"['Congestive heart failure', 'Congestive heart failure', 'Congestive heart failure', 'Congestive heart failure (CHF)']"
+C0018916,['D18.0'],['LP266918-4'],"['Haemangioma, any site']",['Hemangioma']
+C0018939,['D75.9'],['LA17777-6'],"['Disease of blood and blood-forming organs, unspecified']",['Blood diseases']
+C0018991,"['G81', 'G81.9']",['LA25274-4'],"['Hemiplegia', 'Hemiplegia, unspecified']",['Hemiplegia']
+C0019079,['R04.2'],['LA29583-4'],['Haemoptysis'],['Hemoptysis']
+C0019112,['I84'],"['LP30519-0', 'MTHU015043']",['Haemorrhoids'],"['Hemorrhoid', 'Hemorrhoid']"
+C0019158,['K75.9'],['LA7442-2'],"['Inflammatory liver disease, unspecified']",['Hepatitis']
+C0019284,['K44'],['LA19672-7'],['Diaphragmatic hernia'],['Diaphragmatic hernia']
+C0019294,['K40'],['LA25050-8'],['Inguinal hernia'],['Inguinal hernia']
+C0019322,['K42'],['LA25060-7'],['Umbilical hernia'],['Umbilical hernia']
+C0019343,['O26.4'],['LP36878-4'],['Herpes gestationis'],['Herpes gestationis']
+C0019655,"['B39', 'B39.9']",['LA10477-0'],"['Histoplasmosis', 'Histoplasmosis, unspecified']",['Histoplasmosis']
+C0019693,"['B24', 'B20-B24.9']","['LP74932-2', 'MTHU020829', 'LA32622-5', 'MTHU020829']","['Unspecified human immunodeficiency virus [HIV] disease', 'Human immunodeficiency virus [HIV] disease']","['HIV infection', 'HIV infection', 'HIV', 'Human immunodeficiency virus infection']"
+C0019829,"['C81', 'C81.9']",['LA26792-4'],"[""Hodgkin's disease"", ""Hodgkin's disease, unspecified""]",['Hodgkin lymphoma']
+C0020179,['G10'],['LA27532-3'],"[""Huntington's disease""]","[""Huntington's disease""]"
+C0020217,"['O01', 'O01.0', 'O01.9']",['LA14685-4'],"['Hydatidiform mole', 'Classical hydatidiform mole', 'Hydatidiform mole, unspecified']",['Molar pregnancy']
+C0020255,"['G91', 'G91.9']","['LA19577-8', 'LA19657-8']","['Hydrocephalus', 'Hydrocephalus, unspecified']","['Hydrocephalus', 'Hydrocephaly']"
+C0020456,['R73.9'],"['MTHU066095', 'LP422915-1']","['Hyperglycaemia, unspecified']","['High blood glucose', 'High blood glucose']"
+C0020461,['E87.5'],['LA19699-0'],['Hyperkalaemia'],['Hyperkalemia']
+C0020473,['E78.5'],"['LP266259-3', 'MTHU058476']","['Hyperlipidaemia, unspecified']","['Hyperlipidemia', 'Hyperlipidemia']"
+C0020517,['T78.4'],"['LA17771-9', 'LP7756-2', 'LP74464-6', 'MTHU020822', 'LP7756-2', 'LA9532-8']","['Allergy, unspecified']","['Allergy', 'Allergy', 'Allergies', 'Allergies', 'ALLERGY', 'Allergic reaction']"
+C0020538,['I10-I15.9'],"['LA14293-7', 'LP74941-3', 'MTHU020789', 'LA7444-8', 'LA32904-7']",['Hypertensive diseases'],"['High blood pressure', 'Hypertension', 'Hypertension', 'Hypertension', 'Hypertension (high blood pressure)']"
+C0020578,['R06.4'],['LA17613-3'],['Hyperventilation'],['Hyperventilation']
+C0020581,['H21.0'],['LA17283-5'],['Hyphaema'],['Hyphema']
+C0020615,['E16.2'],['LA16993-0'],"['Hypoglycaemia, unspecified']",['Hypoglycemia']
+C0020621,['E87.6'],['LA15423-9'],['Hypokalaemia'],['Hypokalemia']
+C0020649,"['I95', 'I95.9']","['LP74944-7', 'MTHU020790', 'LA7443-0', 'LA16994-8']","['Hypotension', 'Hypotension, unspecified']","['Hypotension', 'Hypotension', 'Hypotension', 'Low blood pressure']"
+C0020651,['I95.1'],['LA27841-8'],['Orthostatic hypotension'],['Orthostatic hypotension']
+C0020676,['E03.9'],"['LP74946-2', 'MTHU020783', 'LA14303-4']","['Hypothyroidism, unspecified']","['Hypothyroidism', 'Hypothyroidism', 'Hypothyroidism']"
+C0021051,['D84.9'],"['MTHU054768', 'LP231628-1']","['Immunodeficiency, unspecified']","['Immunodeficiency', 'Immunodeficiency']"
+C0021092,['H61.2'],['LA15481-7'],['Impacted cerumen'],['Impacted cerumen']
+C0021192,['A30.0'],['LA30684-7'],['Indeterminate leprosy'],['Indeterminate leprosy']
+C0022104,['K58'],['LA10555-3'],['Irritable bowel syndrome'],['Irritable Bowel Syndrome']
+C0022346,['R17'],"['LA7450-5', 'LA17203-3']",['Unspecified jaundice'],"['Jaundice', 'Jaundiced']"
+C0022548,['L91.0'],['LA24769-4'],['Keloid scar'],['Keloids']
+C0022650,['N20.0'],"['LA14297-8', 'LP232215-6']",['Calculus of kidney'],"['Kidney stones', 'Renal calculus']"
+C0022660,"['N17', 'N17.9']",['LA27519-0'],"['Acute renal failure', 'Acute renal failure, unspecified']",['Acute renal failure']
+C0022661,"['N18', 'N18.0', 'N18.9']","['LP146090-8', 'LP146090-8']","['Chronic renal failure', 'End-stage renal disease', 'Chronic renal failure, unspecified']","['ESRD', 'End Stage Renal Disease']"
+C0022738,['Q76.1'],['LA24771-0'],['Klippel-Feil syndrome'],['Klippel-feil']
+C0023092,['A96.2'],['LA10481-2'],['Lassa fever'],['Lassa fever']
+C0023176,"['T56.0', 'T56.0']",['LA10482-0'],"['Toxic effect of lead and its compounds', 'Lead and its compounds']",['Lead poisoning']
+C0023211,['I44.7'],['LA17091-2'],"['Left bundle-branch block, unspecified']",['Left bundle branch block']
+C0023343,"['A30', 'A30.9']","['MTHU064153', 'LP417693-1']","[""Leprosy [Hansen's disease]"", 'Leprosy, unspecified']","['Leprosy', 'Leprosy']"
+C0023346,['A30.3'],['LA30685-4'],['Borderline leprosy'],['Borderline leprosy']
+C0023348,['A30.5'],['LA30695-3'],['Lepromatous leprosy'],['Lepromatous leprosy']
+C0023351,['A30.1'],['LA30682-1'],['Tuberculoid leprosy'],['Tuberculoid leprosy']
+C0023364,"['A27', 'A27.9']",['LA10484-6'],"['Leptospirosis', 'Leptospirosis, unspecified']",['Leptospirosis']
+C0023418,"['C95', 'C95.9']",['LA10545-4'],"['Leukaemia of unspecified cell type', 'Leukaemia, unspecified']",['Leukemia']
+C0023434,['C91.1'],"['LP208602-5', 'LA31347-0']",['Chronic lymphocytic leukaemia'],"['Chronic lymphocytic leukemia', 'Chronic lymphoid leukemia']"
+C0023449,['C91.0'],['LA31346-2'],['Acute lymphoblastic leukaemia'],['Acute lymphoid leukemia']
+C0023467,['C92.0'],"['LA26787-4', 'LP436078-2', 'MTHU069331']",['Acute myeloid leukaemia'],"['Acute myeloid leukemia', 'Acute myeloid leukemia', 'Acute myeloid leukemia']"
+C0023487,['C92.4'],['LA26788-2'],['Acute promyelocytic leukaemia'],['Acute promyelocytic leukemia']
+C0023786,['E76.0'],"['MTHU051116', 'LP203226-8', 'LA25797-4']","['Mucopolysaccharidosis, type I']","['Mucopolysaccharidosis type I', 'Mucopolysaccharidosis type I', 'Mucopolysaccharidosis type I']"
+C0023860,"['A32', 'A32.9']",['LA10485-3'],"['Listeriosis', 'Listeriosis, unspecified']",['Listeriosis']
+C0023895,"['K70-K77.9', 'K76.9']","['LA17774-3', 'LA25810-5', 'LP443939-6']","['Diseases of liver', 'Liver disease, unspecified']","['Liver diseases', 'Liver disease', 'Liver disease']"
+C0024117,['J44.9'],"['LA28200-6', 'LA10559-5', 'LA34603-3']","['Chronic obstructive pulmonary disease, unspecified']","['Chronic obstructive pulmonary disease', 'COPD', 'Chronic Obstructive Pulmonary Disease (COPD)']"
+C0024141,"['M32', 'M32.9']",['LA15300-9'],"['Systemic lupus erythematosus', 'Systemic lupus erythematosus, unspecified']",['Systemic lupus erythematosus (SLE)']
+C0024198,['A69.2'],['LA10487-9'],['Lyme disease'],['Lyme disease']
+C0024530,['B54'],['LA10488-7'],['Unspecified malaria'],['Malaria']
+C0024623,"['C16', 'C16.9', 'C16.9']","['LA10547-0', 'LP208580-3', 'MTHU052629']","['Malignant neoplasm of stomach', 'Malignant neoplasm of stomach, unspecified', 'Stomach, unspecified']","['Gastric Cancer', 'Stomach cancer', 'Stomach cancer']"
+C0024776,['E71.0'],"['LP56746-8', 'MTHU021578', 'LA21168-2']",['Maple-syrup-urine disease'],"['Maple syrup urine disease', 'Maple syrup urine disease', 'Maple syrup urine disease']"
+C0024796,['Q87.4'],['LA29643-6'],"[""Marfan's syndrome""]",['Marfan syndrome']
+C0025007,['B05'],['LA17014-4'],['Measles'],['Measles']
+C0025037,['Q43.0'],['LP208999-5'],"[""Meckel's diverticulum""]","[""Meckel's diverticulum""]"
+C0025287,['R29.1'],['LA17660-4'],['Meningismus'],['Meningismus']
+C0025289,['G03.9'],['LA7454-7'],"['Meningitis, unspecified']",['Meningitis']
+C0025958,['Q02'],['LA19663-6'],['Microcephaly'],['Microcephalic']
+C0026010,['Q11.2'],"['LA24794-2', 'LA24802-3']",['Microphthalmos'],"['Microphthalmia', 'Nanophthalmos']"
+C0026635,['R06.5'],['LA29607-1'],['Mouth breathing'],['Mouth breathing']
+C0026703,['E76.3'],"['MTHU069820', 'LP438367-7']","['Mucopolysaccharidosis, unspecified']","['Mucopolysaccharidosis', 'Mucopolysaccharidosis']"
+C0026705,['E76.1'],['LA34470-7'],"['Mucopolysaccharidosis, type II']",['Mucopolysaccharidosis type II (disorder)']
+C0026764,['C90.0'],"['LA31350-4', 'LA26799-9']",['Multiple myeloma'],"['Multiple myeloma', 'Plasma cell neoplasm']"
+C0026769,['G35'],"['LA14298-6', 'LP75152-6', 'MTHU020805', 'LA17769-3', 'LA27531-5']",['Multiple sclerosis'],"['Multiple Sclerosis', 'Multiple sclerosis', 'Multiple sclerosis', 'Multiple sclerosis - MS', 'Multiple sclerosis (MS)']"
+C0026771,['T07'],['LP265795-7'],['Unspecified multiple injuries'],['Polytrauma']
+C0026780,['B26'],"['LP32627-9', 'LA10491-1']",['Mumps'],"['Mumps', 'Mumps']"
+C0026847,['G12.9'],"['MTHU062169', 'LP288641-6', 'LA22279-6']","['Spinal muscular atrophy, unspecified']","['Spinal muscular atrophy', 'Spinal muscular atrophy', 'Spinal muscular atrophy']"
+C0026896,['G70.0'],['LA15158-1'],['Myasthenia gravis'],['Myasthenia Gravis']
+C0027059,['I51.4'],['LA25773-5'],"['Myocarditis, unspecified']",['Myocarditis']
+C0027066,['G25.3'],['LA24801-5'],['Myoclonus'],['Myoclonus']
+C0027651,['C00-D48.9'],"['LP7664-8', 'MTHU010346', 'LA16304-0', 'LP207120-9']",['Neoplasms'],"['Tumor', 'Tumor', 'Tumor', 'Tumor']"
+C0027726,"['N04', 'N04.9']",['LA10569-4'],"['Nephrotic syndrome', 'Nephrotic syndrome, unspecified']",['Nephrotic Syndrome']
+C0027765,['G00-G99.9'],"['LA10590-0', 'LA22092-3']",['Diseases of the nervous system'],"['Neurological Disorders', 'Neurological disorder']"
+C0027769,['R45.0'],['LA16658-9'],['Nervousness'],['Nervous']
+C0027927,['A52.3'],['LA10492-9'],"['Neurosyphilis, unspecified']",['Neurosyphilis']
+C0028754,"['E66', 'E66.9']","['LA6301-1', 'LA20940-5']","['Obesity', 'Obesity, unspecified']","['Obesity', 'Obese']"
+C0028768,"['F42', 'F42.9']",['LA10581-9'],"['Obsessive-compulsive disorder', 'Obsessive-compulsive disorder, unspecified']",['Obsessive Compulsive Disorder']
+C0029443,"['M86', 'M86.9']","['LP128775-6', 'MTHU040697', 'LA20583-3']","['Osteomyelitis', 'Osteomyelitis, unspecified']","['Osteomyelitis', 'Osteomyelitis', 'Osteomyelitis']"
+C0029456,['M81.9'],"['LP75283-9', 'MTHU020796', 'LA10527-2']","['Osteoporosis, unspecified']","['Osteoporosis', 'Osteoporosis', 'Osteoporosis']"
+C0029632,['D58.2'],"['LP56770-8', 'MTHU021598']",['Other haemoglobinopathies'],"['Other hemoglobinopathies', 'Other hemoglobinopathies']"
+C0030193,['R52.9'],"['LP75331-6', 'MTHU029813', 'LA7460-4', 'LA27491-2', 'LA17107-6', 'LP75342-3', 'MTHU021175']","['Pain, unspecified']","['Pain', 'Pain', 'Pain', 'Ache', 'Painful', 'Pain symptoms', 'Pain symptoms']"
+C0030196,['M79.6'],['LA30865-2'],['Pain in limb'],['Aching limbs']
+C0030252,['R00.2'],['LA16997-1'],['Palpitations'],['Palpitations']
+C0030319,['F41.0'],['LA10582-7'],['Panic disorder [episodic paroxysmal anxiety]'],['Panic Disorder']
+C0030486,['G82.2'],"['LP75345-6', 'MTHU020806', 'LA25276-9']","['Paraplegia, unspecified']","['Paraplegia', 'Paraplegia', 'Paraplegia']"
+C0030567,['G20'],"['LP75351-4', 'MTHU020807', 'LA27533-1']","[""Parkinson's disease""]","[""Parkinson's disease"", ""Parkinson's disease"", ""Parkinson's disease""]"
+C0031090,['K05.6'],['LA8950-3'],"['Periodontal disease, unspecified']",['Periodontal disease']
+C0031154,"['K65', 'K65.9']",['LA7463-8'],"['Peritonitis', 'Peritonitis, unspecified']",['Peritonitis']
+C0031212,['F60.9'],['LA10579-3'],"['Personality disorder, unspecified']",['Personality Disorder']
+C0031315,['G54.6'],['LA27496-1'],['Phantom limb syndrome with pain'],['Phantom limb']
+C0031572,['F40.1'],"['LA10585-0', 'LP121556-7', 'MTHU039830']",['Social phobias'],"['Social Phobia', 'Social phobias', 'Social phobias']"
+C0032002,['E23.7'],['LA4684-2'],"['Disorder of pituitary gland, unspecified']",['Pituitary']
+C0032064,"['A20', 'A20.9']",['LA10495-2'],"['Plague', 'Plague, unspecified']",['Plague']
+C0032285,['J18.9'],"['LP75396-9', 'MTHU020831', 'LA7465-3']","['Pneumonia, unspecified']","['Pneumonia', 'Pneumonia', 'Pneumonia']"
+C0032326,"['J93', 'J93.9']",['LA7466-1'],"['Pneumothorax', 'Pneumothorax, unspecified']",['Pneumothorax']
+C0032371,"['A80', 'A80.9']",['LA17016-9'],"['Acute poliomyelitis', 'Acute poliomyelitis, unspecified']",['Polio']
+C0032617,['R35'],['LA25323-9'],['Polyuria'],['Polyuria']
+C0032987,"['O00', 'O00.9']","['LP72505-8', 'MTHU015326']","['Ectopic pregnancy', 'Ectopic pregnancy, unspecified']","['Ectopic pregnancy', 'Ectopic pregnancy']"
+C0032989,"['O30.9', 'O30']","['LP40258-3', 'MTHU040088', 'LA34844-3', 'LP208037-4']","['Multiple gestation, unspecified', 'Multiple gestation']","['Multiple pregnancy', 'Multiple pregnancy', 'Multiple pregnancy', 'Multiple gestation pregnancy']"
+C0033036,['I49.1'],"['LP31000-0', 'MTHU024511', 'LA17094-6']",['Atrial premature depolarization'],"['Premature atrial contractions', 'Premature atrial contractions', 'Premature atrial contractions']"
+C0033774,"['L29', 'L29.9']",['LA20641-9'],"['Pruritus', 'Pruritus, unspecified']",['Itching']
+C0033860,"['L40', 'L40.9']",['LA15165-6'],"['Psoriasis', 'Psoriasis, unspecified']",['Psoriasis']
+C0033893,['G44.2'],"['LA15136-7', 'LA15139-1']",['Tension-type headache'],"['Tension headaches', 'Stress headaches']"
+C0034063,['J81'],['LA7467-9'],['Pulmonary oedema'],['Pulmonary edema']
+C0034065,['I26'],"['LA7468-7', 'LP200097-6', 'LA10573-6']",['Pulmonary embolism'],"['Pulmonary embolism', 'Pulmonary embolus', 'Blood Clot in Lungs']"
+C0034067,"['J43', 'J43.9']",['LA10561-1'],"['Emphysema', 'Emphysema, unspecified']",['Emphysema']
+C0034362,['A78'],['LA10498-6'],['Q fever'],['Q fever']
+C0034372,['G82.5'],"['LP75482-7', 'MTHU020808', 'LA27861-6']","['Tetraplegia, unspecified']","['Quadriplegia', 'Quadriplegia', 'Quadriplegia']"
+C0035021,"['A68', 'A68.9']",['LA10500-9'],"['Relapsing fevers', 'Relapsing fever, unspecified']",['Relapsing fever']
+C0035078,"['N17-N19.9', 'N19']","['LP75521-2', 'MTHU020824']","['Renal failure', 'Unspecified renal failure']","['Renal failure', 'Renal failure']"
+C0035204,"['J00-J99.9', 'J98.9']",['LA20369-7'],"['Diseases of the respiratory system', 'Respiratory disorder, unspecified']",['Respiratory disease']
+C0035344,['H35.1'],['LA16303-2'],['Retinopathy of prematurity'],['Retinopathy of prematurity']
+C0035435,['M79.0'],['LA17000-3'],"['Rheumatism, unspecified']",['Rheumatism']
+C0035436,['I00-I02.9'],['LA16999-7'],['Acute rheumatic fever'],['Rheumatic fever']
+C0035793,['A77.0'],['LA10501-7'],['Spotted fever due to Rickettsia rickettsii'],['Rocky Mountain spotted fever']
+C0035920,['B06'],['LA10502-5'],['Rubella [German measles]'],['Rubella']
+C0036117,['A02.9'],['LA10503-3'],"['Salmonella infection, unspecified']",['Salmonellosis']
+C0036202,"['D86', 'D86.9']",['LP209028-2'],"['Sarcoidosis', 'Sarcoidosis, unspecified']",['Sarcoidosis']
+C0036220,"['C46', 'C46.9']",['LA26517-5'],"[""Kaposi's sarcoma"", ""Kaposi's sarcoma, unspecified""]",['Kaposi sarcoma']
+C0036285,['A38'],['LA17017-7'],['Scarlet fever'],['Scarlet fever']
+C0036341,"['F20', 'F20.9']","['LP75592-3', 'MTHU020814', 'LA10584-3']","['Schizophrenia', 'Schizophrenia, unspecified']","['Schizophrenia', 'Schizophrenia', 'Schizophrenia']"
+C0036439,"['M41.9', 'M41']","['LA22278-8', 'LP266363-3']","['Scoliosis, unspecified', 'Scoliosis']","['Scoliosis', 'Scoliosis']"
+C0036690,['A41.9'],"['LP75611-1', 'MTHU020833']","['Septicaemia, unspecified']","['Septicemia', 'Septicemia']"
+C0036916,"['A50-A64.9', 'A64']","['LP75615-2', 'MTHU026192']","['Infections with a predominantly sexual mode of transmission', 'Unspecified sexually transmitted disease']","['Sexually transmitted diseases', 'Sexually transmitted diseases']"
+C0036974,['R57.9'],['LA7473-7'],"['Shock, unspecified']",['Shock']
+C0036980,['R57.0'],['LA17687-7'],['Cardiogenic shock'],['Cardiogenic shock']
+C0037221,['Q89.3'],['LA19610-7'],['Situs inversus'],['Situs inversus']
+C0037315,['G47.3'],['LA29608-9'],['Sleep apnoea'],['Sleep apnea']
+C0037383,['R06.7'],['LA33098-7'],['Sneezing'],['Sneezing']
+C0037928,['G95.9'],['LA31864-4'],"['Disease of spinal cord, unspecified']",['Myelopathy']
+C0037929,['T09.3'],"['LA17399-9', 'LA17543-2']","['Injury of spinal cord, level unspecified']","['Spinal cord injury', 'Injury-spinal cord']"
+C0038012,['M46.9'],['LA31822-2'],"['Inflammatory spondylopathy, unspecified']",['Spondylitis']
+C0038016,['M43.1'],"['MTHU066326', 'LP426718-5']",['Spondylolisthesis'],"['Spondylolisthesis', 'Spondylolisthesis']"
+C0038379,['H50.9'],"['LA16300-8', 'MTHU051221', 'LP200651-0']","['Strabismus, unspecified']","['Strabismus', 'Strabismus', 'Strabismus']"
+C0038436,['F43.1'],"['LA10583-5', 'LA29721-0', 'LA27871-5']",['Post-traumatic stress disorder'],"['Post Traumatic Stress Disorder', 'PTSD', 'Post traumatic stress disorder (PTSD)']"
+C0038450,['R06.1'],['LA17612-5'],['Stridor'],['Stridor']
+C0038454,['I64'],"['LP74605-4', 'MTHU020801', 'LA22244-0', 'LA22099-8', 'LA9553-4']","['Stroke, not specified as haemorrhage or infarction']","['Cerebrovascular accident', 'Cerebrovascular accident', 'Cerebrovascular accident', 'Stroke', 'Stroke/CVA']"
+C0038644,['R95'],['LA10530-6'],['Sudden infant death syndrome'],['Sudden Infant Death Syndrome']
+C0039070,['R55'],"['LP75709-3', 'MTHU020851', 'LA16987-2', 'LA9554-2']",['Syncope and collapse'],"['Syncope', 'Syncope', 'Fainting', 'syncope / fainting']"
+C0039128,['A53.9'],"['LA17003-7', 'LP445991-5']","['Syphilis, unspecified']","['Syphilis', 'Syphilis']"
+C0039231,['R00.0'],"['LA17714-9', 'LA15895-8']","['Tachycardia, unspecified']","['Tachycardia', 'Heart race']"
+C0039240,['I47.1'],['LA17100-1'],['Supraventricular tachycardia'],['Supraventricular tachycardia']
+C0039685,['Q21.3'],['LA19623-0'],['Tetralogy of Fallot'],['Tetralogy of Fallot']
+C0039980,"['S20-S29.9', 'S29.9']",['LA24148-1'],"['Injuries to the thorax', 'Unspecified injury of thorax']",['Injury-Thoracic']
+C0040128,"['E07.9', 'E00-E07.9']","['LA15157-3', 'LA17778-4']","['Disorder of thyroid, unspecified', 'Disorders of thyroid gland']","['Thyroid Disease', 'Diseases of the thyroid gland']"
+C0040456,['K01.1'],"['LA29650-1', 'LP73530-5', 'MTHU015832', 'LA8952-9']",['Impacted teeth'],"['Impacted tooth', 'Tooth impaction', 'Tooth impaction', 'Impacted']"
+C0040457,['K00.1'],['LA29652-7'],['Supernumerary teeth'],['Supernumerary tooth']
+C0040517,['F95.2'],['LA27862-4'],['Combined vocal and multiple motor tic disorder [de la Tourette]'],"[""Tourette's syndrome""]"
+C0040558,"['B58', 'B58.9']",['LA10511-6'],"['Toxoplasmosis', 'Toxoplasmosis, unspecified']",['Toxoplasmosis']
+C0040560,['P37.1'],['LA12568-4'],['Congenital toxoplasmosis'],['Congenital toxoplasmosis']
+C0040822,['R25.1'],['LA17301-5'],"['Tremor, unspecified']",['Tremors']
+C0040896,['B75'],['LA10512-4'],['Trichinellosis'],['Trichinosis']
+C0041296,['A15-A19.9'],"['LP75796-0', 'MTHU020835', 'LA10513-2', 'LA32625-8', 'LA31907-1']",['Tuberculosis'],"['Tuberculosis', 'Tuberculosis', 'Tuberculosis', 'Tuberculosis (TB)', 'Tuberculotic']"
+C0041351,"['A21', 'A21.9']",['LA10514-0'],"['Tularaemia', 'Tularaemia, unspecified']",['Tularemia']
+C0041466,['A01.0'],['LA16615-9'],['Typhoid fever'],['Typhoid']
+C0041473,['A75.0'],['LA10486-1'],['Epidemic louse-borne typhus fever due to Rickettsia prowazekii'],['Louse-borne (epidemic) typhus']
+C0041834,['L53.9'],['LA7433-1'],"['Erythematous condition, unspecified']",['Erythema']
+C0042024,['R32'],['LA6436-5'],['Unspecified urinary incontinence'],['Urinary incontinence']
+C0042025,['N39.3'],"['LP75685-5', 'MTHU013445']",['Stress incontinence'],"['Stress urinary incontinence', 'Stress urinary incontinence']"
+C0042029,['N39.0'],['LA6437-3'],"['Urinary tract infection, site not specified']",['Urinary tract infection']
+C0042109,"['L50', 'L50.9']","['LA20642-7', 'LA19698-2']","['Urticaria', 'Urticaria, unspecified']","['Urticaria', 'Hives']"
+C0042341,['I86.1'],['LA14531-0'],['Scrotal varices'],['Varicocele']
+C0042514,['I47.2'],['LA17719-8'],['Ventricular tachycardia'],['Ventricular tachycardia']
+C0042721,"['B15-B19.9', 'B19']","['LP75854-7', 'MTHU020837']","['Viral hepatitis', 'Unspecified viral hepatitis']","['Viral hepatitis', 'Viral hepatitis']"
+C0042900,['L80'],['LA15163-1'],['Vitiligo'],['Vitiligo']
+C0043124,['A92.3'],['LA10519-9'],['West Nile fever'],['West Nile Fever']
+C0043144,['R06.2'],"['LP75897-6', 'MTHU013532', 'LA25244-7']",['Wheezing'],"['Wheezing', 'Wheezing', 'Wheezes']"
+C0043395,"['A95', 'A95.9']",['LA10520-7'],"['Yellow fever', 'Yellow fever, unspecified']",['Yellow fever']
+C0079541,['Q04.2'],['LA19658-6'],['Holoprosencephaly'],['Holoprosencephaly']
+C0079744,"['C83.3', 'C83.3']","['LP411613-5', 'LA26525-8']","[""Large cell (diffuse) non-Hodgkin's lymphoma"", 'Large cell (diffuse)']","['Diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma (DLBCL), NOS']"
+C0080178,"['Q05', 'Q05.9']",['LA19643-8'],"['Spina bifida', 'Spina bifida, unspecified']",['Spina bifida']
+C0080274,['R33'],"['LP75832-3', 'MTHU013460']",['Retention of urine'],"['Urinary retention', 'Urinary retention']"
+C0085096,['I73.9'],"['LP75374-6', 'MTHU020791', 'LA25514-3']","['Peripheral vascular disease, unspecified']","['Peripheral vascular disease', 'Peripheral vascular disease', 'Peripheral vascular disease']"
+C0085207,['O24.4'],"['LA10553-8', 'LA19979-6']",['Diabetes mellitus arising in pregnancy'],"['Gestational Diabetes', 'Diabetes gestatational']"
+C0085614,['I44.0'],['LA17086-2'],"['Atrioventricular block, first degree']",['AV block-1st degree']
+C0085622,['G83.3'],['LA25275-1'],"['Monoplegia, unspecified']",['Monoplegia']
+C0085628,['R40.1'],"['LA17666-1', 'LA25163-9']",['Stupor'],"['Stupor', 'Stuporous']"
+C0085639,"['W00-W19.9', 'W19', 'W19']","['LA17133-2', 'LP434693-0', 'MTHU068935', 'LA7238-4']","['Falls', 'Unspecified fall causing accidental injury', 'Unspecified fall']","['Falls', 'Falls', 'Falls', 'Fall']"
+C0086543,['H26.9'],"['LP128693-1', 'MTHU040525', 'LP74600-5', 'MTHU020817']","['Cataract, unspecified']","['Cataract', 'Cataract', 'Cataracts', 'Cataracts']"
+C0149931,"['G43', 'G43.9']",['LA15141-7'],"['Migraine', 'Migraine, unspecified']",['Migraine headaches']
+C0151517,['I44.2'],['LA17089-6'],"['Atrioventricular block, complete']",['AV block-3rd degree']
+C0151526,['O60'],"['LA20368-9', 'LA9209-3', 'LP64594-2', 'MTHU002858']",['Preterm delivery'],"['Prematurity', 'Premature', 'Births.preterm', 'Births.preterm']"
+C0151636,['I49.3'],"['LP31568-6', 'MTHU024512', 'LA17095-3', 'LP31253-5', 'MTHU024517']",['Ventricular premature depolarization'],"['Premature ventricular contractions', 'Premature ventricular contractions', 'Premature ventricular contractions', 'Ventricular ectopics', 'Ventricular ectopics']"
+C0151744,['I20-I25.9'],"['LP31567-8', 'MTHU024507']",['Ischaemic heart diseases'],"['Myocardial ischemia', 'Myocardial ischemia']"
+C0151779,"['C43.9', 'C43']","['LP36756-2', 'MTHU019305']","['Malignant melanoma of skin, unspecified', 'Malignant melanoma of skin']","['Skin melanoma', 'Skin melanoma']"
+C0152150,['O30.0'],"['LP422365-9', 'MTHU066036']",['Twin pregnancy'],"['Twin pregnancy', 'Twin pregnancy']"
+C0152154,"['O63.9', 'O63']",['LA20070-1'],"['Long labour, unspecified', 'Long labour']",['Prolonged labor']
+C0152421,['Q17.1'],['LA9232-5'],['Macrotia'],['Macrotia']
+C0152423,['Q17.2'],['LA9231-7'],['Microtia'],['Microtia']
+C0153064,['A83.1'],['LA20112-1'],['Western equine encephalitis'],['Western Equine Encephalitis (WEE)']
+C0153065,['A83.2'],['LA20113-9'],['Eastern equine encephalitis'],['Eastern Equine Encephalitis (EEE)']
+C0153567,['C55'],['LA10544-7'],"['Malignant neoplasm of uterus, part unspecified']",['Uterine Cancer']
+C0155626,"['I21', 'I21.9']",['LA7412-5'],"['Acute myocardial infarction', 'Acute myocardial infarction, unspecified']",['Acute MI']
+C0155668,['I25.2'],['LA31445-2'],['Old myocardial infarction'],['Previous myocardial infarction']
+C0155870,['J10-J18.9'],['LA10563-7'],['Influenza and pneumonia'],['Influenza/Pneumonia']
+C0155930,['K03.5'],['LA29651-9'],['Ankylosis of teeth'],['Ankylosis of tooth']
+C0156543,"['O06', 'O00-O08.9']","['LP72030-7', 'MTHU002834']","['Unspecified abortion', 'Pregnancy with abortive outcome']","['Abortions', 'Abortions']"
+C0158646,"['Q37', 'Q35-Q37.9']",['LA14413-1'],"['Cleft palate with cleft lip', 'Cleft lip and cleft palate']",['Cleft lip and palate']
+C0159059,['R19.2'],['LA25063-1'],['Visible peristalsis'],['Visible peristalsis']
+C0162297,['R09.2'],['LA9547-6'],['Respiratory arrest'],['Respiratory arrest']
+C0162429,['E40-E46.9'],['LA18401-2'],['Malnutrition'],['Malnutrition']
+C0178273,['I30-I52.9'],['LA12361-4'],['Other forms of heart disease'],['Other heart disease']
+C0178324,['T14.5'],['LA32224-0'],['Injury of blood vessel(s) of unspecified body region'],['Vascular injury']
+C0178362,['Y35'],['LA14099-8'],['Legal intervention'],['Legal intervention']
+C0184567,['R52.0'],"['LP74430-7', 'MTHU013340']",['Acute pain'],"['Acute pain', 'Acute pain']"
+C0206762,['Q74.9'],['LA24785-0'],['Unspecified congenital malformation of limb(s)'],['Limb malformations']
+C0231528,['M79.1'],"['LP75153-4', 'MTHU013523']",['Myalgia'],"['Muscle aches', 'Muscle aches']"
+C0233407,['R41.0'],"['LP74755-7', 'MTHU013516', 'LA17668-7']","['Disorientation, unspecified']","['Disorientation', 'Disorientation', 'Disorientation, unspecified']"
+C0235833,['Q79.0'],['LA20081-8'],['Congenital diaphragmatic hernia'],['Congenital diaphragmatic hernia']
+C0238154,['S06.4'],['LA31824-8'],['Epidural haemorrhage'],['Epidural hematoma']
+C0242387,['Q75.4'],['LA29641-0'],['Mandibulofacial dysostosis'],['Treacher Collins syndrome']
+C0242429,['R07.0'],['LA30867-8'],['Pain in throat'],['Sore throat']
+C0265547,['Q73'],['LA20085-9'],['Reduction defects of unspecified limb'],['Limb reduction defect']
+C0265706,['Q79.3'],['LA19590-1'],['Gastroschisis'],['Gastroschisis']
+C0271635,['E14.9'],['LA31448-6'],['Unspecified diabetes mellitus without complications'],['Diabetes without complications']
+C0274869,"['T56.8', 'T56', 'T56.8']",['LA10470-5'],"['Toxic effect of other metals', 'Toxic effect of metals', 'Other metals']",['Heavy metal poisoning']
+C0275009,"['T60', 'T60.9', 'T60.9']",['LA10494-5'],"['Toxic effect of pesticides', 'Toxic effect of pesticide, unspecified', 'Pesticide, unspecified']",['Pesticide poisoning']
+C0275982,['A04.5'],['LA10439-0'],['Campylobacter enteritis'],['Campylobacteriosis']
+C0276434,['B15'],['LA10471-3'],['Acute hepatitis A'],"['Hepatitis A, acute']"
+C0276609,['B16'],['LA10472-1'],['Acute hepatitis B'],"['Hepatitis B, acute']"
+C0279543,['C92.1'],"['LA31348-8', 'LA26791-6']",['Chronic myeloid leukaemia'],"['Chronic myeloid leukemia', 'Chronic myelogenous leukemia']"
+C0282350,['T74.2'],"['MTHU054679', 'LP231632-3']",['Sexual abuse'],"['Sexual abuse', 'Sexual abuse']"
+C0282687,['A98.4'],['LA10453-1'],['Ebola virus disease'],['Ebola virus infection']
+C0311386,['A07.3'],['LA10479-6'],['Isosporiasis'],['Isosporiasis']
+C0334381,['D05.0'],"['LP247941-0', 'LP247941-0', 'MTHU056197']",['Lobular carcinoma in situ'],"['LCIS', 'Lobular carcinoma in situ', 'Lobular carcinoma in situ']"
+C0337230,"['W07', 'W07']",['LA7312-7'],"['Fall involving chair causing accidental injury', 'Fall involving chair']",['Fall from chair']
+C0337231,"['W05', 'W05']",['LA7313-5'],"['Fall involving wheelchair causing accidental injury', 'Fall involving wheelchair']",['Fall from wheelchair']
+C0340291,['I25.6'],['LA24435-2'],['Silent myocardial ischaemia'],['Silent myocardial ischemia']
+C0343457,['A30.2'],['LA30683-9'],['Borderline tuberculoid leprosy'],['Borderline tuberculoid leprosy']
+C0343458,['A30.4'],['LA30694-6'],['Borderline lepromatous leprosy'],['Borderline lepromatous leprosy']
+C0346647,"['C25', 'C25.9', 'C25.9']",['LA15689-5'],"['Malignant neoplasm of pancreas', 'Malignant neoplasm of pancreas, unspecified', 'Pancreas, unspecified']",['Pancreas cancer']
+C0348121,['A30.8'],['LA30686-2'],['Other forms of leprosy'],['Other forms of leprosy']
+C0348668,"['I95-I99.9', 'I99']","['LP75289-6', 'MTHU020792']","['Other and unspecified disorders of the circulatory system', 'Other and unspecified disorders of circulatory system']","['Other cardiovascular disease', 'Other cardiovascular disease']"
+C0348692,['J40-J47.9'],['LA10562-9'],['Chronic lower respiratory diseases'],['Chronic Lower Respiratory Disease']
+C0376358,['C61'],['LA15688-7'],['Malignant neoplasm of prostate'],['Prostate cancer']
+C0393593,"['G24', 'G24.9']",['LA24705-8'],"['Dystonia', 'Dystonia, unspecified']",['Dystonia']
+C0400914,['B17.1'],['LA10474-7'],['Acute hepatitis C'],"['Hepatitis C, acute']"
+C0409974,['L93'],['LA17781-8'],['Lupus erythematosus'],['Lupus erythematosus']
+C0428977,['R00.1'],['LA17394-0'],"['Bradycardia, unspecified']",['Bradycardia']
+C0435492,['S32.1'],['LA31885-9'],['Fracture of sacrum'],['Sacrum fracture']
+C0439044,['Z60.2'],"['LA6255-9', 'LA27350-0']",['Living alone'],"['Lives alone', 'Alone']"
+C0473472,['O62.3'],['LA20069-3'],['Precipitate labour'],['Precipitous labor']
+C0476479,['R45.4'],['LA17675-2'],['Irritability and anger'],['Irritability and anger']
+C0476546,['R46.2'],['LA32956-7'],['Strange and inexplicable behaviour'],['Strange and inexplicable behavior']
+C0478142,['R45.7'],['LA17678-6'],"['State of emotional shock and stress, unspecified']","['State of emotional shock and stress, unspecified']"
+C0478549,['Z22.8'],['LA29946-3'],['Carrier of other infectious diseases'],['Carrier of other infectious diseases']
+C0478584,['Z51.2'],['LA30277-0'],['Other chemotherapy'],['Chemotherapy - Other']
+C0478662,['R46.4'],['LA32950-0'],['Slowness and poor responsiveness'],['Slowness and poor responsiveness']
+C0494904,['M13'],['LA14308-3'],['Other arthritis'],['Other arthritis']
+C0497327,['F03'],['LA20372-1'],['Unspecified dementia'],['Dementia']
+C0546817,['E87.7'],"['LP74859-7', 'MTHU013364']",['Fluid overload'],"['Fluid volume excess', 'Fluid volume excess']"
+C0546837,"['C15', 'C15.9', 'C15.9']",['LA10548-8'],"['Malignant neoplasm of oesophagus', 'Oesophagus, unspecified', 'Malignant neoplasm of oesophagus, unspecified']",['Esophageal Cancer']
+C0546884,['E86'],"['LP74857-1', 'MTHU013362']",['Volume depletion'],"['Fluid volume deficit', 'Fluid volume deficit']"
+C0547030,"['H53', 'H53.9']","['LA16363-6', 'LP75857-0', 'MTHU013463']","['Visual disturbances', 'Visual disturbance, unspecified']","['Visual disturbances', 'Visual alteration', 'Visual alteration']"
+C0700594,['M54.1'],['LA32230-7'],['Radiculopathy'],['Radiculopathy']
+C0702139,['Q16.0'],['LA9230-9'],['Congenital absence of (ear) auricle'],['Anotia']
+C0751434,['E70.0'],['LA12520-5'],['Classical phenylketonuria'],['Classic phenylketonuria']
+C0848558,"['Q54', 'Q54.9']",['LA20090-9'],"['Hypospadias', 'Hypospadias, unspecified']",['Hypospadias']
+C0878544,"['I42', 'I42.9']","['LP128708-7', 'MTHU040649']","['Cardiomyopathy', 'Cardiomyopathy, unspecified']","['Cardiomyopathy', 'Cardiomyopathy']"
+C0879626,['T78.9'],['LA28318-6'],"['Adverse effect, unspecified']",['Side effects']
+C1140680,['C56'],['LA15682-0'],['Malignant neoplasm of ovary'],['Ovarian cancer']
+C1145670,['J96.9'],['LA27873-1'],"['Respiratory failure, unspecified']",['Respiratory failure']
+C1258666,['M67.4'],['LP263785-0'],['Ganglion'],['Ganglion cyst']
+C1260922,['R06'],['LA17122-5'],['Abnormalities of breathing'],['Breathing problems']
+C1384666,['H91.9'],"['LA16989-8', 'LP56780-7', 'MTHU021608', 'LA17308-0', 'LA24742-1']","['Hearing loss, unspecified']","['Hearing impairment', 'Hearing loss', 'Hearing loss', 'Hearing impaired', 'Hearing defect(s)']"
+C1510410,['R43.1'],"['LP75263-1', 'MTHU013411']",['Parosmia'],"['Olfactory alteration', 'Olfactory alteration']"
+C1527336,['M35.0'],['LA15301-7'],['Sicca syndrome [Sjogren]'],"[""Sjögren's syndrome""]"
+C1621955,['T74.1'],"['LP231631-5', 'MTHU054678']",['Physical abuse'],"['Physical abuse', 'Physical abuse']"
+C1691228,"['Q61', 'Q61.9']",['LA10565-2'],"['Cystic kidney disease', 'Cystic kidney disease, unspecified']",['Cystic Kidney Disease']
+C1704300,['P96.4'],"['LA14273-9', 'LP72031-5', 'MTHU002835']","['Termination of pregnancy, fetus and newborn']","['Induced abortion', 'Abortions.induced', 'Abortions.induced']"
+C1879328,['H54.0'],"['LA24491-5', 'LA15085-6']","['Blindness, both eyes']","['Blindness, bilateral', 'Total loss of vision in both eyes']"
+C2063407,['B17.2'],['LA10475-4'],['Acute hepatitis E'],"['Hepatitis E, acute']"
+C2830004,['R40.0'],['LA23818-0'],['Somnolence'],['Somnolent']
+C2936739,['D82.4'],['LA26659-5'],['Hyperimmunoglobulin E [IgE] syndrome'],['Job syndrome']
+C3263723,['T14.9'],"['LA9555-9', 'LA17713-1']","['Injury, unspecified']","['Traumatic injury', 'Injury']"
+C3463824,"['D46', 'D46.9']",['LA26796-5'],"['Myelodysplastic syndromes', 'Myelodysplastic syndrome, unspecified']",['Myelodysplastic syndrome']
+C3495801,['M31.3'],['LA17782-6'],"[""Wegener's granulomatosis""]","[""Wegener's granulomatosis""]"
+C3714757,['M08.0'],['LA29644-4'],['Juvenile rheumatoid arthritis'],['Juvenile rheumatoid arthritis']
+C3887875,['H53.4'],"['MTHU051243', 'LP201274-0']",['Visual field defects'],"['Visual field defects', 'Visual field defects']"
+C4554531,['L89'],"['MTHU058023', 'LP75415-7', 'LA22310-9', 'LA20568-4', 'LA19028-2', 'LP96870-8']",['Decubitus ulcer'],"['Pressure injury', 'Pressure injury', 'Decubitus', 'Decubitus ulcer', 'Pressure ulcer', 'Pressure ulcers']"
+C4721400,['H50.5'],"['LP72689-0', 'MTHU013559']",['Heterophoria'],"['Heterophoria', 'Heterophoria']"
+C5574816,['L93.0'],['LA15302-5'],['Discoid lupus erythematosus'],['Discoid lupus']
+C5779628,['R21'],"['LA33097-9', 'LP30547-1', 'MTHU015064', 'LA7469-5', 'LP75487-6', 'MTHU020933', 'LA34634-8']",['Rash and other nonspecific skin eruption'],"['Skin rash', 'Rash', 'Rash', 'Rash', 'Rashes', 'Rashes', 'Rash(es)']"

@@ -1,0 +1,1861 @@
+query_variable,model,k,t,true_rank,is_valid
+5-ASA CHEM,qwen3.6:35b,20,0.7,0,1
+AKI DISO,qwen3.6:35b,20,0.7,0,1
+APTPA CHEM,qwen3.6:35b,20,0.7,0,1
+AZA CHEM,qwen3.6:35b,20,0.7,0,1
+Affection of the fibrous tunic of the eyeball DISO,qwen3.6:35b,20,0.7,0,1
+Alflutop CHEM,qwen3.6:35b,20,0.7,0,1
+Antibodies CHEM,qwen3.6:35b,20,0.7,0,1
+Baclofen CHEM,qwen3.6:35b,20,0.7,0,1
+Baclosan CHEM,qwen3.6:35b,20,0.7,0,1
+Bilateral panuveitis DISO,qwen3.6:35b,20,0.7,0,1
+Blood ANATOMY,qwen3.6:35b,20,0.7,0,1
+C0-C1-C2 segments ANATOMY,qwen3.6:35b,20,0.7,0,1
+C1-C2 segments ANATOMY,qwen3.6:35b,20,0.7,0,1
+C1-C2 vertebrae ANATOMY,qwen3.6:35b,20,0.7,0,1
+C2 vertebra ANATOMY,qwen3.6:35b,20,0.7,0,1
+CAD DISO,qwen3.6:35b,20,0.7,0,1
+CADASIL DISO,qwen3.6:35b,20,0.7,0,1
+CBS CHEM,qwen3.6:35b,20,0.7,0,1
+CC DISO,qwen3.6:35b,20,0.7,0,1
+CD25 CHEM,qwen3.6:35b,20,0.7,0,1
+CD28 CHEM,qwen3.6:35b,20,0.7,0,1
+CD38 CHEM,qwen3.6:35b,20,0.7,0,1
+CKD DISO,qwen3.6:35b,20,0.7,0,1
+CRS DISO,qwen3.6:35b,20,0.7,0,1
+CSF fistula DISO,qwen3.6:35b,20,0.7,0,1
+CTLA-4 CHEM,qwen3.6:35b,20,0.7,0,1
+Cancer DISO,qwen3.6:35b,20,0.7,0,1
+Cardiovascular ANATOMY,qwen3.6:35b,20,0.7,0,1
+Caspase 3 CHEM,qwen3.6:35b,20,0.7,0,1
+Caspase CHEM,qwen3.6:35b,20,0.7,0,1
+Celiac disease DISO,qwen3.6:35b,20,0.7,0,1
+Clinical characteristics DISO,qwen3.6:35b,20,0.7,0,1
+Combined perfusion disturbances DISO,qwen3.6:35b,20,0.7,0,1
+D-dimer CHEM,qwen3.6:35b,20,0.7,0,1
+DAB CHEM,qwen3.6:35b,20,0.7,0,1
+Deficient states with the predominance of volitional disorders DISO,qwen3.6:35b,20,0.7,0,1
+Diclofenac CHEM,qwen3.6:35b,20,0.7,0,1
+EOP DISO,qwen3.6:35b,20,0.7,0,1
+EPO CHEM,qwen3.6:35b,20,0.7,0,1
+Frontal ANATOMY,qwen3.6:35b,20,0.7,0,1
+GCSs CHEM,qwen3.6:35b,20,0.7,0,1
+GERD DISO,qwen3.6:35b,20,0.7,0,1
+Gastroesophageal ANATOMY,qwen3.6:35b,20,0.7,0,1
+Gastroesophageal reflux disease DISO,qwen3.6:35b,20,0.7,0,1
+Granulomatosis DISO,qwen3.6:35b,20,0.7,0,1
+HBV+HDV DISO,qwen3.6:35b,20,0.7,0,1
+HCV DISO,qwen3.6:35b,20,0.7,0,1
+HCV+HBV DISO,qwen3.6:35b,20,0.7,0,1
+"HCV+HBV, DISO",qwen3.6:35b,20,0.7,0,1
+HO-2 CHEM,qwen3.6:35b,20,0.7,0,1
+IN ANATOMY,qwen3.6:35b,20,0.7,0,1
+IN1 ANATOMY,qwen3.6:35b,20,0.7,0,1
+IN2 ANATOMY,qwen3.6:35b,20,0.7,0,1
+INF CHEM,qwen3.6:35b,20,0.7,0,1
+IT DISO,qwen3.6:35b,20,0.7,0,1
+Impaired endometrial receptivity DISO,qwen3.6:35b,20,0.7,0,1
+MCI DISO,qwen3.6:35b,20,0.7,0,1
+MMP-1 CHEM,qwen3.6:35b,20,0.7,0,1
+MN ANATOMY,qwen3.6:35b,20,0.7,0,1
+Maxillofacial ANATOMY,qwen3.6:35b,20,0.7,0,1
+Metastasis DISO,qwen3.6:35b,20,0.7,0,1
+Metastasis of colorectal cancer DISO,qwen3.6:35b,20,0.7,0,1
+Methylprednisolone CHEM,qwen3.6:35b,20,0.7,0,1
+Metypred CHEM,qwen3.6:35b,20,0.7,0,1
+Moxifloxacin CHEM,qwen3.6:35b,20,0.7,0,1
+Myofascial ANATOMY,qwen3.6:35b,20,0.7,0,1
+Myofascial pain syndrome DISO,qwen3.6:35b,20,0.7,0,1
+OA DISO,qwen3.6:35b,20,0.7,0,1
+Obsessive-Compulsive DISO,qwen3.6:35b,20,0.7,0,1
+Odontogenic ANATOMY,qwen3.6:35b,20,0.7,0,1
+Orbit ANATOMY,qwen3.6:35b,20,0.7,0,1
+Orbital ANATOMY,qwen3.6:35b,20,0.7,0,1
+Paracetamol CHEM,qwen3.6:35b,20,0.7,0,1
+Polypropylene CHEM,qwen3.6:35b,20,0.7,0,1
+Polyps DISO,qwen3.6:35b,20,0.7,0,1
+Polyps of the vocal folds DISO,qwen3.6:35b,20,0.7,0,1
+Positive symptomatology DISO,qwen3.6:35b,20,0.7,0,1
+Postoperative complications DISO,qwen3.6:35b,20,0.7,0,1
+RVCL DISO,qwen3.6:35b,20,0.7,0,1
+Reinke's edema DISO,qwen3.6:35b,20,0.7,0,1
+Reinke's space ANATOMY,qwen3.6:35b,20,0.7,0,1
+Renal ANATOMY,qwen3.6:35b,20,0.7,0,1
+Ringer's solution CHEM,qwen3.6:35b,20,0.7,0,1
+SA DISO,qwen3.6:35b,20,0.7,0,1
+STSEAMI DISO,qwen3.6:35b,20,0.7,0,1
+Small IN ANATOMY,qwen3.6:35b,20,0.7,0,1
+Stages I-II CKD DISO,qwen3.6:35b,20,0.7,0,1
+TLR2 CHEM,qwen3.6:35b,20,0.7,0,1
+TLR4 CHEM,qwen3.6:35b,20,0.7,0,1
+TLR9 CHEM,qwen3.6:35b,20,0.7,0,1
+Umifenovir CHEM,qwen3.6:35b,20,0.7,0,1
+VCAM CHEM,qwen3.6:35b,20,0.7,0,1
+VCAM-1 CHEM,qwen3.6:35b,20,0.7,0,1
+VEGF CHEM,qwen3.6:35b,20,0.7,0,1
+VKH syndrome DISO,qwen3.6:35b,20,0.7,0,1
+Watery diarrhea DISO,qwen3.6:35b,20,0.7,0,1
+Wegener's granulomatosis DISO,qwen3.6:35b,20,0.7,0,1
+abdominal ANATOMY,qwen3.6:35b,20,0.7,0,1
+abdominal wall ANATOMY,qwen3.6:35b,20,0.7,0,1
+acute back pain DISO,qwen3.6:35b,20,0.7,0,1
+acute exacerbation DISO,qwen3.6:35b,20,0.7,0,1
+acute myocardial infarction DISO,qwen3.6:35b,20,0.7,0,1
+adhesion molecules CHEM,qwen3.6:35b,20,0.7,0,1
+agomelatine CHEM,qwen3.6:35b,20,0.7,0,1
+alanine CHEM,qwen3.6:35b,20,0.7,0,1
+alanine aminotransferase CHEM,qwen3.6:35b,20,0.7,0,1
+alcohol dependence DISO,qwen3.6:35b,20,0.7,0,1
+alcohol dependent DISO,qwen3.6:35b,20,0.7,0,1
+alexithymia DISO,qwen3.6:35b,20,0.7,0,1
+allergic DISO,qwen3.6:35b,20,0.7,0,1
+alveolar ANATOMY,qwen3.6:35b,20,0.7,0,1
+aminotransferase CHEM,qwen3.6:35b,20,0.7,0,1
+anesthetic CHEM,qwen3.6:35b,20,0.7,0,1
+anesthetics CHEM,qwen3.6:35b,20,0.7,0,1
+aneurysm] DISO,qwen3.6:35b,20,0.7,0,1
+aneurysms DISO,qwen3.6:35b,20,0.7,0,1
+anterior part of the inferior nasal passage ANATOMY,qwen3.6:35b,20,0.7,0,1
+anterior region of the left thigh ANATOMY,qwen3.6:35b,20,0.7,0,1
+anterior surface ANATOMY,qwen3.6:35b,20,0.7,0,1
+anterior surface of the right thigh ANATOMY,qwen3.6:35b,20,0.7,0,1
+anti-inflammatory drugs CHEM,qwen3.6:35b,20,0.7,0,1
+anti-recurrence agent CHEM,qwen3.6:35b,20,0.7,0,1
+antiapoptotic protein CHEM,qwen3.6:35b,20,0.7,0,1
+antibiotic CHEM,qwen3.6:35b,20,0.7,0,1
+antifungals CHEM,qwen3.6:35b,20,0.7,0,1
+antigens CHEM,qwen3.6:35b,20,0.7,0,1
+anxiety and depressive disorders DISO,qwen3.6:35b,20,0.7,0,1
+anxiety symptoms DISO,qwen3.6:35b,20,0.7,0,1
+aorta ANATOMY,qwen3.6:35b,20,0.7,0,1
+aortic wall ANATOMY,qwen3.6:35b,20,0.7,0,1
+arbidol CHEM,qwen3.6:35b,20,0.7,0,1
+arge IN ANATOMY,qwen3.6:35b,20,0.7,0,1
+arterial ANATOMY,qwen3.6:35b,20,0.7,0,1
+arterial hypertension DISO,qwen3.6:35b,20,0.7,0,1
+arteriopathy DISO,qwen3.6:35b,20,0.7,0,1
+artery ANATOMY,qwen3.6:35b,20,0.7,0,1
+asketin CHEM,qwen3.6:35b,20,0.7,0,1
+asketin cefuroxime CHEM,qwen3.6:35b,20,0.7,0,1
+aspartate CHEM,qwen3.6:35b,20,0.7,0,1
+aspartate aminotransferase CHEM,qwen3.6:35b,20,0.7,0,1
+atherosclerosis DISO,qwen3.6:35b,20,0.7,0,1
+attacks DISO,qwen3.6:35b,20,0.7,0,1
+aura DISO,qwen3.6:35b,20,0.7,0,1
+autoimmune thyroiditis DISO,qwen3.6:35b,20,0.7,0,1
+autoimmune uveitis DISO,qwen3.6:35b,20,0.7,0,1
+back ANATOMY,qwen3.6:35b,20,0.7,0,1
+baclofen CHEM,qwen3.6:35b,20,0.7,0,1
+benzodiazepine withdrawal syndrome DISO,qwen3.6:35b,20,0.7,0,1
+bilirubin CHEM,qwen3.6:35b,20,0.7,0,1
+biopsy specimens ANATOMY,qwen3.6:35b,20,0.7,0,1
+blood ANATOMY,qwen3.6:35b,20,0.7,0,1
+blood cancer DISO,qwen3.6:35b,20,0.7,0,1
+blood cancers DISO,qwen3.6:35b,20,0.7,0,1
+blood flow disturbance DISO,qwen3.6:35b,20,0.7,0,1
+body of the C2 vertebra ANATOMY,qwen3.6:35b,20,0.7,0,1
+bone ANATOMY,qwen3.6:35b,20,0.7,0,1
+bone tissue ANATOMY,qwen3.6:35b,20,0.7,0,1
+bone wall ANATOMY,qwen3.6:35b,20,0.7,0,1
+bony ANATOMY,qwen3.6:35b,20,0.7,0,1
+bowel ANATOMY,qwen3.6:35b,20,0.7,0,1
+brachiocephalic ANATOMY,qwen3.6:35b,20,0.7,0,1
+brain ANATOMY,qwen3.6:35b,20,0.7,0,1
+brain edema DISO,qwen3.6:35b,20,0.7,0,1
+bronchi ANATOMY,qwen3.6:35b,20,0.7,0,1
+bronchial ANATOMY,qwen3.6:35b,20,0.7,0,1
+bronchial carcinoid DISO,qwen3.6:35b,20,0.7,0,1
+budesonide CHEM,qwen3.6:35b,20,0.7,0,1
+burnout syndrome DISO,qwen3.6:35b,20,0.7,0,1
+calcium CHEM,qwen3.6:35b,20,0.7,0,1
+calcium oxalate crystalluria DISO,qwen3.6:35b,20,0.7,0,1
+cancers DISO,qwen3.6:35b,20,0.7,0,1
+carcinoid DISO,qwen3.6:35b,20,0.7,0,1
+cardiac ANATOMY,qwen3.6:35b,20,0.7,0,1
+cardiovascular ANATOMY,qwen3.6:35b,20,0.7,0,1
+carving for alcohol DISO,qwen3.6:35b,20,0.7,0,1
+caspase CHEM,qwen3.6:35b,20,0.7,0,1
+caspase-7 CHEM,qwen3.6:35b,20,0.7,0,1
+caspases CHEM,qwen3.6:35b,20,0.7,0,1
+cataract DISO,qwen3.6:35b,20,0.7,0,1
+catarrhal symptoms DISO,qwen3.6:35b,20,0.7,0,1
+caudal brainstem ANATOMY,qwen3.6:35b,20,0.7,0,1
+cefuroxime CHEM,qwen3.6:35b,20,0.7,0,1
+celiac disease DISO,qwen3.6:35b,20,0.7,0,1
+cell ANATOMY,qwen3.6:35b,20,0.7,0,1
+cells ANATOMY,qwen3.6:35b,20,0.7,0,1
+central retinal artery ANATOMY,qwen3.6:35b,20,0.7,0,1
+central retinal vein ANATOMY,qwen3.6:35b,20,0.7,0,1
+cerebral ANATOMY,qwen3.6:35b,20,0.7,0,1
+cerebral aneurysms DISO,qwen3.6:35b,20,0.7,0,1
+cerebral autosomal dominant arteriopathy DISO,qwen3.6:35b,20,0.7,0,1
+cerebral edema DISO,qwen3.6:35b,20,0.7,0,1
+cerebral ischemia DISO,qwen3.6:35b,20,0.7,0,1
+cerebral leukodystrophy DISO,qwen3.6:35b,20,0.7,0,1
+cervical ANATOMY,qwen3.6:35b,20,0.7,0,1
+cervical-thoracic region ANATOMY,qwen3.6:35b,20,0.7,0,1
+cervical/pectoral ANATOMY,qwen3.6:35b,20,0.7,0,1
+cholinesterase CHEM,qwen3.6:35b,20,0.7,0,1
+cholinesterase inhibito CHEM,qwen3.6:35b,20,0.7,0,1
+chondroitin CHEM,qwen3.6:35b,20,0.7,0,1
+chordoma DISO,qwen3.6:35b,20,0.7,0,1
+chronic MFPS DISO,qwen3.6:35b,20,0.7,0,1
+chronic back pain DISO,qwen3.6:35b,20,0.7,0,1
+chronic brain ischemia DISO,qwen3.6:35b,20,0.7,0,1
+chronic diseases DISO,qwen3.6:35b,20,0.7,0,1
+chronic inflammatory processes DISO,qwen3.6:35b,20,0.7,0,1
+chronic kidney disease DISO,qwen3.6:35b,20,0.7,0,1
+chronic polysyndrome disease DISO,qwen3.6:35b,20,0.7,0,1
+chronic rhinosinusitis DISO,qwen3.6:35b,20,0.7,0,1
+ciliary ANATOMY,qwen3.6:35b,20,0.7,0,1
+cipralex CHEM,qwen3.6:35b,20,0.7,0,1
+circle of Willis ANATOMY,qwen3.6:35b,20,0.7,0,1
+cirrhosis DISO,qwen3.6:35b,20,0.7,0,1
+clinical manifestations DISO,qwen3.6:35b,20,0.7,0,1
+clivus ANATOMY,qwen3.6:35b,20,0.7,0,1
+clivus structures ANATOMY,qwen3.6:35b,20,0.7,0,1
+cognitive disorders DISO,qwen3.6:35b,20,0.7,0,1
+cognitive impairment DISO,qwen3.6:35b,20,0.7,0,1
+colorectal ANATOMY,qwen3.6:35b,20,0.7,0,1
+colorectal adenocarcinoma DISO,qwen3.6:35b,20,0.7,0,1
+colorectal adenocarcinoma metastases to the liver DISO,qwen3.6:35b,20,0.7,0,1
+colorectal carcinoma DISO,qwen3.6:35b,20,0.7,0,1
+colorectal carcinoma metastases to the liver DISO,qwen3.6:35b,20,0.7,0,1
+colorectal liver metastases DISO,qwen3.6:35b,20,0.7,0,1
+complete blindness DISO,qwen3.6:35b,20,0.7,0,1
+complications DISO,qwen3.6:35b,20,0.7,0,1
+compression DISO,qwen3.6:35b,20,0.7,0,1
+compression of the spinal cord DISO,qwen3.6:35b,20,0.7,0,1
+conjunctiva ANATOMY,qwen3.6:35b,20,0.7,0,1
+connective tissue dysplasia DISO,qwen3.6:35b,20,0.7,0,1
+coronary ANATOMY,qwen3.6:35b,20,0.7,0,1
+coronary syndrome DISO,qwen3.6:35b,20,0.7,0,1
+corpses ANATOMY,qwen3.6:35b,20,0.7,0,1
+costimulatory molecule CHEM,qwen3.6:35b,20,0.7,0,1
+craniovertebral ANATOMY,qwen3.6:35b,20,0.7,0,1
+craniovertebral region ANATOMY,qwen3.6:35b,20,0.7,0,1
+critical ischemia of lower extremities DISO,qwen3.6:35b,20,0.7,0,1
+critical limb ischemia DISO,qwen3.6:35b,20,0.7,0,1
+crystalluria DISO,qwen3.6:35b,20,0.7,0,1
+cysts DISO,qwen3.6:35b,20,0.7,0,1
+cytoflavin CHEM,qwen3.6:35b,20,0.7,0,1
+cytolytic DISO,qwen3.6:35b,20,0.7,0,1
+cytoplasmic ANATOMY,qwen3.6:35b,20,0.7,0,1
+cytotoxic agents CHEM,qwen3.6:35b,20,0.7,0,1
+dacryoadenitis DISO,qwen3.6:35b,20,0.7,0,1
+deficiency of collagen DISO,qwen3.6:35b,20,0.7,0,1
+deltoid region ANATOMY,qwen3.6:35b,20,0.7,0,1
+delusion disturbances DISO,qwen3.6:35b,20,0.7,0,1
+depression DISO,qwen3.6:35b,20,0.7,0,1
+depressive DISO,qwen3.6:35b,20,0.7,0,1
+depressive episode DISO,qwen3.6:35b,20,0.7,0,1
+depressive symptoms DISO,qwen3.6:35b,20,0.7,0,1
+diacerein CHEM,qwen3.6:35b,20,0.7,0,1
+diaflex CHEM,qwen3.6:35b,20,0.7,0,1
+diaphorase CHEM,qwen3.6:35b,20,0.7,0,1
+diclofenac CHEM,qwen3.6:35b,20,0.7,0,1
+diclofenac sodium CHEM,qwen3.6:35b,20,0.7,0,1
+dioxide CHEM,qwen3.6:35b,20,0.7,0,1
+dissecting aortic aneurysm DISO,qwen3.6:35b,20,0.7,0,1
+distal occlusion DISO,qwen3.6:35b,20,0.7,0,1
+dorsalgia DISO,qwen3.6:35b,20,0.7,0,1
+dorsopathy DISO,qwen3.6:35b,20,0.7,0,1
+drug dependence DISO,qwen3.6:35b,20,0.7,0,1
+edema DISO,qwen3.6:35b,20,0.7,0,1
+effector caspase 3 CHEM,qwen3.6:35b,20,0.7,0,1
+effector caspase CHEM,qwen3.6:35b,20,0.7,0,1
+elastic skeleton ANATOMY,qwen3.6:35b,20,0.7,0,1
+encephalomyopathy DISO,qwen3.6:35b,20,0.7,0,1
+endocrine ophthalmopathy DISO,qwen3.6:35b,20,0.7,0,1
+endometrial ANATOMY,qwen3.6:35b,20,0.7,0,1
+endometrial biopsy specimens ANATOMY,qwen3.6:35b,20,0.7,0,1
+endometrium ANATOMY,qwen3.6:35b,20,0.7,0,1
+endothelial ANATOMY,qwen3.6:35b,20,0.7,0,1
+enteropathy DISO,qwen3.6:35b,20,0.7,0,1
+enzyme CHEM,qwen3.6:35b,20,0.7,0,1
+enzymes CHEM,qwen3.6:35b,20,0.7,0,1
+epilepsy DISO,qwen3.6:35b,20,0.7,0,1
+episcleritis DISO,qwen3.6:35b,20,0.7,0,1
+escitalopram CHEM,qwen3.6:35b,20,0.7,0,1
+escitalopram: CHEM,qwen3.6:35b,20,0.7,0,1
+ethylmethylhydroxypyridine succinate CHEM,qwen3.6:35b,20,0.7,0,1
+exacerbation DISO,qwen3.6:35b,20,0.7,0,1
+exacerbation of COPD DISO,qwen3.6:35b,20,0.7,0,1
+exacerbation of chronic obstructive pulmonary disease DISO,qwen3.6:35b,20,0.7,0,1
+exacerbations DISO,qwen3.6:35b,20,0.7,0,1
+exacerbations of chronic obstructive pulmonary disease DISO,qwen3.6:35b,20,0.7,0,1
+eyeball: ANATOMY,qwen3.6:35b,20,0.7,0,1
+eyes ANATOMY,qwen3.6:35b,20,0.7,0,1
+facial ANATOMY,qwen3.6:35b,20,0.7,0,1
+familial hemiplegic migraine DISO,qwen3.6:35b,20,0.7,0,1
+fellow eye ANATOMY,qwen3.6:35b,20,0.7,0,1
+femur ANATOMY,qwen3.6:35b,20,0.7,0,1
+fibers ANATOMY,qwen3.6:35b,20,0.7,0,1
+fibrin CHEM,qwen3.6:35b,20,0.7,0,1
+fibrin exudation DISO,qwen3.6:35b,20,0.7,0,1
+fibrin-monomer complexes CHEM,qwen3.6:35b,20,0.7,0,1
+fibrinogen CHEM,qwen3.6:35b,20,0.7,0,1
+fibromuscular dysplasia DISO,qwen3.6:35b,20,0.7,0,1
+fibrous tunic ANATOMY,qwen3.6:35b,20,0.7,0,1
+fibrous tunic of the eyeball ANATOMY,qwen3.6:35b,20,0.7,0,1
+foreign bodies DISO,qwen3.6:35b,20,0.7,0,1
+foreign bodies in the maxillary sinuses DISO,qwen3.6:35b,20,0.7,0,1
+formalin CHEM,qwen3.6:35b,20,0.7,0,1
+formalin solution CHEM,qwen3.6:35b,20,0.7,0,1
+frontal areas ANATOMY,qwen3.6:35b,20,0.7,0,1
+frontal areas of the left hemisphere ANATOMY,qwen3.6:35b,20,0.7,0,1
+gamma-glutamiltranspeptidase CHEM,qwen3.6:35b,20,0.7,0,1
+gas CHEM,qwen3.6:35b,20,0.7,0,1
+gastroesophageal reflux disease DISO,qwen3.6:35b,20,0.7,0,1
+giant cell ANATOMY,qwen3.6:35b,20,0.7,0,1
+giant cell reticular nuclei ANATOMY,qwen3.6:35b,20,0.7,0,1
+giant cell tumor DISO,qwen3.6:35b,20,0.7,0,1
+glomerular ANATOMY,qwen3.6:35b,20,0.7,0,1
+glucosamine CHEM,qwen3.6:35b,20,0.7,0,1
+glutathione CHEM,qwen3.6:35b,20,0.7,0,1
+glutathione peroxidase CHEM,qwen3.6:35b,20,0.7,0,1
+glycozaminoglycans CHEM,qwen3.6:35b,20,0.7,0,1
+graft ANATOMY,qwen3.6:35b,20,0.7,0,1
+granulomas DISO,qwen3.6:35b,20,0.7,0,1
+granulomatous DISO,qwen3.6:35b,20,0.7,0,1
+hand ANATOMY,qwen3.6:35b,20,0.7,0,1
+heart disease DISO,qwen3.6:35b,20,0.7,0,1
+hemisphere ANATOMY,qwen3.6:35b,20,0.7,0,1
+hemodynamic disturbances DISO,qwen3.6:35b,20,0.7,0,1
+hemotoxyllin CHEM,qwen3.6:35b,20,0.7,0,1
+heparins CHEM,qwen3.6:35b,20,0.7,0,1
+hepatitides DISO,qwen3.6:35b,20,0.7,0,1
+hepatoprotector CHEM,qwen3.6:35b,20,0.7,0,1
+hepatotropic drug CHEM,qwen3.6:35b,20,0.7,0,1
+highly diluted medications CHEM,qwen3.6:35b,20,0.7,0,1
+hopantenic acid CHEM,qwen3.6:35b,20,0.7,0,1
+hydrogen CHEM,qwen3.6:35b,20,0.7,0,1
+hydrogen sulfide CHEM,qwen3.6:35b,20,0.7,0,1
+hyperplasia DISO,qwen3.6:35b,20,0.7,0,1
+hypersensitivity DISO,qwen3.6:35b,20,0.7,0,1
+"hypersensitivity to sounds, light, smell DISO",qwen3.6:35b,20,0.7,0,1
+hypertension DISO,qwen3.6:35b,20,0.7,0,1
+hypnotic CHEM,qwen3.6:35b,20,0.7,0,1
+hypnotics CHEM,qwen3.6:35b,20,0.7,0,1
+hypogastric area ANATOMY,qwen3.6:35b,20,0.7,0,1
+immunosuppressive agents CHEM,qwen3.6:35b,20,0.7,0,1
+impaired endometrial receptivity DISO,qwen3.6:35b,20,0.7,0,1
+impaired fibrinolysis DISO,qwen3.6:35b,20,0.7,0,1
+impaired maturation DISO,qwen3.6:35b,20,0.7,0,1
+impaired permeability DISO,qwen3.6:35b,20,0.7,0,1
+impaired serotonin metabolism DISO,qwen3.6:35b,20,0.7,0,1
+impairment of blood supply DISO,qwen3.6:35b,20,0.7,0,1
+infarcts DISO,qwen3.6:35b,20,0.7,0,1
+infections DISO,qwen3.6:35b,20,0.7,0,1
+infectious DISO,qwen3.6:35b,20,0.7,0,1
+infectious complications DISO,qwen3.6:35b,20,0.7,0,1
+infertility DISO,qwen3.6:35b,20,0.7,0,1
+inflammation of the ocular superficial structures DISO,qwen3.6:35b,20,0.7,0,1
+inflammatory complications DISO,qwen3.6:35b,20,0.7,0,1
+inflammatory infiltration DISO,qwen3.6:35b,20,0.7,0,1
+inflammatory processes DISO,qwen3.6:35b,20,0.7,0,1
+infusion hepatoprotector CHEM,qwen3.6:35b,20,0.7,0,1
+inherited thrombophilia DISO,qwen3.6:35b,20,0.7,0,1
+inhibitors CHEM,qwen3.6:35b,20,0.7,0,1
+integumentary lining cells ANATOMY,qwen3.6:35b,20,0.7,0,1
+internuclear interneurons ANATOMY,qwen3.6:35b,20,0.7,0,1
+intoxication DISO,qwen3.6:35b,20,0.7,0,1
+intraepithelial ANATOMY,qwen3.6:35b,20,0.7,0,1
+intraepithelial lymphocytes ANATOMY,qwen3.6:35b,20,0.7,0,1
+intranasal ANATOMY,qwen3.6:35b,20,0.7,0,1
+intranuclear ANATOMY,qwen3.6:35b,20,0.7,0,1
+invagination DISO,qwen3.6:35b,20,0.7,0,1
+ipidacrine CHEM,qwen3.6:35b,20,0.7,0,1
+ischemia of lower extremities DISO,qwen3.6:35b,20,0.7,0,1
+isotonic sodium chloride solution CHEM,qwen3.6:35b,20,0.7,0,1
+joint ANATOMY,qwen3.6:35b,20,0.7,0,1
+junction ANATOMY,qwen3.6:35b,20,0.7,0,1
+keratomalacia DISO,qwen3.6:35b,20,0.7,0,1
+knee ANATOMY,qwen3.6:35b,20,0.7,0,1
+lactic CHEM,qwen3.6:35b,20,0.7,0,1
+large B-cell lymphoma DISO,qwen3.6:35b,20,0.7,0,1
+large IN ANATOMY,qwen3.6:35b,20,0.7,0,1
+large bowel ANATOMY,qwen3.6:35b,20,0.7,0,1
+lavage fluid ANATOMY,qwen3.6:35b,20,0.7,0,1
+lead CHEM,qwen3.6:35b,20,0.7,0,1
+left hemisphere ANATOMY,qwen3.6:35b,20,0.7,0,1
+left-hemispheric ANATOMY,qwen3.6:35b,20,0.7,0,1
+left-hemispheric cerebral infarction DISO,qwen3.6:35b,20,0.7,0,1
+lesion DISO,qwen3.6:35b,20,0.7,0,1
+leukemia DISO,qwen3.6:35b,20,0.7,0,1
+leukocyte differentiation antigens CHEM,qwen3.6:35b,20,0.7,0,1
+lidocaine solutions CHEM,qwen3.6:35b,20,0.7,0,1
+limb ANATOMY,qwen3.6:35b,20,0.7,0,1
+limb ischemia DISO,qwen3.6:35b,20,0.7,0,1
+lipid CHEM,qwen3.6:35b,20,0.7,0,1
+lipid hydroperoxides CHEM,qwen3.6:35b,20,0.7,0,1
+lipoic acid CHEM,qwen3.6:35b,20,0.7,0,1
+liver ANATOMY,qwen3.6:35b,20,0.7,0,1
+liver enzymes CHEM,qwen3.6:35b,20,0.7,0,1
+liver right lobe ANATOMY,qwen3.6:35b,20,0.7,0,1
+lower limbs ANATOMY,qwen3.6:35b,20,0.7,0,1
+lumen ANATOMY,qwen3.6:35b,20,0.7,0,1
+lung ANATOMY,qwen3.6:35b,20,0.7,0,1
+lung injuries DISO,qwen3.6:35b,20,0.7,0,1
+lungs ANATOMY,qwen3.6:35b,20,0.7,0,1
+lymphocytic colitis DISO,qwen3.6:35b,20,0.7,0,1
+main artery ANATOMY,qwen3.6:35b,20,0.7,0,1
+mass lesion DISO,qwen3.6:35b,20,0.7,0,1
+mass lesion in the right adrenal gland DISO,qwen3.6:35b,20,0.7,0,1
+matrix ANATOMY,qwen3.6:35b,20,0.7,0,1
+mature pinopodes ANATOMY,qwen3.6:35b,20,0.7,0,1
+maxillary sinus ANATOMY,qwen3.6:35b,20,0.7,0,1
+maxillary sinus cavity ANATOMY,qwen3.6:35b,20,0.7,0,1
+maxillary sinus cavity walls ANATOMY,qwen3.6:35b,20,0.7,0,1
+maxillary sinuses ANATOMY,qwen3.6:35b,20,0.7,0,1
+maxillofacial ANATOMY,qwen3.6:35b,20,0.7,0,1
+mediastinal structures ANATOMY,qwen3.6:35b,20,0.7,0,1
+medulla oblongata ANATOMY,qwen3.6:35b,20,0.7,0,1
+mesalasine CHEM,qwen3.6:35b,20,0.7,0,1
+mesenteric artery ANATOMY,qwen3.6:35b,20,0.7,0,1
+metalloproteinases CHEM,qwen3.6:35b,20,0.7,0,1
+metastases DISO,qwen3.6:35b,20,0.7,0,1
+metastatic DISO,qwen3.6:35b,20,0.7,0,1
+metastatic lesion DISO,qwen3.6:35b,20,0.7,0,1
+metastatic lesion of liver right lobe DISO,qwen3.6:35b,20,0.7,0,1
+microcirculatory bed ANATOMY,qwen3.6:35b,20,0.7,0,1
+microscopic colitis DISO,qwen3.6:35b,20,0.7,0,1
+middle cerebral artery ANATOMY,qwen3.6:35b,20,0.7,0,1
+middle facial region ANATOMY,qwen3.6:35b,20,0.7,0,1
+migraine DISO,qwen3.6:35b,20,0.7,0,1
+migraine-like headache DISO,qwen3.6:35b,20,0.7,0,1
+mild cognitive impairment DISO,qwen3.6:35b,20,0.7,0,1
+mild depressive states DISO,qwen3.6:35b,20,0.7,0,1
+mitochondrial encephalomyopathy DISO,qwen3.6:35b,20,0.7,0,1
+moderate cognitive dysfunction DISO,qwen3.6:35b,20,0.7,0,1
+monoclonal antibodies CHEM,qwen3.6:35b,20,0.7,0,1
+mononeuropathies DISO,qwen3.6:35b,20,0.7,0,1
+monoxide CHEM,qwen3.6:35b,20,0.7,0,1
+motor disorders DISO,qwen3.6:35b,20,0.7,0,1
+muscle ANATOMY,qwen3.6:35b,20,0.7,0,1
+mycotic DISO,qwen3.6:35b,20,0.7,0,1
+mycotic infection DISO,qwen3.6:35b,20,0.7,0,1
+myocardial ANATOMY,qwen3.6:35b,20,0.7,0,1
+myocardial infarction DISO,qwen3.6:35b,20,0.7,0,1
+myocardium ANATOMY,qwen3.6:35b,20,0.7,0,1
+myofascial ANATOMY,qwen3.6:35b,20,0.7,0,1
+nasal septum deformations DISO,qwen3.6:35b,20,0.7,0,1
+nasopharynx ANATOMY,qwen3.6:35b,20,0.7,0,1
+necrotic processes DISO,qwen3.6:35b,20,0.7,0,1
+necrotizing DISO,qwen3.6:35b,20,0.7,0,1
+negative disorders DISO,qwen3.6:35b,20,0.7,0,1
+negative symptomatology DISO,qwen3.6:35b,20,0.7,0,1
+nephropathy DISO,qwen3.6:35b,20,0.7,0,1
+neural structure ANATOMY,qwen3.6:35b,20,0.7,0,1
+neuroepithelium ANATOMY,qwen3.6:35b,20,0.7,0,1
+neurological deficit DISO,qwen3.6:35b,20,0.7,0,1
+neurological disorders DISO,qwen3.6:35b,20,0.7,0,1
+neurological symptoms DISO,qwen3.6:35b,20,0.7,0,1
+neuronal ANATOMY,qwen3.6:35b,20,0.7,0,1
+neuronal dysfunction DISO,qwen3.6:35b,20,0.7,0,1
+neurons ANATOMY,qwen3.6:35b,20,0.7,0,1
+nitrogen CHEM,qwen3.6:35b,20,0.7,0,1
+nitrogen dioxide CHEM,qwen3.6:35b,20,0.7,0,1
+nitrogen oxide CHEM,qwen3.6:35b,20,0.7,0,1
+non-STSEAMI DISO,qwen3.6:35b,20,0.7,0,1
+nucleus of the solitary tract ANATOMY,qwen3.6:35b,20,0.7,0,1
+ocular ANATOMY,qwen3.6:35b,20,0.7,0,1
+ocular superficial structures ANATOMY,qwen3.6:35b,20,0.7,0,1
+oculomotor muscles ANATOMY,qwen3.6:35b,20,0.7,0,1
+odontogenic ANATOMY,qwen3.6:35b,20,0.7,0,1
+operative material ANATOMY,qwen3.6:35b,20,0.7,0,1
+optic nerve ANATOMY,qwen3.6:35b,20,0.7,0,1
+oral ANATOMY,qwen3.6:35b,20,0.7,0,1
+organ ANATOMY,qwen3.6:35b,20,0.7,0,1
+organ of vision ANATOMY,qwen3.6:35b,20,0.7,0,1
+organs ANATOMY,qwen3.6:35b,20,0.7,0,1
+oropharynx ANATOMY,qwen3.6:35b,20,0.7,0,1
+oropharynx area ANATOMY,qwen3.6:35b,20,0.7,0,1
+orsein CHEM,qwen3.6:35b,20,0.7,0,1
+osteoarthritis DISO,qwen3.6:35b,20,0.7,0,1
+osteoarthrosis DISO,qwen3.6:35b,20,0.7,0,1
+osteoblastoma DISO,qwen3.6:35b,20,0.7,0,1
+oxygen CHEM,qwen3.6:35b,20,0.7,0,1
+p53 CHEM,qwen3.6:35b,20,0.7,0,1
+pain DISO,qwen3.6:35b,20,0.7,0,1
+pain syndrome DISO,qwen3.6:35b,20,0.7,0,1
+palate ANATOMY,qwen3.6:35b,20,0.7,0,1
+pancreas ANATOMY,qwen3.6:35b,20,0.7,0,1
+pantogam CHEM,qwen3.6:35b,20,0.7,0,1
+panuveitis DISO,qwen3.6:35b,20,0.7,0,1
+paraffin CHEM,qwen3.6:35b,20,0.7,0,1
+paranoid syndrome with primary interpretative delusion DISO,qwen3.6:35b,20,0.7,0,1
+parietooccipital ANATOMY,qwen3.6:35b,20,0.7,0,1
+pathological dependence DISO,qwen3.6:35b,20,0.7,0,1
+pathomorphological changes DISO,qwen3.6:35b,20,0.7,0,1
+perfusion disturbances DISO,qwen3.6:35b,20,0.7,0,1
+permeability impairment DISO,qwen3.6:35b,20,0.7,0,1
+peroxidase CHEM,qwen3.6:35b,20,0.7,0,1
+pharyngo-laryngeal reflux DISO,qwen3.6:35b,20,0.7,0,1
+pharynx ANATOMY,qwen3.6:35b,20,0.7,0,1
+pinopodes ANATOMY,qwen3.6:35b,20,0.7,0,1
+placebo CHEM,qwen3.6:35b,20,0.7,0,1
+pleural ANATOMY,qwen3.6:35b,20,0.7,0,1
+pleural effusion DISO,qwen3.6:35b,20,0.7,0,1
+pneumonia DISO,qwen3.6:35b,20,0.7,0,1
+polyclonal antibodies CHEM,qwen3.6:35b,20,0.7,0,1
+polypoid DISO,qwen3.6:35b,20,0.7,0,1
+polypoid hyperplasia DISO,qwen3.6:35b,20,0.7,0,1
+polypoid hyperplasia of the vocal folds DISO,qwen3.6:35b,20,0.7,0,1
+polysyndrome disease DISO,qwen3.6:35b,20,0.7,0,1
+positive disorders DISO,qwen3.6:35b,20,0.7,0,1
+posterior ANATOMY,qwen3.6:35b,20,0.7,0,1
+posterior chamber ANATOMY,qwen3.6:35b,20,0.7,0,1
+posterior region of the right forearm ANATOMY,qwen3.6:35b,20,0.7,0,1
+posterior surface of the right forearm ANATOMY,qwen3.6:35b,20,0.7,0,1
+posterior surface of the right shoulder ANATOMY,qwen3.6:35b,20,0.7,0,1
+postmortem material ANATOMY,qwen3.6:35b,20,0.7,0,1
+prednisolone CHEM,qwen3.6:35b,20,0.7,0,1
+primary system necrotizing vasculitis DISO,qwen3.6:35b,20,0.7,0,1
+proteins CHEM,qwen3.6:35b,20,0.7,0,1
+psychiatric evaluations DISO,qwen3.6:35b,20,0.7,0,1
+psychopathological symptom complexes DISO,qwen3.6:35b,20,0.7,0,1
+pulp ANATOMY,qwen3.6:35b,20,0.7,0,1
+pupil occlusion DISO,qwen3.6:35b,20,0.7,0,1
+radiculopathies DISO,qwen3.6:35b,20,0.7,0,1
+receptor CHEM,qwen3.6:35b,20,0.7,0,1
+receptors CHEM,qwen3.6:35b,20,0.7,0,1
+reductase CHEM,qwen3.6:35b,20,0.7,0,1
+reflux disease DISO,qwen3.6:35b,20,0.7,0,1
+remaxol CHEM,qwen3.6:35b,20,0.7,0,1
+renal ANATOMY,qwen3.6:35b,20,0.7,0,1
+respiratory tract infection DISO,qwen3.6:35b,20,0.7,0,1
+reticular nucleus ANATOMY,qwen3.6:35b,20,0.7,0,1
+retina ANATOMY,qwen3.6:35b,20,0.7,0,1
+retinal artery ANATOMY,qwen3.6:35b,20,0.7,0,1
+retinal vasculopathy with cerebral leukodystrophy DISO,qwen3.6:35b,20,0.7,0,1
+rheopolyglukin CHEM,qwen3.6:35b,20,0.7,0,1
+rhinitis DISO,qwen3.6:35b,20,0.7,0,1
+rhinosinusitis DISO,qwen3.6:35b,20,0.7,0,1
+riboflavin CHEM,qwen3.6:35b,20,0.7,0,1
+right deltoid region ANATOMY,qwen3.6:35b,20,0.7,0,1
+right femur ANATOMY,qwen3.6:35b,20,0.7,0,1
+right forearm ANATOMY,qwen3.6:35b,20,0.7,0,1
+right lower leg ANATOMY,qwen3.6:35b,20,0.7,0,1
+right shoulder ANATOMY,qwen3.6:35b,20,0.7,0,1
+right thigh ANATOMY,qwen3.6:35b,20,0.7,0,1
+root ANATOMY,qwen3.6:35b,20,0.7,0,1
+root fragments ANATOMY,qwen3.6:35b,20,0.7,0,1
+roots ANATOMY,qwen3.6:35b,20,0.7,0,1
+sCD25 CHEM,qwen3.6:35b,20,0.7,0,1
+sCD38 CHEM,qwen3.6:35b,20,0.7,0,1
+scleritis DISO,qwen3.6:35b,20,0.7,0,1
+sclerosis DISO,qwen3.6:35b,20,0.7,0,1
+secondary hyperuricemia DISO,qwen3.6:35b,20,0.7,0,1
+serotonin CHEM,qwen3.6:35b,20,0.7,0,1
+severe attack (SA) of ulcerative colitis DISO,qwen3.6:35b,20,0.7,0,1
+severe headache DISO,qwen3.6:35b,20,0.7,0,1
+short posterior ciliary arteries ANATOMY,qwen3.6:35b,20,0.7,0,1
+shoulder ANATOMY,qwen3.6:35b,20,0.7,0,1
+side-effects DISO,qwen3.6:35b,20,0.7,0,1
+sinus ANATOMY,qwen3.6:35b,20,0.7,0,1
+sinus cavity ANATOMY,qwen3.6:35b,20,0.7,0,1
+sinuses ANATOMY,qwen3.6:35b,20,0.7,0,1
+skin ANATOMY,qwen3.6:35b,20,0.7,0,1
+small cell ANATOMY,qwen3.6:35b,20,0.7,0,1
+small cell reticular nuclei ANATOMY,qwen3.6:35b,20,0.7,0,1
+small cell reticular nucleus ANATOMY,qwen3.6:35b,20,0.7,0,1
+smooth muscle ANATOMY,qwen3.6:35b,20,0.7,0,1
+sodium CHEM,qwen3.6:35b,20,0.7,0,1
+soft palate ANATOMY,qwen3.6:35b,20,0.7,0,1
+spinal cord ANATOMY,qwen3.6:35b,20,0.7,0,1
+spine ANATOMY,qwen3.6:35b,20,0.7,0,1
+statins CHEM,qwen3.6:35b,20,0.7,0,1
+stroke DISO,qwen3.6:35b,20,0.7,0,1
+stroke-like episodes DISO,qwen3.6:35b,20,0.7,0,1
+stroma ANATOMY,qwen3.6:35b,20,0.7,0,1
+stromal ANATOMY,qwen3.6:35b,20,0.7,0,1
+stromal sclerosis DISO,qwen3.6:35b,20,0.7,0,1
+subacute chronic back pain DISO,qwen3.6:35b,20,0.7,0,1
+subepithelial collagen lining ANATOMY,qwen3.6:35b,20,0.7,0,1
+substrates ANATOMY,qwen3.6:35b,20,0.7,0,1
+superior mesenteric artery ANATOMY,qwen3.6:35b,20,0.7,0,1
+surface epithelium ANATOMY,qwen3.6:35b,20,0.7,0,1
+symptomatology positive DISO,qwen3.6:35b,20,0.7,0,1
+systemic glucocorticosteroids CHEM,qwen3.6:35b,20,0.7,0,1
+taurine CHEM,qwen3.6:35b,20,0.7,0,1
+thigh ANATOMY,qwen3.6:35b,20,0.7,0,1
+tissue ANATOMY,qwen3.6:35b,20,0.7,0,1
+tissue samples ANATOMY,qwen3.6:35b,20,0.7,0,1
+tissues ANATOMY,qwen3.6:35b,20,0.7,0,1
+toes ANATOMY,qwen3.6:35b,20,0.7,0,1
+topical glucocorticosteroid CHEM,qwen3.6:35b,20,0.7,0,1
+tumor cells ANATOMY,qwen3.6:35b,20,0.7,0,1
+tumor thrombosis DISO,qwen3.6:35b,20,0.7,0,1
+tumor thrombus DISO,qwen3.6:35b,20,0.7,0,1
+tumors DISO,qwen3.6:35b,20,0.7,0,1
+ulcerative colitis DISO,qwen3.6:35b,20,0.7,0,1
+umifenovir CHEM,qwen3.6:35b,20,0.7,0,1
+undifferentiated connective tissue dysplasia DISO,qwen3.6:35b,20,0.7,0,1
+upper and lower extremities ANATOMY,qwen3.6:35b,20,0.7,0,1
+upper cervical ANATOMY,qwen3.6:35b,20,0.7,0,1
+upper cervical spine segments ANATOMY,qwen3.6:35b,20,0.7,0,1
+upper extremities ANATOMY,qwen3.6:35b,20,0.7,0,1
+upper mesenteric artery ANATOMY,qwen3.6:35b,20,0.7,0,1
+urinary ANATOMY,qwen3.6:35b,20,0.7,0,1
+urinary syndrome DISO,qwen3.6:35b,20,0.7,0,1
+urine ANATOMY,qwen3.6:35b,20,0.7,0,1
+valdoxan CHEM,qwen3.6:35b,20,0.7,0,1
+vascular ANATOMY,qwen3.6:35b,20,0.7,0,1
+vascular cell ANATOMY,qwen3.6:35b,20,0.7,0,1
+vascular cell adhesion molecule CHEM,qwen3.6:35b,20,0.7,0,1
+vascular cell adhesion molecule-1 CHEM,qwen3.6:35b,20,0.7,0,1
+vasculitis DISO,qwen3.6:35b,20,0.7,0,1
+vasculopathy DISO,qwen3.6:35b,20,0.7,0,1
+vein ANATOMY,qwen3.6:35b,20,0.7,0,1
+vena ANATOMY,qwen3.6:35b,20,0.7,0,1
+viral LC DISO,qwen3.6:35b,20,0.7,0,1
+viral hepatitides DISO,qwen3.6:35b,20,0.7,0,1
+viral infections DISO,qwen3.6:35b,20,0.7,0,1
+vitamins CHEM,qwen3.6:35b,20,0.7,0,1
+vocal fold ANATOMY,qwen3.6:35b,20,0.7,0,1
+vocal fold polyps DISO,qwen3.6:35b,20,0.7,0,1
+wall ANATOMY,qwen3.6:35b,20,0.7,0,1
+withdrawal syndrome DISO,qwen3.6:35b,20,0.7,0,1
+xylometazoline CHEM,qwen3.6:35b,20,0.7,0,1
+xylometazoline solution CHEM,qwen3.6:35b,20,0.7,0,1
+5-ASA CHEM,gemma4:31b,20,0.7,0,1
+AKI DISO,gemma4:31b,20,0.7,0,1
+APTPA CHEM,gemma4:31b,20,0.7,0,1
+AZA CHEM,gemma4:31b,20,0.7,0,1
+Affection of the fibrous tunic of the eyeball DISO,gemma4:31b,20,0.7,0,1
+Alflutop CHEM,gemma4:31b,20,0.7,0,1
+Antibodies CHEM,gemma4:31b,20,0.7,0,1
+Baclofen CHEM,gemma4:31b,20,0.7,0,1
+Baclosan CHEM,gemma4:31b,20,0.7,0,1
+Bilateral panuveitis DISO,gemma4:31b,20,0.7,0,1
+Blood ANATOMY,gemma4:31b,20,0.7,0,1
+C0-C1-C2 segments ANATOMY,gemma4:31b,20,0.7,0,1
+C1-C2 segments ANATOMY,gemma4:31b,20,0.7,0,1
+C1-C2 vertebrae ANATOMY,gemma4:31b,20,0.7,0,1
+C2 vertebra ANATOMY,gemma4:31b,20,0.7,0,1
+CAD DISO,gemma4:31b,20,0.7,0,1
+CADASIL DISO,gemma4:31b,20,0.7,0,1
+CBS CHEM,gemma4:31b,20,0.7,0,1
+CC DISO,gemma4:31b,20,0.7,0,1
+CD25 CHEM,gemma4:31b,20,0.7,0,1
+CD28 CHEM,gemma4:31b,20,0.7,0,1
+CD38 CHEM,gemma4:31b,20,0.7,0,1
+CKD DISO,gemma4:31b,20,0.7,0,1
+CRS DISO,gemma4:31b,20,0.7,0,1
+CSF fistula DISO,gemma4:31b,20,0.7,0,1
+CTLA-4 CHEM,gemma4:31b,20,0.7,0,1
+Cancer DISO,gemma4:31b,20,0.7,0,1
+Cardiovascular ANATOMY,gemma4:31b,20,0.7,0,1
+Caspase 3 CHEM,gemma4:31b,20,0.7,0,1
+Caspase CHEM,gemma4:31b,20,0.7,0,1
+Celiac disease DISO,gemma4:31b,20,0.7,0,1
+Clinical characteristics DISO,gemma4:31b,20,0.7,0,1
+Combined perfusion disturbances DISO,gemma4:31b,20,0.7,0,1
+D-dimer CHEM,gemma4:31b,20,0.7,0,1
+DAB CHEM,gemma4:31b,20,0.7,0,1
+Deficient states with the predominance of volitional disorders DISO,gemma4:31b,20,0.7,0,1
+Diclofenac CHEM,gemma4:31b,20,0.7,0,1
+EOP DISO,gemma4:31b,20,0.7,0,1
+EPO CHEM,gemma4:31b,20,0.7,0,1
+Frontal ANATOMY,gemma4:31b,20,0.7,0,1
+GCSs CHEM,gemma4:31b,20,0.7,0,1
+GERD DISO,gemma4:31b,20,0.7,0,1
+Gastroesophageal ANATOMY,gemma4:31b,20,0.7,0,1
+Gastroesophageal reflux disease DISO,gemma4:31b,20,0.7,0,1
+Granulomatosis DISO,gemma4:31b,20,0.7,0,1
+HBV+HDV DISO,gemma4:31b,20,0.7,0,1
+HCV DISO,gemma4:31b,20,0.7,0,1
+HCV+HBV DISO,gemma4:31b,20,0.7,0,1
+"HCV+HBV, DISO",gemma4:31b,20,0.7,0,1
+HO-2 CHEM,gemma4:31b,20,0.7,0,1
+IN ANATOMY,gemma4:31b,20,0.7,0,1
+IN1 ANATOMY,gemma4:31b,20,0.7,0,1
+IN2 ANATOMY,gemma4:31b,20,0.7,0,1
+INF CHEM,gemma4:31b,20,0.7,0,1
+IT DISO,gemma4:31b,20,0.7,0,1
+Impaired endometrial receptivity DISO,gemma4:31b,20,0.7,0,1
+MCI DISO,gemma4:31b,20,0.7,0,1
+MMP-1 CHEM,gemma4:31b,20,0.7,0,1
+MN ANATOMY,gemma4:31b,20,0.7,0,1
+Maxillofacial ANATOMY,gemma4:31b,20,0.7,0,1
+Metastasis DISO,gemma4:31b,20,0.7,0,1
+Metastasis of colorectal cancer DISO,gemma4:31b,20,0.7,0,1
+Methylprednisolone CHEM,gemma4:31b,20,0.7,0,1
+Metypred CHEM,gemma4:31b,20,0.7,0,1
+Moxifloxacin CHEM,gemma4:31b,20,0.7,0,1
+Myofascial ANATOMY,gemma4:31b,20,0.7,0,1
+Myofascial pain syndrome DISO,gemma4:31b,20,0.7,0,1
+OA DISO,gemma4:31b,20,0.7,0,1
+Obsessive-Compulsive DISO,gemma4:31b,20,0.7,0,1
+Odontogenic ANATOMY,gemma4:31b,20,0.7,0,1
+Orbit ANATOMY,gemma4:31b,20,0.7,0,1
+Orbital ANATOMY,gemma4:31b,20,0.7,0,1
+Paracetamol CHEM,gemma4:31b,20,0.7,0,1
+Polypropylene CHEM,gemma4:31b,20,0.7,0,1
+Polyps DISO,gemma4:31b,20,0.7,0,1
+Polyps of the vocal folds DISO,gemma4:31b,20,0.7,0,1
+Positive symptomatology DISO,gemma4:31b,20,0.7,0,1
+Postoperative complications DISO,gemma4:31b,20,0.7,0,1
+RVCL DISO,gemma4:31b,20,0.7,0,1
+Reinke's edema DISO,gemma4:31b,20,0.7,0,1
+Reinke's space ANATOMY,gemma4:31b,20,0.7,0,1
+Renal ANATOMY,gemma4:31b,20,0.7,0,1
+Ringer's solution CHEM,gemma4:31b,20,0.7,0,1
+SA DISO,gemma4:31b,20,0.7,0,1
+STSEAMI DISO,gemma4:31b,20,0.7,0,1
+Small IN ANATOMY,gemma4:31b,20,0.7,0,1
+Stages I-II CKD DISO,gemma4:31b,20,0.7,0,1
+TLR2 CHEM,gemma4:31b,20,0.7,0,1
+TLR4 CHEM,gemma4:31b,20,0.7,0,1
+TLR9 CHEM,gemma4:31b,20,0.7,0,1
+Umifenovir CHEM,gemma4:31b,20,0.7,0,1
+VCAM CHEM,gemma4:31b,20,0.7,0,1
+VCAM-1 CHEM,gemma4:31b,20,0.7,0,1
+VEGF CHEM,gemma4:31b,20,0.7,0,1
+VKH syndrome DISO,gemma4:31b,20,0.7,0,1
+Watery diarrhea DISO,gemma4:31b,20,0.7,0,1
+Wegener's granulomatosis DISO,gemma4:31b,20,0.7,0,1
+abdominal ANATOMY,gemma4:31b,20,0.7,0,1
+abdominal wall ANATOMY,gemma4:31b,20,0.7,0,1
+acute back pain DISO,gemma4:31b,20,0.7,0,1
+acute exacerbation DISO,gemma4:31b,20,0.7,0,1
+acute myocardial infarction DISO,gemma4:31b,20,0.7,0,1
+adhesion molecules CHEM,gemma4:31b,20,0.7,0,1
+agomelatine CHEM,gemma4:31b,20,0.7,0,1
+alanine CHEM,gemma4:31b,20,0.7,0,1
+alanine aminotransferase CHEM,gemma4:31b,20,0.7,0,1
+alcohol dependence DISO,gemma4:31b,20,0.7,0,1
+alcohol dependent DISO,gemma4:31b,20,0.7,0,1
+alexithymia DISO,gemma4:31b,20,0.7,0,1
+allergic DISO,gemma4:31b,20,0.7,0,1
+alveolar ANATOMY,gemma4:31b,20,0.7,0,1
+aminotransferase CHEM,gemma4:31b,20,0.7,0,1
+anesthetic CHEM,gemma4:31b,20,0.7,0,1
+anesthetics CHEM,gemma4:31b,20,0.7,0,1
+aneurysm] DISO,gemma4:31b,20,0.7,0,1
+aneurysms DISO,gemma4:31b,20,0.7,0,1
+anterior part of the inferior nasal passage ANATOMY,gemma4:31b,20,0.7,0,1
+anterior region of the left thigh ANATOMY,gemma4:31b,20,0.7,0,1
+anterior surface ANATOMY,gemma4:31b,20,0.7,0,1
+anterior surface of the right thigh ANATOMY,gemma4:31b,20,0.7,0,1
+anti-inflammatory drugs CHEM,gemma4:31b,20,0.7,0,1
+anti-recurrence agent CHEM,gemma4:31b,20,0.7,0,1
+antiapoptotic protein CHEM,gemma4:31b,20,0.7,0,1
+antibiotic CHEM,gemma4:31b,20,0.7,0,1
+antifungals CHEM,gemma4:31b,20,0.7,0,1
+antigens CHEM,gemma4:31b,20,0.7,0,1
+anxiety and depressive disorders DISO,gemma4:31b,20,0.7,0,1
+anxiety symptoms DISO,gemma4:31b,20,0.7,0,1
+aorta ANATOMY,gemma4:31b,20,0.7,0,1
+aortic wall ANATOMY,gemma4:31b,20,0.7,0,1
+arbidol CHEM,gemma4:31b,20,0.7,0,1
+arge IN ANATOMY,gemma4:31b,20,0.7,0,1
+arterial ANATOMY,gemma4:31b,20,0.7,0,1
+arterial hypertension DISO,gemma4:31b,20,0.7,0,1
+arteriopathy DISO,gemma4:31b,20,0.7,0,1
+artery ANATOMY,gemma4:31b,20,0.7,0,1
+asketin CHEM,gemma4:31b,20,0.7,0,1
+asketin cefuroxime CHEM,gemma4:31b,20,0.7,0,1
+aspartate CHEM,gemma4:31b,20,0.7,0,1
+aspartate aminotransferase CHEM,gemma4:31b,20,0.7,0,1
+atherosclerosis DISO,gemma4:31b,20,0.7,0,1
+attacks DISO,gemma4:31b,20,0.7,0,1
+aura DISO,gemma4:31b,20,0.7,0,1
+autoimmune thyroiditis DISO,gemma4:31b,20,0.7,0,1
+autoimmune uveitis DISO,gemma4:31b,20,0.7,0,1
+back ANATOMY,gemma4:31b,20,0.7,0,1
+baclofen CHEM,gemma4:31b,20,0.7,0,1
+benzodiazepine withdrawal syndrome DISO,gemma4:31b,20,0.7,0,1
+bilirubin CHEM,gemma4:31b,20,0.7,0,1
+biopsy specimens ANATOMY,gemma4:31b,20,0.7,0,1
+blood ANATOMY,gemma4:31b,20,0.7,0,1
+blood cancer DISO,gemma4:31b,20,0.7,0,1
+blood cancers DISO,gemma4:31b,20,0.7,0,1
+blood flow disturbance DISO,gemma4:31b,20,0.7,0,1
+body of the C2 vertebra ANATOMY,gemma4:31b,20,0.7,0,1
+bone ANATOMY,gemma4:31b,20,0.7,0,1
+bone tissue ANATOMY,gemma4:31b,20,0.7,0,1
+bone wall ANATOMY,gemma4:31b,20,0.7,0,1
+bony ANATOMY,gemma4:31b,20,0.7,0,1
+bowel ANATOMY,gemma4:31b,20,0.7,0,1
+brachiocephalic ANATOMY,gemma4:31b,20,0.7,0,1
+brain ANATOMY,gemma4:31b,20,0.7,0,1
+brain edema DISO,gemma4:31b,20,0.7,0,1
+bronchi ANATOMY,gemma4:31b,20,0.7,0,1
+bronchial ANATOMY,gemma4:31b,20,0.7,0,1
+bronchial carcinoid DISO,gemma4:31b,20,0.7,0,1
+budesonide CHEM,gemma4:31b,20,0.7,0,1
+burnout syndrome DISO,gemma4:31b,20,0.7,0,1
+calcium CHEM,gemma4:31b,20,0.7,0,1
+calcium oxalate crystalluria DISO,gemma4:31b,20,0.7,0,1
+cancers DISO,gemma4:31b,20,0.7,0,1
+carcinoid DISO,gemma4:31b,20,0.7,0,1
+cardiac ANATOMY,gemma4:31b,20,0.7,0,1
+cardiovascular ANATOMY,gemma4:31b,20,0.7,0,1
+carving for alcohol DISO,gemma4:31b,20,0.7,0,1
+caspase CHEM,gemma4:31b,20,0.7,0,1
+caspase-7 CHEM,gemma4:31b,20,0.7,0,1
+caspases CHEM,gemma4:31b,20,0.7,0,1
+cataract DISO,gemma4:31b,20,0.7,0,1
+catarrhal symptoms DISO,gemma4:31b,20,0.7,0,1
+caudal brainstem ANATOMY,gemma4:31b,20,0.7,0,1
+cefuroxime CHEM,gemma4:31b,20,0.7,0,1
+celiac disease DISO,gemma4:31b,20,0.7,0,1
+cell ANATOMY,gemma4:31b,20,0.7,0,1
+cells ANATOMY,gemma4:31b,20,0.7,0,1
+central retinal artery ANATOMY,gemma4:31b,20,0.7,0,1
+central retinal vein ANATOMY,gemma4:31b,20,0.7,0,1
+cerebral ANATOMY,gemma4:31b,20,0.7,0,1
+cerebral aneurysms DISO,gemma4:31b,20,0.7,0,1
+cerebral autosomal dominant arteriopathy DISO,gemma4:31b,20,0.7,0,1
+cerebral edema DISO,gemma4:31b,20,0.7,0,1
+cerebral ischemia DISO,gemma4:31b,20,0.7,0,1
+cerebral leukodystrophy DISO,gemma4:31b,20,0.7,0,1
+cervical ANATOMY,gemma4:31b,20,0.7,0,1
+cervical-thoracic region ANATOMY,gemma4:31b,20,0.7,0,1
+cervical/pectoral ANATOMY,gemma4:31b,20,0.7,0,1
+cholinesterase CHEM,gemma4:31b,20,0.7,0,1
+cholinesterase inhibito CHEM,gemma4:31b,20,0.7,0,1
+chondroitin CHEM,gemma4:31b,20,0.7,0,1
+chordoma DISO,gemma4:31b,20,0.7,0,1
+chronic MFPS DISO,gemma4:31b,20,0.7,0,1
+chronic back pain DISO,gemma4:31b,20,0.7,0,1
+chronic brain ischemia DISO,gemma4:31b,20,0.7,0,1
+chronic diseases DISO,gemma4:31b,20,0.7,0,1
+chronic inflammatory processes DISO,gemma4:31b,20,0.7,0,1
+chronic kidney disease DISO,gemma4:31b,20,0.7,0,1
+chronic polysyndrome disease DISO,gemma4:31b,20,0.7,0,1
+chronic rhinosinusitis DISO,gemma4:31b,20,0.7,0,1
+ciliary ANATOMY,gemma4:31b,20,0.7,0,1
+cipralex CHEM,gemma4:31b,20,0.7,0,1
+circle of Willis ANATOMY,gemma4:31b,20,0.7,0,1
+cirrhosis DISO,gemma4:31b,20,0.7,0,1
+clinical manifestations DISO,gemma4:31b,20,0.7,0,1
+clivus ANATOMY,gemma4:31b,20,0.7,0,1
+clivus structures ANATOMY,gemma4:31b,20,0.7,0,1
+cognitive disorders DISO,gemma4:31b,20,0.7,0,1
+cognitive impairment DISO,gemma4:31b,20,0.7,0,1
+colorectal ANATOMY,gemma4:31b,20,0.7,0,1
+colorectal adenocarcinoma DISO,gemma4:31b,20,0.7,0,1
+colorectal adenocarcinoma metastases to the liver DISO,gemma4:31b,20,0.7,0,1
+colorectal carcinoma DISO,gemma4:31b,20,0.7,0,1
+colorectal carcinoma metastases to the liver DISO,gemma4:31b,20,0.7,0,1
+colorectal liver metastases DISO,gemma4:31b,20,0.7,0,1
+complete blindness DISO,gemma4:31b,20,0.7,0,1
+complications DISO,gemma4:31b,20,0.7,0,1
+compression DISO,gemma4:31b,20,0.7,0,1
+compression of the spinal cord DISO,gemma4:31b,20,0.7,0,1
+conjunctiva ANATOMY,gemma4:31b,20,0.7,0,1
+connective tissue dysplasia DISO,gemma4:31b,20,0.7,0,1
+coronary ANATOMY,gemma4:31b,20,0.7,0,1
+coronary syndrome DISO,gemma4:31b,20,0.7,0,1
+corpses ANATOMY,gemma4:31b,20,0.7,0,1
+costimulatory molecule CHEM,gemma4:31b,20,0.7,0,1
+craniovertebral ANATOMY,gemma4:31b,20,0.7,0,1
+craniovertebral region ANATOMY,gemma4:31b,20,0.7,0,1
+critical ischemia of lower extremities DISO,gemma4:31b,20,0.7,0,1
+critical limb ischemia DISO,gemma4:31b,20,0.7,0,1
+crystalluria DISO,gemma4:31b,20,0.7,0,1
+cysts DISO,gemma4:31b,20,0.7,0,1
+cytoflavin CHEM,gemma4:31b,20,0.7,0,1
+cytolytic DISO,gemma4:31b,20,0.7,0,1
+cytoplasmic ANATOMY,gemma4:31b,20,0.7,0,1
+cytotoxic agents CHEM,gemma4:31b,20,0.7,0,1
+dacryoadenitis DISO,gemma4:31b,20,0.7,0,1
+deficiency of collagen DISO,gemma4:31b,20,0.7,0,1
+deltoid region ANATOMY,gemma4:31b,20,0.7,0,1
+delusion disturbances DISO,gemma4:31b,20,0.7,0,1
+depression DISO,gemma4:31b,20,0.7,0,1
+depressive DISO,gemma4:31b,20,0.7,0,1
+depressive episode DISO,gemma4:31b,20,0.7,0,1
+depressive symptoms DISO,gemma4:31b,20,0.7,0,1
+diacerein CHEM,gemma4:31b,20,0.7,0,1
+diaflex CHEM,gemma4:31b,20,0.7,0,1
+diaphorase CHEM,gemma4:31b,20,0.7,0,1
+diclofenac CHEM,gemma4:31b,20,0.7,0,1
+diclofenac sodium CHEM,gemma4:31b,20,0.7,0,1
+dioxide CHEM,gemma4:31b,20,0.7,0,1
+dissecting aortic aneurysm DISO,gemma4:31b,20,0.7,0,1
+distal occlusion DISO,gemma4:31b,20,0.7,0,1
+dorsalgia DISO,gemma4:31b,20,0.7,0,1
+dorsopathy DISO,gemma4:31b,20,0.7,0,1
+drug dependence DISO,gemma4:31b,20,0.7,0,1
+edema DISO,gemma4:31b,20,0.7,0,1
+effector caspase 3 CHEM,gemma4:31b,20,0.7,0,1
+effector caspase CHEM,gemma4:31b,20,0.7,0,1
+elastic skeleton ANATOMY,gemma4:31b,20,0.7,0,1
+encephalomyopathy DISO,gemma4:31b,20,0.7,0,1
+endocrine ophthalmopathy DISO,gemma4:31b,20,0.7,0,1
+endometrial ANATOMY,gemma4:31b,20,0.7,0,1
+endometrial biopsy specimens ANATOMY,gemma4:31b,20,0.7,0,1
+endometrium ANATOMY,gemma4:31b,20,0.7,0,1
+endothelial ANATOMY,gemma4:31b,20,0.7,0,1
+enteropathy DISO,gemma4:31b,20,0.7,0,1
+enzyme CHEM,gemma4:31b,20,0.7,0,1
+enzymes CHEM,gemma4:31b,20,0.7,0,1
+epilepsy DISO,gemma4:31b,20,0.7,0,1
+episcleritis DISO,gemma4:31b,20,0.7,0,1
+escitalopram CHEM,gemma4:31b,20,0.7,0,1
+escitalopram: CHEM,gemma4:31b,20,0.7,0,1
+ethylmethylhydroxypyridine succinate CHEM,gemma4:31b,20,0.7,0,1
+exacerbation DISO,gemma4:31b,20,0.7,0,1
+exacerbation of COPD DISO,gemma4:31b,20,0.7,0,1
+exacerbation of chronic obstructive pulmonary disease DISO,gemma4:31b,20,0.7,0,1
+exacerbations DISO,gemma4:31b,20,0.7,0,1
+exacerbations of chronic obstructive pulmonary disease DISO,gemma4:31b,20,0.7,0,1
+eyeball: ANATOMY,gemma4:31b,20,0.7,0,1
+eyes ANATOMY,gemma4:31b,20,0.7,0,1
+facial ANATOMY,gemma4:31b,20,0.7,0,1
+familial hemiplegic migraine DISO,gemma4:31b,20,0.7,0,1
+fellow eye ANATOMY,gemma4:31b,20,0.7,0,1
+femur ANATOMY,gemma4:31b,20,0.7,0,1
+fibers ANATOMY,gemma4:31b,20,0.7,0,1
+fibrin CHEM,gemma4:31b,20,0.7,0,1
+fibrin exudation DISO,gemma4:31b,20,0.7,0,1
+fibrin-monomer complexes CHEM,gemma4:31b,20,0.7,0,1
+fibrinogen CHEM,gemma4:31b,20,0.7,0,1
+fibromuscular dysplasia DISO,gemma4:31b,20,0.7,0,1
+fibrous tunic ANATOMY,gemma4:31b,20,0.7,0,1
+fibrous tunic of the eyeball ANATOMY,gemma4:31b,20,0.7,0,1
+foreign bodies DISO,gemma4:31b,20,0.7,0,1
+foreign bodies in the maxillary sinuses DISO,gemma4:31b,20,0.7,0,1
+formalin CHEM,gemma4:31b,20,0.7,0,1
+formalin solution CHEM,gemma4:31b,20,0.7,0,1
+frontal areas ANATOMY,gemma4:31b,20,0.7,0,1
+frontal areas of the left hemisphere ANATOMY,gemma4:31b,20,0.7,0,1
+gamma-glutamiltranspeptidase CHEM,gemma4:31b,20,0.7,0,1
+gas CHEM,gemma4:31b,20,0.7,0,1
+gastroesophageal reflux disease DISO,gemma4:31b,20,0.7,0,1
+giant cell ANATOMY,gemma4:31b,20,0.7,0,1
+giant cell reticular nuclei ANATOMY,gemma4:31b,20,0.7,0,1
+giant cell tumor DISO,gemma4:31b,20,0.7,0,1
+glomerular ANATOMY,gemma4:31b,20,0.7,0,1
+glucosamine CHEM,gemma4:31b,20,0.7,0,1
+glutathione CHEM,gemma4:31b,20,0.7,0,1
+glutathione peroxidase CHEM,gemma4:31b,20,0.7,0,1
+glycozaminoglycans CHEM,gemma4:31b,20,0.7,0,1
+graft ANATOMY,gemma4:31b,20,0.7,0,1
+granulomas DISO,gemma4:31b,20,0.7,0,1
+granulomatous DISO,gemma4:31b,20,0.7,0,1
+hand ANATOMY,gemma4:31b,20,0.7,0,1
+heart disease DISO,gemma4:31b,20,0.7,0,1
+hemisphere ANATOMY,gemma4:31b,20,0.7,0,1
+hemodynamic disturbances DISO,gemma4:31b,20,0.7,0,1
+hemotoxyllin CHEM,gemma4:31b,20,0.7,0,1
+heparins CHEM,gemma4:31b,20,0.7,0,1
+hepatitides DISO,gemma4:31b,20,0.7,0,1
+hepatoprotector CHEM,gemma4:31b,20,0.7,0,1
+hepatotropic drug CHEM,gemma4:31b,20,0.7,0,1
+highly diluted medications CHEM,gemma4:31b,20,0.7,0,1
+hopantenic acid CHEM,gemma4:31b,20,0.7,0,1
+hydrogen CHEM,gemma4:31b,20,0.7,0,1
+hydrogen sulfide CHEM,gemma4:31b,20,0.7,0,1
+hyperplasia DISO,gemma4:31b,20,0.7,0,1
+hypersensitivity DISO,gemma4:31b,20,0.7,0,1
+"hypersensitivity to sounds, light, smell DISO",gemma4:31b,20,0.7,0,1
+hypertension DISO,gemma4:31b,20,0.7,0,1
+hypnotic CHEM,gemma4:31b,20,0.7,0,1
+hypnotics CHEM,gemma4:31b,20,0.7,0,1
+hypogastric area ANATOMY,gemma4:31b,20,0.7,0,1
+immunosuppressive agents CHEM,gemma4:31b,20,0.7,0,1
+impaired endometrial receptivity DISO,gemma4:31b,20,0.7,0,1
+impaired fibrinolysis DISO,gemma4:31b,20,0.7,0,1
+impaired maturation DISO,gemma4:31b,20,0.7,0,1
+impaired permeability DISO,gemma4:31b,20,0.7,0,1
+impaired serotonin metabolism DISO,gemma4:31b,20,0.7,0,1
+impairment of blood supply DISO,gemma4:31b,20,0.7,0,1
+infarcts DISO,gemma4:31b,20,0.7,0,1
+infections DISO,gemma4:31b,20,0.7,0,1
+infectious DISO,gemma4:31b,20,0.7,0,1
+infectious complications DISO,gemma4:31b,20,0.7,0,1
+infertility DISO,gemma4:31b,20,0.7,0,1
+inflammation of the ocular superficial structures DISO,gemma4:31b,20,0.7,0,1
+inflammatory complications DISO,gemma4:31b,20,0.7,0,1
+inflammatory infiltration DISO,gemma4:31b,20,0.7,0,1
+inflammatory processes DISO,gemma4:31b,20,0.7,0,1
+infusion hepatoprotector CHEM,gemma4:31b,20,0.7,0,1
+inherited thrombophilia DISO,gemma4:31b,20,0.7,0,1
+inhibitors CHEM,gemma4:31b,20,0.7,0,1
+integumentary lining cells ANATOMY,gemma4:31b,20,0.7,0,1
+internuclear interneurons ANATOMY,gemma4:31b,20,0.7,0,1
+intoxication DISO,gemma4:31b,20,0.7,0,1
+intraepithelial ANATOMY,gemma4:31b,20,0.7,0,1
+intraepithelial lymphocytes ANATOMY,gemma4:31b,20,0.7,0,1
+intranasal ANATOMY,gemma4:31b,20,0.7,0,1
+intranuclear ANATOMY,gemma4:31b,20,0.7,0,1
+invagination DISO,gemma4:31b,20,0.7,0,1
+ipidacrine CHEM,gemma4:31b,20,0.7,0,1
+ischemia of lower extremities DISO,gemma4:31b,20,0.7,0,1
+isotonic sodium chloride solution CHEM,gemma4:31b,20,0.7,0,1
+joint ANATOMY,gemma4:31b,20,0.7,0,1
+junction ANATOMY,gemma4:31b,20,0.7,0,1
+keratomalacia DISO,gemma4:31b,20,0.7,0,1
+knee ANATOMY,gemma4:31b,20,0.7,0,1
+lactic CHEM,gemma4:31b,20,0.7,0,1
+large B-cell lymphoma DISO,gemma4:31b,20,0.7,0,1
+large IN ANATOMY,gemma4:31b,20,0.7,0,1
+large bowel ANATOMY,gemma4:31b,20,0.7,0,1
+lavage fluid ANATOMY,gemma4:31b,20,0.7,0,1
+lead CHEM,gemma4:31b,20,0.7,0,1
+left hemisphere ANATOMY,gemma4:31b,20,0.7,0,1
+left-hemispheric ANATOMY,gemma4:31b,20,0.7,0,1
+left-hemispheric cerebral infarction DISO,gemma4:31b,20,0.7,0,1
+lesion DISO,gemma4:31b,20,0.7,0,1
+leukemia DISO,gemma4:31b,20,0.7,0,1
+leukocyte differentiation antigens CHEM,gemma4:31b,20,0.7,0,1
+lidocaine solutions CHEM,gemma4:31b,20,0.7,0,1
+limb ANATOMY,gemma4:31b,20,0.7,0,1
+limb ischemia DISO,gemma4:31b,20,0.7,0,1
+lipid CHEM,gemma4:31b,20,0.7,0,1
+lipid hydroperoxides CHEM,gemma4:31b,20,0.7,0,1
+lipoic acid CHEM,gemma4:31b,20,0.7,0,1
+liver ANATOMY,gemma4:31b,20,0.7,0,1
+liver enzymes CHEM,gemma4:31b,20,0.7,0,1
+liver right lobe ANATOMY,gemma4:31b,20,0.7,0,1
+lower limbs ANATOMY,gemma4:31b,20,0.7,0,1
+lumen ANATOMY,gemma4:31b,20,0.7,0,1
+lung ANATOMY,gemma4:31b,20,0.7,0,1
+lung injuries DISO,gemma4:31b,20,0.7,0,1
+lungs ANATOMY,gemma4:31b,20,0.7,0,1
+lymphocytic colitis DISO,gemma4:31b,20,0.7,0,1
+main artery ANATOMY,gemma4:31b,20,0.7,0,1
+mass lesion DISO,gemma4:31b,20,0.7,0,1
+mass lesion in the right adrenal gland DISO,gemma4:31b,20,0.7,0,1
+matrix ANATOMY,gemma4:31b,20,0.7,0,1
+mature pinopodes ANATOMY,gemma4:31b,20,0.7,0,1
+maxillary sinus ANATOMY,gemma4:31b,20,0.7,0,1
+maxillary sinus cavity ANATOMY,gemma4:31b,20,0.7,0,1
+maxillary sinus cavity walls ANATOMY,gemma4:31b,20,0.7,0,1
+maxillary sinuses ANATOMY,gemma4:31b,20,0.7,0,1
+maxillofacial ANATOMY,gemma4:31b,20,0.7,0,1
+mediastinal structures ANATOMY,gemma4:31b,20,0.7,0,1
+medulla oblongata ANATOMY,gemma4:31b,20,0.7,0,1
+mesalasine CHEM,gemma4:31b,20,0.7,0,1
+mesenteric artery ANATOMY,gemma4:31b,20,0.7,0,1
+metalloproteinases CHEM,gemma4:31b,20,0.7,0,1
+metastases DISO,gemma4:31b,20,0.7,0,1
+metastatic DISO,gemma4:31b,20,0.7,0,1
+metastatic lesion DISO,gemma4:31b,20,0.7,0,1
+metastatic lesion of liver right lobe DISO,gemma4:31b,20,0.7,0,1
+microcirculatory bed ANATOMY,gemma4:31b,20,0.7,0,1
+microscopic colitis DISO,gemma4:31b,20,0.7,0,1
+middle cerebral artery ANATOMY,gemma4:31b,20,0.7,0,1
+middle facial region ANATOMY,gemma4:31b,20,0.7,0,1
+migraine DISO,gemma4:31b,20,0.7,0,1
+migraine-like headache DISO,gemma4:31b,20,0.7,0,1
+mild cognitive impairment DISO,gemma4:31b,20,0.7,0,1
+mild depressive states DISO,gemma4:31b,20,0.7,0,1
+mitochondrial encephalomyopathy DISO,gemma4:31b,20,0.7,0,1
+moderate cognitive dysfunction DISO,gemma4:31b,20,0.7,0,1
+monoclonal antibodies CHEM,gemma4:31b,20,0.7,0,1
+mononeuropathies DISO,gemma4:31b,20,0.7,0,1
+monoxide CHEM,gemma4:31b,20,0.7,0,1
+motor disorders DISO,gemma4:31b,20,0.7,0,1
+muscle ANATOMY,gemma4:31b,20,0.7,0,1
+mycotic DISO,gemma4:31b,20,0.7,0,1
+mycotic infection DISO,gemma4:31b,20,0.7,0,1
+myocardial ANATOMY,gemma4:31b,20,0.7,0,1
+myocardial infarction DISO,gemma4:31b,20,0.7,0,1
+myocardium ANATOMY,gemma4:31b,20,0.7,0,1
+myofascial ANATOMY,gemma4:31b,20,0.7,0,1
+nasal septum deformations DISO,gemma4:31b,20,0.7,0,1
+nasopharynx ANATOMY,gemma4:31b,20,0.7,0,1
+necrotic processes DISO,gemma4:31b,20,0.7,0,1
+necrotizing DISO,gemma4:31b,20,0.7,0,1
+negative disorders DISO,gemma4:31b,20,0.7,0,1
+negative symptomatology DISO,gemma4:31b,20,0.7,0,1
+nephropathy DISO,gemma4:31b,20,0.7,0,1
+neural structure ANATOMY,gemma4:31b,20,0.7,0,1
+neuroepithelium ANATOMY,gemma4:31b,20,0.7,0,1
+neurological deficit DISO,gemma4:31b,20,0.7,0,1
+neurological disorders DISO,gemma4:31b,20,0.7,0,1
+neurological symptoms DISO,gemma4:31b,20,0.7,0,1
+neuronal ANATOMY,gemma4:31b,20,0.7,0,1
+neuronal dysfunction DISO,gemma4:31b,20,0.7,0,1
+neurons ANATOMY,gemma4:31b,20,0.7,0,1
+nitrogen CHEM,gemma4:31b,20,0.7,0,1
+nitrogen dioxide CHEM,gemma4:31b,20,0.7,0,1
+nitrogen oxide CHEM,gemma4:31b,20,0.7,0,1
+non-STSEAMI DISO,gemma4:31b,20,0.7,0,1
+nucleus of the solitary tract ANATOMY,gemma4:31b,20,0.7,0,1
+ocular ANATOMY,gemma4:31b,20,0.7,0,1
+ocular superficial structures ANATOMY,gemma4:31b,20,0.7,0,1
+oculomotor muscles ANATOMY,gemma4:31b,20,0.7,0,1
+odontogenic ANATOMY,gemma4:31b,20,0.7,0,1
+operative material ANATOMY,gemma4:31b,20,0.7,0,1
+optic nerve ANATOMY,gemma4:31b,20,0.7,0,1
+oral ANATOMY,gemma4:31b,20,0.7,0,1
+organ ANATOMY,gemma4:31b,20,0.7,0,1
+organ of vision ANATOMY,gemma4:31b,20,0.7,0,1
+organs ANATOMY,gemma4:31b,20,0.7,0,1
+oropharynx ANATOMY,gemma4:31b,20,0.7,0,1
+oropharynx area ANATOMY,gemma4:31b,20,0.7,0,1
+orsein CHEM,gemma4:31b,20,0.7,0,1
+osteoarthritis DISO,gemma4:31b,20,0.7,0,1
+osteoarthrosis DISO,gemma4:31b,20,0.7,0,1
+osteoblastoma DISO,gemma4:31b,20,0.7,0,1
+oxygen CHEM,gemma4:31b,20,0.7,0,1
+p53 CHEM,gemma4:31b,20,0.7,0,1
+pain DISO,gemma4:31b,20,0.7,0,1
+pain syndrome DISO,gemma4:31b,20,0.7,0,1
+palate ANATOMY,gemma4:31b,20,0.7,0,1
+pancreas ANATOMY,gemma4:31b,20,0.7,0,1
+pantogam CHEM,gemma4:31b,20,0.7,0,1
+panuveitis DISO,gemma4:31b,20,0.7,0,1
+paraffin CHEM,gemma4:31b,20,0.7,0,1
+paranoid syndrome with primary interpretative delusion DISO,gemma4:31b,20,0.7,0,1
+parietooccipital ANATOMY,gemma4:31b,20,0.7,0,1
+pathological dependence DISO,gemma4:31b,20,0.7,0,1
+pathomorphological changes DISO,gemma4:31b,20,0.7,0,1
+perfusion disturbances DISO,gemma4:31b,20,0.7,0,1
+permeability impairment DISO,gemma4:31b,20,0.7,0,1
+peroxidase CHEM,gemma4:31b,20,0.7,0,1
+pharyngo-laryngeal reflux DISO,gemma4:31b,20,0.7,0,1
+pharynx ANATOMY,gemma4:31b,20,0.7,0,1
+pinopodes ANATOMY,gemma4:31b,20,0.7,0,1
+placebo CHEM,gemma4:31b,20,0.7,0,1
+pleural ANATOMY,gemma4:31b,20,0.7,0,1
+pleural effusion DISO,gemma4:31b,20,0.7,0,1
+pneumonia DISO,gemma4:31b,20,0.7,0,1
+polyclonal antibodies CHEM,gemma4:31b,20,0.7,0,1
+polypoid DISO,gemma4:31b,20,0.7,0,1
+polypoid hyperplasia DISO,gemma4:31b,20,0.7,0,1
+polypoid hyperplasia of the vocal folds DISO,gemma4:31b,20,0.7,0,1
+polysyndrome disease DISO,gemma4:31b,20,0.7,0,1
+positive disorders DISO,gemma4:31b,20,0.7,0,1
+posterior ANATOMY,gemma4:31b,20,0.7,0,1
+posterior chamber ANATOMY,gemma4:31b,20,0.7,0,1
+posterior region of the right forearm ANATOMY,gemma4:31b,20,0.7,0,1
+posterior surface of the right forearm ANATOMY,gemma4:31b,20,0.7,0,1
+posterior surface of the right shoulder ANATOMY,gemma4:31b,20,0.7,0,1
+postmortem material ANATOMY,gemma4:31b,20,0.7,0,1
+prednisolone CHEM,gemma4:31b,20,0.7,0,1
+primary system necrotizing vasculitis DISO,gemma4:31b,20,0.7,0,1
+proteins CHEM,gemma4:31b,20,0.7,0,1
+psychiatric evaluations DISO,gemma4:31b,20,0.7,0,1
+psychopathological symptom complexes DISO,gemma4:31b,20,0.7,0,1
+pulp ANATOMY,gemma4:31b,20,0.7,0,1
+pupil occlusion DISO,gemma4:31b,20,0.7,0,1
+radiculopathies DISO,gemma4:31b,20,0.7,0,1
+receptor CHEM,gemma4:31b,20,0.7,0,1
+receptors CHEM,gemma4:31b,20,0.7,0,1
+reductase CHEM,gemma4:31b,20,0.7,0,1
+reflux disease DISO,gemma4:31b,20,0.7,0,1
+remaxol CHEM,gemma4:31b,20,0.7,0,1
+renal ANATOMY,gemma4:31b,20,0.7,0,1
+respiratory tract infection DISO,gemma4:31b,20,0.7,0,1
+reticular nucleus ANATOMY,gemma4:31b,20,0.7,0,1
+retina ANATOMY,gemma4:31b,20,0.7,0,1
+retinal artery ANATOMY,gemma4:31b,20,0.7,0,1
+retinal vasculopathy with cerebral leukodystrophy DISO,gemma4:31b,20,0.7,0,1
+rheopolyglukin CHEM,gemma4:31b,20,0.7,0,1
+rhinitis DISO,gemma4:31b,20,0.7,0,1
+rhinosinusitis DISO,gemma4:31b,20,0.7,0,1
+riboflavin CHEM,gemma4:31b,20,0.7,0,1
+right deltoid region ANATOMY,gemma4:31b,20,0.7,0,1
+right femur ANATOMY,gemma4:31b,20,0.7,0,1
+right forearm ANATOMY,gemma4:31b,20,0.7,0,1
+right lower leg ANATOMY,gemma4:31b,20,0.7,0,1
+right shoulder ANATOMY,gemma4:31b,20,0.7,0,1
+right thigh ANATOMY,gemma4:31b,20,0.7,0,1
+root ANATOMY,gemma4:31b,20,0.7,0,1
+root fragments ANATOMY,gemma4:31b,20,0.7,0,1
+roots ANATOMY,gemma4:31b,20,0.7,0,1
+sCD25 CHEM,gemma4:31b,20,0.7,0,1
+sCD38 CHEM,gemma4:31b,20,0.7,0,1
+scleritis DISO,gemma4:31b,20,0.7,0,1
+sclerosis DISO,gemma4:31b,20,0.7,0,1
+secondary hyperuricemia DISO,gemma4:31b,20,0.7,0,1
+serotonin CHEM,gemma4:31b,20,0.7,0,1
+severe attack (SA) of ulcerative colitis DISO,gemma4:31b,20,0.7,0,1
+severe headache DISO,gemma4:31b,20,0.7,0,1
+short posterior ciliary arteries ANATOMY,gemma4:31b,20,0.7,0,1
+shoulder ANATOMY,gemma4:31b,20,0.7,0,1
+side-effects DISO,gemma4:31b,20,0.7,0,1
+sinus ANATOMY,gemma4:31b,20,0.7,0,1
+sinus cavity ANATOMY,gemma4:31b,20,0.7,0,1
+sinuses ANATOMY,gemma4:31b,20,0.7,0,1
+skin ANATOMY,gemma4:31b,20,0.7,0,1
+small cell ANATOMY,gemma4:31b,20,0.7,0,1
+small cell reticular nuclei ANATOMY,gemma4:31b,20,0.7,0,1
+small cell reticular nucleus ANATOMY,gemma4:31b,20,0.7,0,1
+smooth muscle ANATOMY,gemma4:31b,20,0.7,0,1
+sodium CHEM,gemma4:31b,20,0.7,0,1
+soft palate ANATOMY,gemma4:31b,20,0.7,0,1
+spinal cord ANATOMY,gemma4:31b,20,0.7,0,1
+spine ANATOMY,gemma4:31b,20,0.7,0,1
+statins CHEM,gemma4:31b,20,0.7,0,1
+stroke DISO,gemma4:31b,20,0.7,0,1
+stroke-like episodes DISO,gemma4:31b,20,0.7,0,1
+stroma ANATOMY,gemma4:31b,20,0.7,0,1
+stromal ANATOMY,gemma4:31b,20,0.7,0,1
+stromal sclerosis DISO,gemma4:31b,20,0.7,0,1
+subacute chronic back pain DISO,gemma4:31b,20,0.7,0,1
+subepithelial collagen lining ANATOMY,gemma4:31b,20,0.7,0,1
+substrates ANATOMY,gemma4:31b,20,0.7,0,1
+superior mesenteric artery ANATOMY,gemma4:31b,20,0.7,0,1
+surface epithelium ANATOMY,gemma4:31b,20,0.7,0,1
+symptomatology positive DISO,gemma4:31b,20,0.7,0,1
+systemic glucocorticosteroids CHEM,gemma4:31b,20,0.7,0,1
+taurine CHEM,gemma4:31b,20,0.7,0,1
+thigh ANATOMY,gemma4:31b,20,0.7,0,1
+tissue ANATOMY,gemma4:31b,20,0.7,0,1
+tissue samples ANATOMY,gemma4:31b,20,0.7,0,1
+tissues ANATOMY,gemma4:31b,20,0.7,0,1
+toes ANATOMY,gemma4:31b,20,0.7,0,1
+topical glucocorticosteroid CHEM,gemma4:31b,20,0.7,0,1
+tumor cells ANATOMY,gemma4:31b,20,0.7,0,1
+tumor thrombosis DISO,gemma4:31b,20,0.7,0,1
+tumor thrombus DISO,gemma4:31b,20,0.7,0,1
+tumors DISO,gemma4:31b,20,0.7,0,1
+ulcerative colitis DISO,gemma4:31b,20,0.7,0,1
+umifenovir CHEM,gemma4:31b,20,0.7,0,1
+undifferentiated connective tissue dysplasia DISO,gemma4:31b,20,0.7,0,1
+upper and lower extremities ANATOMY,gemma4:31b,20,0.7,0,1
+upper cervical ANATOMY,gemma4:31b,20,0.7,0,1
+upper cervical spine segments ANATOMY,gemma4:31b,20,0.7,0,1
+upper extremities ANATOMY,gemma4:31b,20,0.7,0,1
+upper mesenteric artery ANATOMY,gemma4:31b,20,0.7,0,1
+urinary ANATOMY,gemma4:31b,20,0.7,0,1
+urinary syndrome DISO,gemma4:31b,20,0.7,0,1
+urine ANATOMY,gemma4:31b,20,0.7,0,1
+valdoxan CHEM,gemma4:31b,20,0.7,0,1
+vascular ANATOMY,gemma4:31b,20,0.7,0,1
+vascular cell ANATOMY,gemma4:31b,20,0.7,0,1
+vascular cell adhesion molecule CHEM,gemma4:31b,20,0.7,0,1
+vascular cell adhesion molecule-1 CHEM,gemma4:31b,20,0.7,0,1
+vasculitis DISO,gemma4:31b,20,0.7,0,1
+vasculopathy DISO,gemma4:31b,20,0.7,0,1
+vein ANATOMY,gemma4:31b,20,0.7,0,1
+vena ANATOMY,gemma4:31b,20,0.7,0,1
+viral LC DISO,gemma4:31b,20,0.7,0,1
+viral hepatitides DISO,gemma4:31b,20,0.7,0,1
+viral infections DISO,gemma4:31b,20,0.7,0,1
+vitamins CHEM,gemma4:31b,20,0.7,0,1
+vocal fold ANATOMY,gemma4:31b,20,0.7,0,1
+vocal fold polyps DISO,gemma4:31b,20,0.7,0,1
+wall ANATOMY,gemma4:31b,20,0.7,0,1
+withdrawal syndrome DISO,gemma4:31b,20,0.7,0,1
+xylometazoline CHEM,gemma4:31b,20,0.7,0,1
+xylometazoline solution CHEM,gemma4:31b,20,0.7,0,1
+5-ASA CHEM,gpt-oss:120b,20,0.7,0,1
+AKI DISO,gpt-oss:120b,20,0.7,0,1
+APTPA CHEM,gpt-oss:120b,20,0.7,0,1
+AZA CHEM,gpt-oss:120b,20,0.7,0,1
+Affection of the fibrous tunic of the eyeball DISO,gpt-oss:120b,20,0.7,0,1
+Alflutop CHEM,gpt-oss:120b,20,0.7,0,1
+Antibodies CHEM,gpt-oss:120b,20,0.7,0,1
+Baclofen CHEM,gpt-oss:120b,20,0.7,0,1
+Baclosan CHEM,gpt-oss:120b,20,0.7,0,1
+Bilateral panuveitis DISO,gpt-oss:120b,20,0.7,0,1
+Blood ANATOMY,gpt-oss:120b,20,0.7,0,1
+C0-C1-C2 segments ANATOMY,gpt-oss:120b,20,0.7,0,1
+C1-C2 segments ANATOMY,gpt-oss:120b,20,0.7,0,1
+C1-C2 vertebrae ANATOMY,gpt-oss:120b,20,0.7,0,1
+C2 vertebra ANATOMY,gpt-oss:120b,20,0.7,0,1
+CAD DISO,gpt-oss:120b,20,0.7,0,1
+CADASIL DISO,gpt-oss:120b,20,0.7,0,1
+CBS CHEM,gpt-oss:120b,20,0.7,0,1
+CC DISO,gpt-oss:120b,20,0.7,0,1
+CD25 CHEM,gpt-oss:120b,20,0.7,0,1
+CD28 CHEM,gpt-oss:120b,20,0.7,0,1
+CD38 CHEM,gpt-oss:120b,20,0.7,0,1
+CKD DISO,gpt-oss:120b,20,0.7,0,1
+CRS DISO,gpt-oss:120b,20,0.7,0,1
+CSF fistula DISO,gpt-oss:120b,20,0.7,0,1
+CTLA-4 CHEM,gpt-oss:120b,20,0.7,0,1
+Cancer DISO,gpt-oss:120b,20,0.7,0,1
+Cardiovascular ANATOMY,gpt-oss:120b,20,0.7,0,1
+Caspase 3 CHEM,gpt-oss:120b,20,0.7,0,1
+Caspase CHEM,gpt-oss:120b,20,0.7,0,1
+Celiac disease DISO,gpt-oss:120b,20,0.7,0,1
+Clinical characteristics DISO,gpt-oss:120b,20,0.7,0,1
+Combined perfusion disturbances DISO,gpt-oss:120b,20,0.7,0,1
+D-dimer CHEM,gpt-oss:120b,20,0.7,0,1
+DAB CHEM,gpt-oss:120b,20,0.7,0,1
+Deficient states with the predominance of volitional disorders DISO,gpt-oss:120b,20,0.7,0,1
+Diclofenac CHEM,gpt-oss:120b,20,0.7,0,1
+EOP DISO,gpt-oss:120b,20,0.7,0,1
+EPO CHEM,gpt-oss:120b,20,0.7,0,1
+Frontal ANATOMY,gpt-oss:120b,20,0.7,0,1
+GCSs CHEM,gpt-oss:120b,20,0.7,0,1
+GERD DISO,gpt-oss:120b,20,0.7,0,1
+Gastroesophageal ANATOMY,gpt-oss:120b,20,0.7,0,1
+Gastroesophageal reflux disease DISO,gpt-oss:120b,20,0.7,0,1
+Granulomatosis DISO,gpt-oss:120b,20,0.7,0,1
+HBV+HDV DISO,gpt-oss:120b,20,0.7,0,1
+HCV DISO,gpt-oss:120b,20,0.7,0,1
+HCV+HBV DISO,gpt-oss:120b,20,0.7,0,1
+"HCV+HBV, DISO",gpt-oss:120b,20,0.7,0,1
+HO-2 CHEM,gpt-oss:120b,20,0.7,0,1
+IN ANATOMY,gpt-oss:120b,20,0.7,0,1
+IN1 ANATOMY,gpt-oss:120b,20,0.7,0,1
+IN2 ANATOMY,gpt-oss:120b,20,0.7,0,1
+INF CHEM,gpt-oss:120b,20,0.7,0,1
+IT DISO,gpt-oss:120b,20,0.7,0,1
+Impaired endometrial receptivity DISO,gpt-oss:120b,20,0.7,0,1
+MCI DISO,gpt-oss:120b,20,0.7,0,1
+MMP-1 CHEM,gpt-oss:120b,20,0.7,0,1
+MN ANATOMY,gpt-oss:120b,20,0.7,0,1
+Maxillofacial ANATOMY,gpt-oss:120b,20,0.7,0,1
+Metastasis DISO,gpt-oss:120b,20,0.7,0,1
+Metastasis of colorectal cancer DISO,gpt-oss:120b,20,0.7,0,1
+Methylprednisolone CHEM,gpt-oss:120b,20,0.7,0,1
+Metypred CHEM,gpt-oss:120b,20,0.7,0,1
+Moxifloxacin CHEM,gpt-oss:120b,20,0.7,0,1
+Myofascial ANATOMY,gpt-oss:120b,20,0.7,0,1
+Myofascial pain syndrome DISO,gpt-oss:120b,20,0.7,0,1
+OA DISO,gpt-oss:120b,20,0.7,0,1
+Obsessive-Compulsive DISO,gpt-oss:120b,20,0.7,0,1
+Odontogenic ANATOMY,gpt-oss:120b,20,0.7,0,1
+Orbit ANATOMY,gpt-oss:120b,20,0.7,0,1
+Orbital ANATOMY,gpt-oss:120b,20,0.7,0,1
+Paracetamol CHEM,gpt-oss:120b,20,0.7,0,1
+Polypropylene CHEM,gpt-oss:120b,20,0.7,0,1
+Polyps DISO,gpt-oss:120b,20,0.7,0,1
+Polyps of the vocal folds DISO,gpt-oss:120b,20,0.7,0,1
+Positive symptomatology DISO,gpt-oss:120b,20,0.7,0,1
+Postoperative complications DISO,gpt-oss:120b,20,0.7,0,1
+RVCL DISO,gpt-oss:120b,20,0.7,0,1
+Reinke's edema DISO,gpt-oss:120b,20,0.7,0,1
+Reinke's space ANATOMY,gpt-oss:120b,20,0.7,0,1
+Renal ANATOMY,gpt-oss:120b,20,0.7,0,1
+Ringer's solution CHEM,gpt-oss:120b,20,0.7,0,1
+SA DISO,gpt-oss:120b,20,0.7,0,1
+STSEAMI DISO,gpt-oss:120b,20,0.7,0,1
+Small IN ANATOMY,gpt-oss:120b,20,0.7,0,1
+Stages I-II CKD DISO,gpt-oss:120b,20,0.7,0,1
+TLR2 CHEM,gpt-oss:120b,20,0.7,0,1
+TLR4 CHEM,gpt-oss:120b,20,0.7,0,1
+TLR9 CHEM,gpt-oss:120b,20,0.7,0,1
+Umifenovir CHEM,gpt-oss:120b,20,0.7,0,1
+VCAM CHEM,gpt-oss:120b,20,0.7,0,1
+VCAM-1 CHEM,gpt-oss:120b,20,0.7,0,1
+VEGF CHEM,gpt-oss:120b,20,0.7,0,1
+VKH syndrome DISO,gpt-oss:120b,20,0.7,0,1
+Watery diarrhea DISO,gpt-oss:120b,20,0.7,0,1
+Wegener's granulomatosis DISO,gpt-oss:120b,20,0.7,0,1
+abdominal ANATOMY,gpt-oss:120b,20,0.7,0,1
+abdominal wall ANATOMY,gpt-oss:120b,20,0.7,0,1
+acute back pain DISO,gpt-oss:120b,20,0.7,0,1
+acute exacerbation DISO,gpt-oss:120b,20,0.7,0,1
+acute myocardial infarction DISO,gpt-oss:120b,20,0.7,0,1
+adhesion molecules CHEM,gpt-oss:120b,20,0.7,0,1
+agomelatine CHEM,gpt-oss:120b,20,0.7,0,1
+alanine CHEM,gpt-oss:120b,20,0.7,0,1
+alanine aminotransferase CHEM,gpt-oss:120b,20,0.7,0,1
+alcohol dependence DISO,gpt-oss:120b,20,0.7,0,1
+alcohol dependent DISO,gpt-oss:120b,20,0.7,0,1
+alexithymia DISO,gpt-oss:120b,20,0.7,0,1
+allergic DISO,gpt-oss:120b,20,0.7,0,1
+alveolar ANATOMY,gpt-oss:120b,20,0.7,0,1
+aminotransferase CHEM,gpt-oss:120b,20,0.7,0,1
+anesthetic CHEM,gpt-oss:120b,20,0.7,0,1
+anesthetics CHEM,gpt-oss:120b,20,0.7,0,1
+aneurysm] DISO,gpt-oss:120b,20,0.7,0,1
+aneurysms DISO,gpt-oss:120b,20,0.7,0,1
+anterior part of the inferior nasal passage ANATOMY,gpt-oss:120b,20,0.7,0,1
+anterior region of the left thigh ANATOMY,gpt-oss:120b,20,0.7,0,1
+anterior surface ANATOMY,gpt-oss:120b,20,0.7,0,1
+anterior surface of the right thigh ANATOMY,gpt-oss:120b,20,0.7,0,1
+anti-inflammatory drugs CHEM,gpt-oss:120b,20,0.7,0,1
+anti-recurrence agent CHEM,gpt-oss:120b,20,0.7,0,1
+antiapoptotic protein CHEM,gpt-oss:120b,20,0.7,0,1
+antibiotic CHEM,gpt-oss:120b,20,0.7,0,1
+antifungals CHEM,gpt-oss:120b,20,0.7,0,1
+antigens CHEM,gpt-oss:120b,20,0.7,0,1
+anxiety and depressive disorders DISO,gpt-oss:120b,20,0.7,0,1
+anxiety symptoms DISO,gpt-oss:120b,20,0.7,0,1
+aorta ANATOMY,gpt-oss:120b,20,0.7,0,1
+aortic wall ANATOMY,gpt-oss:120b,20,0.7,0,1
+arbidol CHEM,gpt-oss:120b,20,0.7,0,1
+arge IN ANATOMY,gpt-oss:120b,20,0.7,0,1
+arterial ANATOMY,gpt-oss:120b,20,0.7,0,1
+arterial hypertension DISO,gpt-oss:120b,20,0.7,0,1
+arteriopathy DISO,gpt-oss:120b,20,0.7,0,1
+artery ANATOMY,gpt-oss:120b,20,0.7,0,1
+asketin CHEM,gpt-oss:120b,20,0.7,0,1
+asketin cefuroxime CHEM,gpt-oss:120b,20,0.7,0,1
+aspartate CHEM,gpt-oss:120b,20,0.7,0,1
+aspartate aminotransferase CHEM,gpt-oss:120b,20,0.7,0,1
+atherosclerosis DISO,gpt-oss:120b,20,0.7,0,1
+attacks DISO,gpt-oss:120b,20,0.7,0,1
+aura DISO,gpt-oss:120b,20,0.7,0,1
+autoimmune thyroiditis DISO,gpt-oss:120b,20,0.7,0,1
+autoimmune uveitis DISO,gpt-oss:120b,20,0.7,0,1
+back ANATOMY,gpt-oss:120b,20,0.7,0,1
+baclofen CHEM,gpt-oss:120b,20,0.7,0,1
+benzodiazepine withdrawal syndrome DISO,gpt-oss:120b,20,0.7,0,1
+bilirubin CHEM,gpt-oss:120b,20,0.7,0,1
+biopsy specimens ANATOMY,gpt-oss:120b,20,0.7,0,1
+blood ANATOMY,gpt-oss:120b,20,0.7,0,1
+blood cancer DISO,gpt-oss:120b,20,0.7,0,1
+blood cancers DISO,gpt-oss:120b,20,0.7,0,1
+blood flow disturbance DISO,gpt-oss:120b,20,0.7,0,1
+body of the C2 vertebra ANATOMY,gpt-oss:120b,20,0.7,0,1
+bone ANATOMY,gpt-oss:120b,20,0.7,0,1
+bone tissue ANATOMY,gpt-oss:120b,20,0.7,0,1
+bone wall ANATOMY,gpt-oss:120b,20,0.7,0,1
+bony ANATOMY,gpt-oss:120b,20,0.7,0,1
+bowel ANATOMY,gpt-oss:120b,20,0.7,0,1
+brachiocephalic ANATOMY,gpt-oss:120b,20,0.7,0,1
+brain ANATOMY,gpt-oss:120b,20,0.7,0,1
+brain edema DISO,gpt-oss:120b,20,0.7,0,1
+bronchi ANATOMY,gpt-oss:120b,20,0.7,0,1
+bronchial ANATOMY,gpt-oss:120b,20,0.7,0,1
+bronchial carcinoid DISO,gpt-oss:120b,20,0.7,0,1
+budesonide CHEM,gpt-oss:120b,20,0.7,0,1
+burnout syndrome DISO,gpt-oss:120b,20,0.7,0,1
+calcium CHEM,gpt-oss:120b,20,0.7,0,1
+calcium oxalate crystalluria DISO,gpt-oss:120b,20,0.7,0,1
+cancers DISO,gpt-oss:120b,20,0.7,0,1
+carcinoid DISO,gpt-oss:120b,20,0.7,0,1
+cardiac ANATOMY,gpt-oss:120b,20,0.7,0,1
+cardiovascular ANATOMY,gpt-oss:120b,20,0.7,0,1
+carving for alcohol DISO,gpt-oss:120b,20,0.7,0,1
+caspase CHEM,gpt-oss:120b,20,0.7,0,1
+caspase-7 CHEM,gpt-oss:120b,20,0.7,0,1
+caspases CHEM,gpt-oss:120b,20,0.7,0,1
+cataract DISO,gpt-oss:120b,20,0.7,0,1
+catarrhal symptoms DISO,gpt-oss:120b,20,0.7,0,1
+caudal brainstem ANATOMY,gpt-oss:120b,20,0.7,0,1
+cefuroxime CHEM,gpt-oss:120b,20,0.7,0,1
+celiac disease DISO,gpt-oss:120b,20,0.7,0,1
+cell ANATOMY,gpt-oss:120b,20,0.7,0,1
+cells ANATOMY,gpt-oss:120b,20,0.7,0,1
+central retinal artery ANATOMY,gpt-oss:120b,20,0.7,0,1
+central retinal vein ANATOMY,gpt-oss:120b,20,0.7,0,1
+cerebral ANATOMY,gpt-oss:120b,20,0.7,0,1
+cerebral aneurysms DISO,gpt-oss:120b,20,0.7,0,1
+cerebral autosomal dominant arteriopathy DISO,gpt-oss:120b,20,0.7,0,1
+cerebral edema DISO,gpt-oss:120b,20,0.7,0,1
+cerebral ischemia DISO,gpt-oss:120b,20,0.7,0,1
+cerebral leukodystrophy DISO,gpt-oss:120b,20,0.7,0,1
+cervical ANATOMY,gpt-oss:120b,20,0.7,0,1
+cervical-thoracic region ANATOMY,gpt-oss:120b,20,0.7,0,1
+cervical/pectoral ANATOMY,gpt-oss:120b,20,0.7,0,1
+cholinesterase CHEM,gpt-oss:120b,20,0.7,0,1
+cholinesterase inhibito CHEM,gpt-oss:120b,20,0.7,0,1
+chondroitin CHEM,gpt-oss:120b,20,0.7,0,1
+chordoma DISO,gpt-oss:120b,20,0.7,0,1
+chronic MFPS DISO,gpt-oss:120b,20,0.7,0,1
+chronic back pain DISO,gpt-oss:120b,20,0.7,0,1
+chronic brain ischemia DISO,gpt-oss:120b,20,0.7,0,1
+chronic diseases DISO,gpt-oss:120b,20,0.7,0,1
+chronic inflammatory processes DISO,gpt-oss:120b,20,0.7,0,1
+chronic kidney disease DISO,gpt-oss:120b,20,0.7,0,1
+chronic polysyndrome disease DISO,gpt-oss:120b,20,0.7,0,1
+chronic rhinosinusitis DISO,gpt-oss:120b,20,0.7,0,1
+ciliary ANATOMY,gpt-oss:120b,20,0.7,0,1
+cipralex CHEM,gpt-oss:120b,20,0.7,0,1
+circle of Willis ANATOMY,gpt-oss:120b,20,0.7,0,1
+cirrhosis DISO,gpt-oss:120b,20,0.7,0,1
+clinical manifestations DISO,gpt-oss:120b,20,0.7,0,1
+clivus ANATOMY,gpt-oss:120b,20,0.7,0,1
+clivus structures ANATOMY,gpt-oss:120b,20,0.7,0,1
+cognitive disorders DISO,gpt-oss:120b,20,0.7,0,1
+cognitive impairment DISO,gpt-oss:120b,20,0.7,0,1
+colorectal ANATOMY,gpt-oss:120b,20,0.7,0,1
+colorectal adenocarcinoma DISO,gpt-oss:120b,20,0.7,0,1
+colorectal adenocarcinoma metastases to the liver DISO,gpt-oss:120b,20,0.7,0,1
+colorectal carcinoma DISO,gpt-oss:120b,20,0.7,0,1
+colorectal carcinoma metastases to the liver DISO,gpt-oss:120b,20,0.7,0,1
+colorectal liver metastases DISO,gpt-oss:120b,20,0.7,0,1
+complete blindness DISO,gpt-oss:120b,20,0.7,0,1
+complications DISO,gpt-oss:120b,20,0.7,0,1
+compression DISO,gpt-oss:120b,20,0.7,0,1
+compression of the spinal cord DISO,gpt-oss:120b,20,0.7,0,1
+conjunctiva ANATOMY,gpt-oss:120b,20,0.7,0,1
+connective tissue dysplasia DISO,gpt-oss:120b,20,0.7,0,1
+coronary ANATOMY,gpt-oss:120b,20,0.7,0,1
+coronary syndrome DISO,gpt-oss:120b,20,0.7,0,1
+corpses ANATOMY,gpt-oss:120b,20,0.7,0,1
+costimulatory molecule CHEM,gpt-oss:120b,20,0.7,0,1
+craniovertebral ANATOMY,gpt-oss:120b,20,0.7,0,1
+craniovertebral region ANATOMY,gpt-oss:120b,20,0.7,0,1
+critical ischemia of lower extremities DISO,gpt-oss:120b,20,0.7,0,1
+critical limb ischemia DISO,gpt-oss:120b,20,0.7,0,1
+crystalluria DISO,gpt-oss:120b,20,0.7,0,1
+cysts DISO,gpt-oss:120b,20,0.7,0,1
+cytoflavin CHEM,gpt-oss:120b,20,0.7,0,1
+cytolytic DISO,gpt-oss:120b,20,0.7,0,1
+cytoplasmic ANATOMY,gpt-oss:120b,20,0.7,0,1
+cytotoxic agents CHEM,gpt-oss:120b,20,0.7,0,1
+dacryoadenitis DISO,gpt-oss:120b,20,0.7,0,1
+deficiency of collagen DISO,gpt-oss:120b,20,0.7,0,1
+deltoid region ANATOMY,gpt-oss:120b,20,0.7,0,1
+delusion disturbances DISO,gpt-oss:120b,20,0.7,0,1
+depression DISO,gpt-oss:120b,20,0.7,0,1
+depressive DISO,gpt-oss:120b,20,0.7,0,1
+depressive episode DISO,gpt-oss:120b,20,0.7,0,1
+depressive symptoms DISO,gpt-oss:120b,20,0.7,0,1
+diacerein CHEM,gpt-oss:120b,20,0.7,0,1
+diaflex CHEM,gpt-oss:120b,20,0.7,0,1
+diaphorase CHEM,gpt-oss:120b,20,0.7,0,1
+diclofenac CHEM,gpt-oss:120b,20,0.7,0,1
+diclofenac sodium CHEM,gpt-oss:120b,20,0.7,0,1
+dioxide CHEM,gpt-oss:120b,20,0.7,0,1
+dissecting aortic aneurysm DISO,gpt-oss:120b,20,0.7,0,1
+distal occlusion DISO,gpt-oss:120b,20,0.7,0,1
+dorsalgia DISO,gpt-oss:120b,20,0.7,0,1
+dorsopathy DISO,gpt-oss:120b,20,0.7,0,1
+drug dependence DISO,gpt-oss:120b,20,0.7,0,1
+edema DISO,gpt-oss:120b,20,0.7,0,1
+effector caspase 3 CHEM,gpt-oss:120b,20,0.7,0,1
+effector caspase CHEM,gpt-oss:120b,20,0.7,0,1
+elastic skeleton ANATOMY,gpt-oss:120b,20,0.7,0,1
+encephalomyopathy DISO,gpt-oss:120b,20,0.7,0,1
+endocrine ophthalmopathy DISO,gpt-oss:120b,20,0.7,0,1
+endometrial ANATOMY,gpt-oss:120b,20,0.7,0,1
+endometrial biopsy specimens ANATOMY,gpt-oss:120b,20,0.7,0,1
+endometrium ANATOMY,gpt-oss:120b,20,0.7,0,1
+endothelial ANATOMY,gpt-oss:120b,20,0.7,0,1
+enteropathy DISO,gpt-oss:120b,20,0.7,0,1
+enzyme CHEM,gpt-oss:120b,20,0.7,0,1
+enzymes CHEM,gpt-oss:120b,20,0.7,0,1
+epilepsy DISO,gpt-oss:120b,20,0.7,0,1
+episcleritis DISO,gpt-oss:120b,20,0.7,0,1
+escitalopram CHEM,gpt-oss:120b,20,0.7,0,1
+escitalopram: CHEM,gpt-oss:120b,20,0.7,0,1
+ethylmethylhydroxypyridine succinate CHEM,gpt-oss:120b,20,0.7,0,1
+exacerbation DISO,gpt-oss:120b,20,0.7,0,1
+exacerbation of COPD DISO,gpt-oss:120b,20,0.7,0,1
+exacerbation of chronic obstructive pulmonary disease DISO,gpt-oss:120b,20,0.7,0,1
+exacerbations DISO,gpt-oss:120b,20,0.7,0,1
+exacerbations of chronic obstructive pulmonary disease DISO,gpt-oss:120b,20,0.7,0,1
+eyeball: ANATOMY,gpt-oss:120b,20,0.7,0,1
+eyes ANATOMY,gpt-oss:120b,20,0.7,0,1
+facial ANATOMY,gpt-oss:120b,20,0.7,0,1
+familial hemiplegic migraine DISO,gpt-oss:120b,20,0.7,0,1
+fellow eye ANATOMY,gpt-oss:120b,20,0.7,0,1
+femur ANATOMY,gpt-oss:120b,20,0.7,0,1
+fibers ANATOMY,gpt-oss:120b,20,0.7,0,1
+fibrin CHEM,gpt-oss:120b,20,0.7,0,1
+fibrin exudation DISO,gpt-oss:120b,20,0.7,0,1
+fibrin-monomer complexes CHEM,gpt-oss:120b,20,0.7,0,1
+fibrinogen CHEM,gpt-oss:120b,20,0.7,0,1
+fibromuscular dysplasia DISO,gpt-oss:120b,20,0.7,0,1
+fibrous tunic ANATOMY,gpt-oss:120b,20,0.7,0,1
+fibrous tunic of the eyeball ANATOMY,gpt-oss:120b,20,0.7,0,1
+foreign bodies DISO,gpt-oss:120b,20,0.7,0,1
+foreign bodies in the maxillary sinuses DISO,gpt-oss:120b,20,0.7,0,1
+formalin CHEM,gpt-oss:120b,20,0.7,0,1
+formalin solution CHEM,gpt-oss:120b,20,0.7,0,1
+frontal areas ANATOMY,gpt-oss:120b,20,0.7,0,1
+frontal areas of the left hemisphere ANATOMY,gpt-oss:120b,20,0.7,0,1
+gamma-glutamiltranspeptidase CHEM,gpt-oss:120b,20,0.7,0,1
+gas CHEM,gpt-oss:120b,20,0.7,0,1
+gastroesophageal reflux disease DISO,gpt-oss:120b,20,0.7,0,1
+giant cell ANATOMY,gpt-oss:120b,20,0.7,0,1
+giant cell reticular nuclei ANATOMY,gpt-oss:120b,20,0.7,0,1
+giant cell tumor DISO,gpt-oss:120b,20,0.7,0,1
+glomerular ANATOMY,gpt-oss:120b,20,0.7,0,1
+glucosamine CHEM,gpt-oss:120b,20,0.7,0,1
+glutathione CHEM,gpt-oss:120b,20,0.7,0,1
+glutathione peroxidase CHEM,gpt-oss:120b,20,0.7,0,1
+glycozaminoglycans CHEM,gpt-oss:120b,20,0.7,0,1
+graft ANATOMY,gpt-oss:120b,20,0.7,0,1
+granulomas DISO,gpt-oss:120b,20,0.7,0,1
+granulomatous DISO,gpt-oss:120b,20,0.7,0,1
+hand ANATOMY,gpt-oss:120b,20,0.7,0,1
+heart disease DISO,gpt-oss:120b,20,0.7,0,1
+hemisphere ANATOMY,gpt-oss:120b,20,0.7,0,1
+hemodynamic disturbances DISO,gpt-oss:120b,20,0.7,0,1
+hemotoxyllin CHEM,gpt-oss:120b,20,0.7,0,1
+heparins CHEM,gpt-oss:120b,20,0.7,0,1
+hepatitides DISO,gpt-oss:120b,20,0.7,0,1
+hepatoprotector CHEM,gpt-oss:120b,20,0.7,0,1
+hepatotropic drug CHEM,gpt-oss:120b,20,0.7,0,1
+highly diluted medications CHEM,gpt-oss:120b,20,0.7,0,1
+hopantenic acid CHEM,gpt-oss:120b,20,0.7,0,1
+hydrogen CHEM,gpt-oss:120b,20,0.7,0,1
+hydrogen sulfide CHEM,gpt-oss:120b,20,0.7,0,1
+hyperplasia DISO,gpt-oss:120b,20,0.7,0,1
+hypersensitivity DISO,gpt-oss:120b,20,0.7,0,1
+"hypersensitivity to sounds, light, smell DISO",gpt-oss:120b,20,0.7,0,1
+hypertension DISO,gpt-oss:120b,20,0.7,0,1
+hypnotic CHEM,gpt-oss:120b,20,0.7,0,1
+hypnotics CHEM,gpt-oss:120b,20,0.7,0,1
+hypogastric area ANATOMY,gpt-oss:120b,20,0.7,0,1
+immunosuppressive agents CHEM,gpt-oss:120b,20,0.7,0,1
+impaired endometrial receptivity DISO,gpt-oss:120b,20,0.7,0,1
+impaired fibrinolysis DISO,gpt-oss:120b,20,0.7,0,1
+impaired maturation DISO,gpt-oss:120b,20,0.7,0,1
+impaired permeability DISO,gpt-oss:120b,20,0.7,0,1
+impaired serotonin metabolism DISO,gpt-oss:120b,20,0.7,0,1
+impairment of blood supply DISO,gpt-oss:120b,20,0.7,0,1
+infarcts DISO,gpt-oss:120b,20,0.7,0,1
+infections DISO,gpt-oss:120b,20,0.7,0,1
+infectious DISO,gpt-oss:120b,20,0.7,0,1
+infectious complications DISO,gpt-oss:120b,20,0.7,0,1
+infertility DISO,gpt-oss:120b,20,0.7,0,1
+inflammation of the ocular superficial structures DISO,gpt-oss:120b,20,0.7,0,1
+inflammatory complications DISO,gpt-oss:120b,20,0.7,0,1
+inflammatory infiltration DISO,gpt-oss:120b,20,0.7,0,1
+inflammatory processes DISO,gpt-oss:120b,20,0.7,0,1
+infusion hepatoprotector CHEM,gpt-oss:120b,20,0.7,0,1
+inherited thrombophilia DISO,gpt-oss:120b,20,0.7,0,1
+inhibitors CHEM,gpt-oss:120b,20,0.7,0,1
+integumentary lining cells ANATOMY,gpt-oss:120b,20,0.7,0,1
+internuclear interneurons ANATOMY,gpt-oss:120b,20,0.7,0,1
+intoxication DISO,gpt-oss:120b,20,0.7,0,1
+intraepithelial ANATOMY,gpt-oss:120b,20,0.7,0,1
+intraepithelial lymphocytes ANATOMY,gpt-oss:120b,20,0.7,0,1
+intranasal ANATOMY,gpt-oss:120b,20,0.7,0,1
+intranuclear ANATOMY,gpt-oss:120b,20,0.7,0,1
+invagination DISO,gpt-oss:120b,20,0.7,0,1
+ipidacrine CHEM,gpt-oss:120b,20,0.7,0,1
+ischemia of lower extremities DISO,gpt-oss:120b,20,0.7,0,1
+isotonic sodium chloride solution CHEM,gpt-oss:120b,20,0.7,0,1
+joint ANATOMY,gpt-oss:120b,20,0.7,0,1
+junction ANATOMY,gpt-oss:120b,20,0.7,0,1
+keratomalacia DISO,gpt-oss:120b,20,0.7,0,1
+knee ANATOMY,gpt-oss:120b,20,0.7,0,1
+lactic CHEM,gpt-oss:120b,20,0.7,0,1
+large B-cell lymphoma DISO,gpt-oss:120b,20,0.7,0,1
+large IN ANATOMY,gpt-oss:120b,20,0.7,0,1
+large bowel ANATOMY,gpt-oss:120b,20,0.7,0,1
+lavage fluid ANATOMY,gpt-oss:120b,20,0.7,0,1
+lead CHEM,gpt-oss:120b,20,0.7,0,1
+left hemisphere ANATOMY,gpt-oss:120b,20,0.7,0,1
+left-hemispheric ANATOMY,gpt-oss:120b,20,0.7,0,1
+left-hemispheric cerebral infarction DISO,gpt-oss:120b,20,0.7,0,1
+lesion DISO,gpt-oss:120b,20,0.7,0,1
+leukemia DISO,gpt-oss:120b,20,0.7,0,1
+leukocyte differentiation antigens CHEM,gpt-oss:120b,20,0.7,0,1
+lidocaine solutions CHEM,gpt-oss:120b,20,0.7,0,1
+limb ANATOMY,gpt-oss:120b,20,0.7,0,1
+limb ischemia DISO,gpt-oss:120b,20,0.7,0,1
+lipid CHEM,gpt-oss:120b,20,0.7,0,1
+lipid hydroperoxides CHEM,gpt-oss:120b,20,0.7,0,1
+lipoic acid CHEM,gpt-oss:120b,20,0.7,0,1
+liver ANATOMY,gpt-oss:120b,20,0.7,0,1
+liver enzymes CHEM,gpt-oss:120b,20,0.7,0,1
+liver right lobe ANATOMY,gpt-oss:120b,20,0.7,0,1
+lower limbs ANATOMY,gpt-oss:120b,20,0.7,0,1
+lumen ANATOMY,gpt-oss:120b,20,0.7,0,1
+lung ANATOMY,gpt-oss:120b,20,0.7,0,1
+lung injuries DISO,gpt-oss:120b,20,0.7,0,1
+lungs ANATOMY,gpt-oss:120b,20,0.7,0,1
+lymphocytic colitis DISO,gpt-oss:120b,20,0.7,0,1
+main artery ANATOMY,gpt-oss:120b,20,0.7,0,1
+mass lesion DISO,gpt-oss:120b,20,0.7,0,1
+mass lesion in the right adrenal gland DISO,gpt-oss:120b,20,0.7,0,1
+matrix ANATOMY,gpt-oss:120b,20,0.7,0,1
+mature pinopodes ANATOMY,gpt-oss:120b,20,0.7,0,1
+maxillary sinus ANATOMY,gpt-oss:120b,20,0.7,0,1
+maxillary sinus cavity ANATOMY,gpt-oss:120b,20,0.7,0,1
+maxillary sinus cavity walls ANATOMY,gpt-oss:120b,20,0.7,0,1
+maxillary sinuses ANATOMY,gpt-oss:120b,20,0.7,0,1
+maxillofacial ANATOMY,gpt-oss:120b,20,0.7,0,1
+mediastinal structures ANATOMY,gpt-oss:120b,20,0.7,0,1
+medulla oblongata ANATOMY,gpt-oss:120b,20,0.7,0,1
+mesalasine CHEM,gpt-oss:120b,20,0.7,0,1
+mesenteric artery ANATOMY,gpt-oss:120b,20,0.7,0,1
+metalloproteinases CHEM,gpt-oss:120b,20,0.7,0,1
+metastases DISO,gpt-oss:120b,20,0.7,0,1
+metastatic DISO,gpt-oss:120b,20,0.7,0,1
+metastatic lesion DISO,gpt-oss:120b,20,0.7,0,1
+metastatic lesion of liver right lobe DISO,gpt-oss:120b,20,0.7,0,1
+microcirculatory bed ANATOMY,gpt-oss:120b,20,0.7,0,1
+microscopic colitis DISO,gpt-oss:120b,20,0.7,0,1
+middle cerebral artery ANATOMY,gpt-oss:120b,20,0.7,0,1
+middle facial region ANATOMY,gpt-oss:120b,20,0.7,0,1
+migraine DISO,gpt-oss:120b,20,0.7,0,1
+migraine-like headache DISO,gpt-oss:120b,20,0.7,0,1
+mild cognitive impairment DISO,gpt-oss:120b,20,0.7,0,1
+mild depressive states DISO,gpt-oss:120b,20,0.7,0,1
+mitochondrial encephalomyopathy DISO,gpt-oss:120b,20,0.7,0,1
+moderate cognitive dysfunction DISO,gpt-oss:120b,20,0.7,0,1
+monoclonal antibodies CHEM,gpt-oss:120b,20,0.7,0,1
+mononeuropathies DISO,gpt-oss:120b,20,0.7,0,1
+monoxide CHEM,gpt-oss:120b,20,0.7,0,1
+motor disorders DISO,gpt-oss:120b,20,0.7,0,1
+muscle ANATOMY,gpt-oss:120b,20,0.7,0,1
+mycotic DISO,gpt-oss:120b,20,0.7,0,1
+mycotic infection DISO,gpt-oss:120b,20,0.7,0,1
+myocardial ANATOMY,gpt-oss:120b,20,0.7,0,1
+myocardial infarction DISO,gpt-oss:120b,20,0.7,0,1
+myocardium ANATOMY,gpt-oss:120b,20,0.7,0,1
+myofascial ANATOMY,gpt-oss:120b,20,0.7,0,1
+nasal septum deformations DISO,gpt-oss:120b,20,0.7,0,1
+nasopharynx ANATOMY,gpt-oss:120b,20,0.7,0,1
+necrotic processes DISO,gpt-oss:120b,20,0.7,0,1
+necrotizing DISO,gpt-oss:120b,20,0.7,0,1
+negative disorders DISO,gpt-oss:120b,20,0.7,0,1
+negative symptomatology DISO,gpt-oss:120b,20,0.7,0,1
+nephropathy DISO,gpt-oss:120b,20,0.7,0,1
+neural structure ANATOMY,gpt-oss:120b,20,0.7,0,1
+neuroepithelium ANATOMY,gpt-oss:120b,20,0.7,0,1
+neurological deficit DISO,gpt-oss:120b,20,0.7,0,1
+neurological disorders DISO,gpt-oss:120b,20,0.7,0,1
+neurological symptoms DISO,gpt-oss:120b,20,0.7,0,1
+neuronal ANATOMY,gpt-oss:120b,20,0.7,0,1
+neuronal dysfunction DISO,gpt-oss:120b,20,0.7,0,1
+neurons ANATOMY,gpt-oss:120b,20,0.7,0,1
+nitrogen CHEM,gpt-oss:120b,20,0.7,0,1
+nitrogen dioxide CHEM,gpt-oss:120b,20,0.7,0,1
+nitrogen oxide CHEM,gpt-oss:120b,20,0.7,0,1
+non-STSEAMI DISO,gpt-oss:120b,20,0.7,0,1
+nucleus of the solitary tract ANATOMY,gpt-oss:120b,20,0.7,0,1
+ocular ANATOMY,gpt-oss:120b,20,0.7,0,1
+ocular superficial structures ANATOMY,gpt-oss:120b,20,0.7,0,1
+oculomotor muscles ANATOMY,gpt-oss:120b,20,0.7,0,1
+odontogenic ANATOMY,gpt-oss:120b,20,0.7,0,1
+operative material ANATOMY,gpt-oss:120b,20,0.7,0,1
+optic nerve ANATOMY,gpt-oss:120b,20,0.7,0,1
+oral ANATOMY,gpt-oss:120b,20,0.7,0,1
+organ ANATOMY,gpt-oss:120b,20,0.7,0,1
+organ of vision ANATOMY,gpt-oss:120b,20,0.7,0,1
+organs ANATOMY,gpt-oss:120b,20,0.7,0,1
+oropharynx ANATOMY,gpt-oss:120b,20,0.7,0,1
+oropharynx area ANATOMY,gpt-oss:120b,20,0.7,0,1
+orsein CHEM,gpt-oss:120b,20,0.7,0,1
+osteoarthritis DISO,gpt-oss:120b,20,0.7,0,1
+osteoarthrosis DISO,gpt-oss:120b,20,0.7,0,1
+osteoblastoma DISO,gpt-oss:120b,20,0.7,0,1
+oxygen CHEM,gpt-oss:120b,20,0.7,0,1
+p53 CHEM,gpt-oss:120b,20,0.7,0,1
+pain DISO,gpt-oss:120b,20,0.7,0,1
+pain syndrome DISO,gpt-oss:120b,20,0.7,0,1
+palate ANATOMY,gpt-oss:120b,20,0.7,0,1
+pancreas ANATOMY,gpt-oss:120b,20,0.7,0,1
+pantogam CHEM,gpt-oss:120b,20,0.7,0,1
+panuveitis DISO,gpt-oss:120b,20,0.7,0,1
+paraffin CHEM,gpt-oss:120b,20,0.7,0,1
+paranoid syndrome with primary interpretative delusion DISO,gpt-oss:120b,20,0.7,0,1
+parietooccipital ANATOMY,gpt-oss:120b,20,0.7,0,1
+pathological dependence DISO,gpt-oss:120b,20,0.7,0,1
+pathomorphological changes DISO,gpt-oss:120b,20,0.7,0,1
+perfusion disturbances DISO,gpt-oss:120b,20,0.7,0,1
+permeability impairment DISO,gpt-oss:120b,20,0.7,0,1
+peroxidase CHEM,gpt-oss:120b,20,0.7,0,1
+pharyngo-laryngeal reflux DISO,gpt-oss:120b,20,0.7,0,1
+pharynx ANATOMY,gpt-oss:120b,20,0.7,0,1
+pinopodes ANATOMY,gpt-oss:120b,20,0.7,0,1
+placebo CHEM,gpt-oss:120b,20,0.7,0,1
+pleural ANATOMY,gpt-oss:120b,20,0.7,0,1
+pleural effusion DISO,gpt-oss:120b,20,0.7,0,1
+pneumonia DISO,gpt-oss:120b,20,0.7,0,1
+polyclonal antibodies CHEM,gpt-oss:120b,20,0.7,0,1
+polypoid DISO,gpt-oss:120b,20,0.7,0,1
+polypoid hyperplasia DISO,gpt-oss:120b,20,0.7,0,1
+polypoid hyperplasia of the vocal folds DISO,gpt-oss:120b,20,0.7,0,1
+polysyndrome disease DISO,gpt-oss:120b,20,0.7,0,1
+positive disorders DISO,gpt-oss:120b,20,0.7,0,1
+posterior ANATOMY,gpt-oss:120b,20,0.7,0,1
+posterior chamber ANATOMY,gpt-oss:120b,20,0.7,0,1
+posterior region of the right forearm ANATOMY,gpt-oss:120b,20,0.7,0,1
+posterior surface of the right forearm ANATOMY,gpt-oss:120b,20,0.7,0,1
+posterior surface of the right shoulder ANATOMY,gpt-oss:120b,20,0.7,0,1
+postmortem material ANATOMY,gpt-oss:120b,20,0.7,0,1
+prednisolone CHEM,gpt-oss:120b,20,0.7,0,1
+primary system necrotizing vasculitis DISO,gpt-oss:120b,20,0.7,0,1
+proteins CHEM,gpt-oss:120b,20,0.7,0,1
+psychiatric evaluations DISO,gpt-oss:120b,20,0.7,0,1
+psychopathological symptom complexes DISO,gpt-oss:120b,20,0.7,0,1
+pulp ANATOMY,gpt-oss:120b,20,0.7,0,1
+pupil occlusion DISO,gpt-oss:120b,20,0.7,0,1
+radiculopathies DISO,gpt-oss:120b,20,0.7,0,1
+receptor CHEM,gpt-oss:120b,20,0.7,0,1
+receptors CHEM,gpt-oss:120b,20,0.7,0,1
+reductase CHEM,gpt-oss:120b,20,0.7,0,1
+reflux disease DISO,gpt-oss:120b,20,0.7,0,1
+remaxol CHEM,gpt-oss:120b,20,0.7,0,1
+renal ANATOMY,gpt-oss:120b,20,0.7,0,1
+respiratory tract infection DISO,gpt-oss:120b,20,0.7,0,1
+reticular nucleus ANATOMY,gpt-oss:120b,20,0.7,0,1
+retina ANATOMY,gpt-oss:120b,20,0.7,0,1
+retinal artery ANATOMY,gpt-oss:120b,20,0.7,0,1
+retinal vasculopathy with cerebral leukodystrophy DISO,gpt-oss:120b,20,0.7,0,1
+rheopolyglukin CHEM,gpt-oss:120b,20,0.7,0,1
+rhinitis DISO,gpt-oss:120b,20,0.7,0,1
+rhinosinusitis DISO,gpt-oss:120b,20,0.7,0,1
+riboflavin CHEM,gpt-oss:120b,20,0.7,0,1
+right deltoid region ANATOMY,gpt-oss:120b,20,0.7,0,1
+right femur ANATOMY,gpt-oss:120b,20,0.7,0,1
+right forearm ANATOMY,gpt-oss:120b,20,0.7,0,1
+right lower leg ANATOMY,gpt-oss:120b,20,0.7,0,1
+right shoulder ANATOMY,gpt-oss:120b,20,0.7,0,1
+right thigh ANATOMY,gpt-oss:120b,20,0.7,0,1
+root ANATOMY,gpt-oss:120b,20,0.7,0,1
+root fragments ANATOMY,gpt-oss:120b,20,0.7,0,1
+roots ANATOMY,gpt-oss:120b,20,0.7,0,1
+sCD25 CHEM,gpt-oss:120b,20,0.7,0,1
+sCD38 CHEM,gpt-oss:120b,20,0.7,0,1
+scleritis DISO,gpt-oss:120b,20,0.7,0,1
+sclerosis DISO,gpt-oss:120b,20,0.7,0,1
+secondary hyperuricemia DISO,gpt-oss:120b,20,0.7,0,1
+serotonin CHEM,gpt-oss:120b,20,0.7,0,1
+severe attack (SA) of ulcerative colitis DISO,gpt-oss:120b,20,0.7,0,1
+severe headache DISO,gpt-oss:120b,20,0.7,0,1
+short posterior ciliary arteries ANATOMY,gpt-oss:120b,20,0.7,0,1
+shoulder ANATOMY,gpt-oss:120b,20,0.7,0,1
+side-effects DISO,gpt-oss:120b,20,0.7,0,1
+sinus ANATOMY,gpt-oss:120b,20,0.7,0,1
+sinus cavity ANATOMY,gpt-oss:120b,20,0.7,0,1
+sinuses ANATOMY,gpt-oss:120b,20,0.7,0,1
+skin ANATOMY,gpt-oss:120b,20,0.7,0,1
+small cell ANATOMY,gpt-oss:120b,20,0.7,0,1
+small cell reticular nuclei ANATOMY,gpt-oss:120b,20,0.7,0,1
+small cell reticular nucleus ANATOMY,gpt-oss:120b,20,0.7,0,1
+smooth muscle ANATOMY,gpt-oss:120b,20,0.7,0,1
+sodium CHEM,gpt-oss:120b,20,0.7,0,1
+soft palate ANATOMY,gpt-oss:120b,20,0.7,0,1
+spinal cord ANATOMY,gpt-oss:120b,20,0.7,0,1
+spine ANATOMY,gpt-oss:120b,20,0.7,0,1
+statins CHEM,gpt-oss:120b,20,0.7,0,1
+stroke DISO,gpt-oss:120b,20,0.7,0,1
+stroke-like episodes DISO,gpt-oss:120b,20,0.7,0,1
+stroma ANATOMY,gpt-oss:120b,20,0.7,0,1
+stromal ANATOMY,gpt-oss:120b,20,0.7,0,1
+stromal sclerosis DISO,gpt-oss:120b,20,0.7,0,1
+subacute chronic back pain DISO,gpt-oss:120b,20,0.7,0,1
+subepithelial collagen lining ANATOMY,gpt-oss:120b,20,0.7,0,1
+substrates ANATOMY,gpt-oss:120b,20,0.7,0,1
+superior mesenteric artery ANATOMY,gpt-oss:120b,20,0.7,0,1
+surface epithelium ANATOMY,gpt-oss:120b,20,0.7,0,1
+symptomatology positive DISO,gpt-oss:120b,20,0.7,0,1
+systemic glucocorticosteroids CHEM,gpt-oss:120b,20,0.7,0,1
+taurine CHEM,gpt-oss:120b,20,0.7,0,1
+thigh ANATOMY,gpt-oss:120b,20,0.7,0,1
+tissue ANATOMY,gpt-oss:120b,20,0.7,0,1
+tissue samples ANATOMY,gpt-oss:120b,20,0.7,0,1
+tissues ANATOMY,gpt-oss:120b,20,0.7,0,1
+toes ANATOMY,gpt-oss:120b,20,0.7,0,1
+topical glucocorticosteroid CHEM,gpt-oss:120b,20,0.7,0,1
+tumor cells ANATOMY,gpt-oss:120b,20,0.7,0,1
+tumor thrombosis DISO,gpt-oss:120b,20,0.7,0,1
+tumor thrombus DISO,gpt-oss:120b,20,0.7,0,1
+tumors DISO,gpt-oss:120b,20,0.7,0,1
+ulcerative colitis DISO,gpt-oss:120b,20,0.7,0,1
+umifenovir CHEM,gpt-oss:120b,20,0.7,0,1
+undifferentiated connective tissue dysplasia DISO,gpt-oss:120b,20,0.7,0,1
+upper and lower extremities ANATOMY,gpt-oss:120b,20,0.7,0,1
+upper cervical ANATOMY,gpt-oss:120b,20,0.7,0,1
+upper cervical spine segments ANATOMY,gpt-oss:120b,20,0.7,0,1
+upper extremities ANATOMY,gpt-oss:120b,20,0.7,0,1
+upper mesenteric artery ANATOMY,gpt-oss:120b,20,0.7,0,1
+urinary ANATOMY,gpt-oss:120b,20,0.7,0,1
+urinary syndrome DISO,gpt-oss:120b,20,0.7,0,1
+urine ANATOMY,gpt-oss:120b,20,0.7,0,1
+valdoxan CHEM,gpt-oss:120b,20,0.7,0,1
+vascular ANATOMY,gpt-oss:120b,20,0.7,0,1
+vascular cell ANATOMY,gpt-oss:120b,20,0.7,0,1
+vascular cell adhesion molecule CHEM,gpt-oss:120b,20,0.7,0,1
+vascular cell adhesion molecule-1 CHEM,gpt-oss:120b,20,0.7,0,1
+vasculitis DISO,gpt-oss:120b,20,0.7,0,1
+vasculopathy DISO,gpt-oss:120b,20,0.7,0,1
+vein ANATOMY,gpt-oss:120b,20,0.7,0,1
+vena ANATOMY,gpt-oss:120b,20,0.7,0,1
+viral LC DISO,gpt-oss:120b,20,0.7,0,1
+viral hepatitides DISO,gpt-oss:120b,20,0.7,0,1
+viral infections DISO,gpt-oss:120b,20,0.7,0,1
+vitamins CHEM,gpt-oss:120b,20,0.7,0,1
+vocal fold ANATOMY,gpt-oss:120b,20,0.7,0,1
+vocal fold polyps DISO,gpt-oss:120b,20,0.7,0,1
+wall ANATOMY,gpt-oss:120b,20,0.7,0,1
+withdrawal syndrome DISO,gpt-oss:120b,20,0.7,0,1
+xylometazoline CHEM,gpt-oss:120b,20,0.7,0,1
+xylometazoline solution CHEM,gpt-oss:120b,20,0.7,0,1

@@ -1,0 +1,982 @@
+[
+    {
+        "matched_cuis": [
+            "C0011991",
+            "C1290807",
+            "C0474497",
+            "C3641756",
+            "C0156173"
+        ],
+        "status": "success",
+        "ontology_id": "C019191",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0009806",
+            "C2707786",
+            "C0401146",
+            "C4698937",
+            "C0231361"
+        ],
+        "status": "success",
+        "ontology_id": "C000906",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C1534476",
+            "C0267596",
+            "C1533093",
+            "C1533092",
+            "C5192565"
+        ],
+        "status": "success",
+        "ontology_id": "C01725",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0151594"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "no_mapping",
+        "ontology_id": "C000906",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C1398174",
+            "C0806601",
+            "C0349985",
+            "C0149720",
+            "C5967462"
+        ],
+        "status": "success",
+        "ontology_id": "C01725",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0337664",
+            "C0337667",
+            "C3241966",
+            "C0037369",
+            "C0037366"
+        ],
+        "status": "success",
+        "ontology_id": "C03736",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C4552100",
+            "C2931593",
+            "C4510376"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0400022",
+            "C3266736",
+            "C0801760",
+            "C0943693",
+            "C2977628"
+        ],
+        "status": "success",
+        "ontology_id": "C04002",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5926819",
+            "C4041006"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C2315089",
+            "C3843719",
+            "C1388856",
+            "C4696292",
+            "C1277232"
+        ],
+        "status": "success",
+        "ontology_id": "C23856",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C4552100"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0021390",
+            "C3177040",
+            "C3258938",
+            "C4268603",
+            "C2887786"
+        ],
+        "status": "success",
+        "ontology_id": "C01725",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0400009"
+        ],
+        "status": "success",
+        "ontology_id": "C198265",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0009378",
+            "C3266736",
+            "C0400022",
+            "C5688897",
+            "C0009556"
+        ],
+        "status": "success",
+        "ontology_id": "C000956",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "C019191",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0239081"
+        ],
+        "status": "success",
+        "ontology_id": "C029081",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0009402",
+            "C4482613"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0001779",
+            "C0439632",
+            "C4698447",
+            "C2598519",
+            "C3841887"
+        ],
+        "status": "success",
+        "ontology_id": "C49847",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3266797",
+            "C0730200",
+            "C0559117",
+            "C0559115",
+            "C5922488"
+        ],
+        "status": "success",
+        "ontology_id": "C059172",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C1096650",
+            "C0021080",
+            "C0021079",
+            "C1264021",
+            "C5444095"
+        ],
+        "status": "success",
+        "ontology_id": "C09650",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C1115771",
+            "C3843039",
+            "C2729346",
+            "C1114750",
+            "C5214471"
+        ],
+        "status": "success",
+        "ontology_id": "C111571",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C4482549",
+            "C5979514",
+            "C1275743",
+            "C2598125",
+            "C2598124"
+        ],
+        "status": "success",
+        "ontology_id": "C385243",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C2359468",
+            "C1717460",
+            "C4531452",
+            "C4531449"
+        ],
+        "status": "success",
+        "ontology_id": "C01725",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0474911",
+            "C3873620",
+            "C3260320",
+            "C1272839",
+            "C0027646"
+        ],
+        "status": "success",
+        "ontology_id": "C3260320",
+        "is_found": 1
+    },
+    {
+        "matched_cuis": [
+            "C3842346"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C1997686",
+            "C1997022",
+            "C5926822",
+            "C0375804",
+            "C5926820"
+        ],
+        "status": "success",
+        "ontology_id": "C197868",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3260353",
+            "C3260302",
+            "C3260296"
+        ],
+        "status": "success",
+        "ontology_id": "C3260305",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C2732618",
+            "C3838988"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5688628",
+            "C5926822",
+            "C5926975",
+            "C5926823",
+            "C5926820"
+        ],
+        "status": "success",
+        "ontology_id": "C01725",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C1328737",
+            "C0439587"
+        ],
+        "status": "success",
+        "ontology_id": "C056454",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3260355",
+            "C3260356"
+        ],
+        "status": "success",
+        "ontology_id": "C0097618",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3173299",
+            "C3260320"
+        ],
+        "status": "success",
+        "ontology_id": "C3260320",
+        "is_found": 1
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3260302"
+        ],
+        "status": "success",
+        "ontology_id": "C3260302",
+        "is_found": 1
+    },
+    {
+        "matched_cuis": [
+            "C3260286"
+        ],
+        "status": "success",
+        "ontology_id": "C3260286",
+        "is_found": 1
+    },
+    {
+        "matched_cuis": [
+            "C1266025"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C4319571",
+            "C3843761",
+            "C0332167",
+            "C4695109"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0009806",
+            "C0150019",
+            "C0401148",
+            "C2707786",
+            "C0401146"
+        ],
+        "status": "success",
+        "ontology_id": "C0729262",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0267596",
+            "C0019081",
+            "C1534476"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0282090",
+            "C0806601",
+            "C1279767",
+            "C0618983"
+        ],
+        "status": "success",
+        "ontology_id": "C01725",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0337664",
+            "C3241966",
+            "C0337667",
+            "C3173209",
+            "C0037369"
+        ],
+        "status": "success",
+        "ontology_id": "C037364",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C4552100"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3266736"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5926819",
+            "C5881103",
+            "C5819536"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C4303556"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0004057"
+        ],
+        "status": "success",
+        "ontology_id": "C0723429",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C4510376"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C4510376"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0021368",
+            "C1290885",
+            "C1290884",
+            "C0333348"
+        ],
+        "status": "success",
+        "ontology_id": "C129084",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C2608114",
+            "C0009369",
+            "C0554048",
+            "C1292990",
+            "C0192817"
+        ],
+        "status": "success",
+        "ontology_id": "C019191",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5688897",
+            "C0009378",
+            "C0554063"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0009556"
+        ],
+        "status": "success",
+        "ontology_id": "C000956",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0730516"
+        ],
+        "status": "success",
+        "ontology_id": "C070516",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0009402",
+            "C4722085"
+        ],
+        "status": "success",
+        "ontology_id": "C098265",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0521999"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3266797"
+        ],
+        "status": "success",
+        "ontology_id": "C01725",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5699739"
+        ],
+        "status": "success",
+        "ontology_id": "C59739",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5699739"
+        ],
+        "status": "success",
+        "ontology_id": "C59739",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3842346"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3873640",
+            "C0586982",
+            "C4760557",
+            "C4760558"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3173721"
+        ],
+        "status": "success",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3260576"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C2711213",
+            "C4034855",
+            "C1511481",
+            "C4037474"
+        ],
+        "status": "success",
+        "ontology_id": "C40385",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C1511481"
+        ],
+        "status": "success",
+        "ontology_id": "C5702721",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3875410"
+        ],
+        "status": "success",
+        "ontology_id": "C385410",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "C045051",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3874450"
+        ],
+        "status": "success",
+        "ontology_id": "C570253",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0586899",
+            "C4300270",
+            "C4050121"
+        ],
+        "status": "success",
+        "ontology_id": "C0587464",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5969729"
+        ],
+        "status": "success",
+        "ontology_id": "C5969729",
+        "is_found": 1
+    },
+    {
+        "matched_cuis": [
+            "C3834491"
+        ],
+        "status": "success",
+        "ontology_id": "C0585956",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0586898",
+            "C4300271",
+            "C0259901"
+        ],
+        "status": "success",
+        "ontology_id": "C025901",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5699739"
+        ],
+        "status": "success",
+        "ontology_id": "C385410",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "no_mapping",
+        "ontology_id": null,
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5395320",
+            "C4553125"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0576710"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5395320"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "C057170",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "no_mapping",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "no_mapping",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "C009378",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "C000378",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "C56897",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "C01725",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0180022"
+        ],
+        "status": "success",
+        "ontology_id": "C0009378",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "no_mapping",
+        "ontology_id": "C019191",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "no_mapping",
+        "ontology_id": "C019191",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "no_mapping",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "no_mapping",
+        "ontology_id": "C019191",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5923708"
+        ],
+        "status": "success",
+        "ontology_id": "C5923708",
+        "is_found": 1
+    },
+    {
+        "matched_cuis": [
+            "C5923708"
+        ],
+        "status": "success",
+        "ontology_id": "C019191",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C1320497"
+        ],
+        "status": "success",
+        "ontology_id": "C03108",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "C4297202",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5567786"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0521210"
+        ],
+        "status": "success",
+        "ontology_id": "C0589347",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "C032584",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C4316666"
+        ],
+        "status": "success",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C2317404",
+            "C5881103"
+        ],
+        "status": "success",
+        "ontology_id": "C035895",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C1000483",
+            "C0002871",
+            "C1387106",
+            "C4698934"
+        ],
+        "status": "success",
+        "ontology_id": "C0162316",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "all_wrong",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [],
+        "status": "no_mapping",
+        "ontology_id": "Needs_Review",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3842346",
+            "C1316209"
+        ],
+        "status": "success",
+        "ontology_id": "C326035",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0026606",
+            "C0946284",
+            "C4267718",
+            "C1268746",
+            "C1301988"
+        ],
+        "status": "success",
+        "ontology_id": "C04165",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C0456486"
+        ],
+        "status": "success",
+        "ontology_id": "C129212",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C3173299",
+            "C3173298"
+        ],
+        "status": "success",
+        "ontology_id": "C047545",
+        "is_found": 0
+    },
+    {
+        "matched_cuis": [
+            "C5923708"
+        ],
+        "status": "success",
+        "ontology_id": "C034108",
+        "is_found": 0
+    }
+]

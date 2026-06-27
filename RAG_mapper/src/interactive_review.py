@@ -1,9 +1,10 @@
 import pandas as pd
+from dotenv import load_dotenv
 from typing import List, Optional
 from RAG_mapper.src.RAG_mapper import RAGMapper
 from RAG_mapper.src.schema_builder import SchemaBuilder
 
-
+load_dotenv()
 
 class InteractiveReview(RAGMapper):
 
@@ -112,7 +113,6 @@ if __name__ == '__main__':
                 cleaned = row.fillna('')
                 search_query = pick_feature(row)
                 description = cleaned.iloc[2]
-                print(description)
                 if search_query:
 
                     search_query = search_query + ' ' + description
@@ -131,12 +131,7 @@ if __name__ == '__main__':
         irish_var = data.iloc[:, 0:3].dropna(how = 'all')
         french_var = data.iloc[:, 3:6].dropna(how = 'all')
 
-        '''
-        os.environ["LANGSMITH_API_KEY"] = "REDACTED_LANGSMITH_KEY"
-        os.environ["LANGCHAIN_TRACING_V2"] = "true"
-        os.environ["LANGSMITH_PROJECT"] = "RAG_mapper"
-        os.environ["LANGSMITH_ENDPOINT"] = "https://api.smith.langchain.com"
-        '''
+
         # Preprocess
         A_irish = irish_var.apply(preprocess_var_series, axis=1).dropna().to_list()
         A_french = french_var.apply(preprocess_var_series, axis=1).dropna().to_list()
@@ -183,8 +178,8 @@ if __name__ == '__main__':
         french_builder.local_schema = reviewer_french.local_schema
 
         # save local schema
-        irish_builder.save_schema('results/irish_local_schema_256.xlsx')
-        french_builder.save_schema('results/french_local_schema_256.xlsx')
+        irish_builder.save_schema('results/irish_local_schema_72_new.xlsx')
+        french_builder.save_schema('results/french_local_schema_72_new.xlsx')
 
         print("\n*** FINAL RESULTS SUMMARY (MODULAR) ***\n ***")
         print(f"Number of irish variables : {len(A_irish)}\nNumber of french variables : {len(A_french)}\n")

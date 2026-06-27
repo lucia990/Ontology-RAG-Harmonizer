@@ -1,0 +1,19 @@
+Binary class for breast cancer recurrence after n years :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_ICD10.parquet'. Detail: [errno 2] No such file or directory
+Patient age (categorical) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_LNC.parquet'. Detail: [errno 2] No such file or directory
+menopause state of the patient (categorical) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+Binary class for breast cancer recurrence after n years :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+Patient age (categorical) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_LNC.parquet'. Detail: [errno 2] No such file or directory
+menopause state of the patient (categorical) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+size of the tumor (categorical) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+Involved lymph nodes (categorical) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+extracapsular extension binary class :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+histological degree of the malignancy score :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_LNC.parquet'. Detail: [errno 2] No such file or directory
+breast cancer location (right or left) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+quadrant where primary breast cancer is located  :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+radioation therapy procedure (yes or no) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+Binary class for breast cancer recurrence after n years :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+Patient age (categorical) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_LNC.parquet'. Detail: [errno 2] No such file or directory
+menopause state of the patient (categorical) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+size of the tumor (categorical) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_LNC.parquet'. Detail: [errno 2] No such file or directory
+Binary class for breast cancer recurrence after n years :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_SNOMEDCT_US.parquet'. Detail: [errno 2] No such file or directory
+Patient age (categorical) :: [Errno 2] Failed to open local file 'UMLS_mapper/data/raw/text_embs_25_LNC.parquet'. Detail: [errno 2] No such file or directory

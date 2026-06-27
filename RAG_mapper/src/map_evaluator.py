@@ -1,20 +1,21 @@
 import pandas as pd
 from typing import List
+
 from langchain_core.output_parsers import PydanticOutputParser
 from langchain_core.prompts import ChatPromptTemplate
-import time
-from RAG_mapper.src.llm_model import CosyChatOllama, SchemaNode
+
+from RAG_mapper.src.llm_model import  get_llm, CosyChatOllama, SchemaNode
 from RAG_mapper.src.RAG_mapper import RAGMapper
 
 
 
 class RAGMapperEvaluator(RAGMapper):
 
-    def __init__(self, var_list: List[str], k: int = 10, t: float = 0.75) -> None:
+    def __init__(self, var_list: List[str], k: int = 50, t: float = 0.8, llm_model = 'medllama2:latest') -> None:
 
         super().__init__(var_list=var_list, k=k, t=t)
 
-    def create_evaluator_chain(self):
+    def create_evaluator_chain(self, llm_model):
         with open('RAG_mapper/prompts/system_instructions_evaluator.md', 'r') as instructions_file:
             with open('RAG_mapper/prompts/human_prompt_evaluator.md', 'r') as human_prompt_file:
                 prompt_template = ChatPromptTemplate([
@@ -22,7 +23,7 @@ class RAGMapperEvaluator(RAGMapper):
                     ('user', human_prompt_file.read()),
                 ])
         # llm
-        llm = CosyChatOllama()
+        llm =  get_llm(llm_model) # CosyChatOllama()
 
         # parser
         parser = PydanticOutputParser(pydantic_object= SchemaNode)
@@ -33,7 +34,7 @@ class RAGMapperEvaluator(RAGMapper):
         return prompt_template | llm | parser | to_dataframe
 
 
-    def evaluate(self, query: str) -> pd.DataFrame:
+    def evaluate(self, query: str, llm_model: str) -> pd.DataFrame:
 
         print(f"Starting evaluation for query: {query}\n")
         res = pd.DataFrame()
@@ -42,9 +43,9 @@ class RAGMapperEvaluator(RAGMapper):
         candidates_text = ''
         if not candidates.empty:
             candidates_text = "\n".join(
-                f"{i + 1}. ontology_id: {row['ontology_id']} | ontology_name: {row['ontology_name']} | confidence: {row['confidence']:.2f}" for i, row in candidates.iterrows())
+                f"{i + 1}. se_CODE: {row['se_CODE']} | ontology_name: {row['ontology_name']} | confidence: {row['confidence']:.2f}" for i, row in candidates.iterrows())
         try:
-            chain = self.create_evaluator_chain()
+            chain = self.create_evaluator_chain(llm_model)
             res = chain.invoke({'variable': query, 'rag_result': rag_res, 'candidates': candidates_text})
             print(f'Agent output: {res}\n')
         except Exception as e:
