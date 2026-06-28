@@ -69,9 +69,10 @@ def main():
         test_df = pd.read_csv(args.test_file, sep="\t")
     logger.info(f"Test set: {test_df.shape}  cols: {list(test_df.columns)}")
 
-    n_sample = min(args.sample_size, len(test_df))
-    sample_df = test_df.sample(n=n_sample, random_state=args.seed).reset_index(drop=True)
-    logger.info(f"Sample: {n_sample} rows")
+    deduped_df = test_df.drop_duplicates(subset="text").sample(frac=1, random_state=args.seed)
+    n_sample = min(args.sample_size, len(deduped_df))
+    sample_df = deduped_df.iloc[:n_sample].reset_index(drop=True)
+    logger.info(f"Sample: {n_sample} unique mentions (from {len(test_df)} total, {len(deduped_df)} unique)")
 
     # ── 2. Embed BioNNE-L vocabulary (skips if parquet already exists) ────────
     emb_path = Path(f"UMLS_mapper/data/raw/text_embs_{args.max_length}_{VOCAB_NAME}.parquet")
