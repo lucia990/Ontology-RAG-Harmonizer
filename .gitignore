@@ -1,8 +1,28 @@
 .env
 
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# Logs and temp
 *.log
-.idea/
 *.~lock.*
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+
+# Benchmark excluded from main analysis
+Evaluation/LuNikJay_benchmark/
+results/LuNikJay_benchmark/
+
+# Large data / generated outputs (not source)
+UMLS_mapper/data/processed/
+results/

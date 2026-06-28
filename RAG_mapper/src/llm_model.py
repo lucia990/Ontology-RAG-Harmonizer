@@ -10,14 +10,6 @@ load_dotenv()
 
 
 
-# Authentication details
-protocol = "https"
-hostname = "dev.chat.cosy.bio"
-host = f"{protocol}://{hostname}"
-api_url = f"{host}/ollama"
-api_key =  "sk-02e2176c3dbc4f629fc285238a739d8d"
-headers = {"Authorization": "Bearer " + api_key}
-
 import os
 import asyncio
 from ollama import Client, ResponseError
