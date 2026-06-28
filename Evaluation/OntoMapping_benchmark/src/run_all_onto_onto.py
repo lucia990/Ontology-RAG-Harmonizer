@@ -17,6 +17,7 @@ import json
 import os
 import re
 import sys
+from pathlib import Path
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -24,9 +25,15 @@ import pandas as pd
 
 from Evaluation.OntoMapping_benchmark.src.compute_scores import ranking_report
 
+# Repo root = 4 levels up from this file (Schema_DH/)
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent.parent
+
 MAPPINGS_DIR = "Evaluation/OntoMapping_benchmark/UMLS_mappings"
 RESULTS_DIR = "results/OntoMapping_benchmark/onto_onto"
 EVAL_SCRIPT = "Evaluation/OntoMapping_benchmark/src/eval_onto_onto.py"
+
+# Vocabulary names that may contain underscores — longest first so greedy prefix match works
+KNOWN_VOCABS = sorted(["SNOMEDCT_US", "ICD10", "LNC", "NCBI"], key=len, reverse=True)
 
 FAISS_RETRIEVE_K = 50   # candidates retrieved by SapBERT/FAISS backbone
 EVAL_KS = [1, 2, 3, 4, 5]  # cut-offs for Recall/Precision/MRR (both stages)
@@ -36,13 +43,22 @@ LLM_KS   = EVAL_KS
 
 # ── Discovery ─────────────────────────────────────────────────────────────────
 
+def _parse_mapping_filename(basename: str) -> tuple[str, str] | None:
+    name = basename.removeprefix("mapping_").removesuffix(".csv")
+    for vocab in KNOWN_VOCABS:  # longest first — avoids "SNOMEDCT" matching before "SNOMEDCT_US"
+        if name.startswith(vocab + "_"):
+            return vocab, name[len(vocab) + 1:]
+    return None
+
+
 def discover_mappings() -> list[dict]:
     files = sorted(glob.glob(os.path.join(MAPPINGS_DIR, "mapping_*.csv")))
     pairs = []
     for f in files:
-        m = re.match(r"mapping_(.+?)_(.+?)\.csv", os.path.basename(f))
-        if m:
-            pairs.append({"source": m.group(1), "target": m.group(2), "file": f})
+        parsed = _parse_mapping_filename(os.path.basename(f))
+        if parsed:
+            source, target = parsed
+            pairs.append({"source": source, "target": target, "file": f})
     return pairs
 
 
@@ -63,9 +79,13 @@ def run_eval(pair: dict, args: argparse.Namespace) -> None:
         "--results_dir", RESULTS_DIR,
         "--seed", str(args.seed),
     ]
+    # Ensure the subprocess can import project modules (UMLS_mapper, RAG_mapper, etc.)
+    env = os.environ.copy()
+    env["PYTHONPATH"] = str(REPO_ROOT) + (os.pathsep + env["PYTHONPATH"] if "PYTHONPATH" in env else "")
+
     sep = "=" * 60
     print(f"\n{sep}\nRunning: {pair['source']} → {pair['target']}\n{sep}")
-    result = subprocess.run(cmd, check=False)
+    result = subprocess.run(cmd, check=False, cwd=str(REPO_ROOT), env=env)
     if result.returncode != 0:
         print(f"WARNING: eval failed for {pair['source']} → {pair['target']}")
 
