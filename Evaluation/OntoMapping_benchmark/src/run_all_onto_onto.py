@@ -28,8 +28,10 @@ MAPPINGS_DIR = "Evaluation/OntoMapping_benchmark/UMLS_mappings"
 RESULTS_DIR = "results/OntoMapping_benchmark/onto_onto"
 EVAL_SCRIPT = "Evaluation/OntoMapping_benchmark/src/eval_onto_onto.py"
 
-FAISS_KS = [1, 2, 3, 4, 5]
-LLM_KS = [1, 2, 3]
+FAISS_RETRIEVE_K = 50   # candidates retrieved by SapBERT/FAISS backbone
+EVAL_KS = [1, 2, 3, 4, 5]  # cut-offs for Recall/Precision/MRR (both stages)
+FAISS_KS = EVAL_KS
+LLM_KS   = EVAL_KS
 
 
 # ── Discovery ─────────────────────────────────────────────────────────────────
@@ -54,7 +56,7 @@ def run_eval(pair: dict, args: argparse.Namespace) -> None:
         "--source_onto", pair["source"],
         "--target_onto", pair["target"],
         "--sampling_ratio", str(args.sampling_ratio),
-        "--k", str(max(FAISS_KS)),
+        "--k", str(FAISS_RETRIEVE_K),
         "--t", str(args.t),
         "--llm_model", args.llm_model,
         "--max_length", str(args.max_length),
@@ -125,7 +127,7 @@ def plot_summary(all_metrics: dict, save_path: str | None = None) -> None:
         faiss_scores = [all_metrics[p]["faiss"][metric].get(faiss_k, 0) for p in pairs]
         llm_scores   = [all_metrics[p]["llm"][metric].get(llm_k, 0)   for p in pairs]
 
-        ax.bar(x - width / 2, faiss_scores, width, label=f"FAISS @{faiss_k}",        color="#378ADD")
+        ax.bar(x - width / 2, faiss_scores, width, label=f"SapBERT @{faiss_k}",      color="#378ADD")
         ax.bar(x + width / 2, llm_scores,   width, label=f"LLM Supervisor @{llm_k}", color="#D4537E")
         ax.set_title(metric, fontsize=12)
         ax.set_xticks(x)
@@ -144,7 +146,7 @@ def plot_summary(all_metrics: dict, save_path: str | None = None) -> None:
 
 def plot_curves(all_metrics: dict, save_path: str | None = None) -> None:
     fig, axes = plt.subplots(1, 3, figsize=(14, 4))
-    fig.suptitle("Metric Curves by Vocabulary Pair (FAISS)", fontsize=13)
+    fig.suptitle("Metric Curves by Vocabulary Pair (SapBERT)", fontsize=13)
     colors = ["#378ADD", "#D4537E", "#1D9E75", "#EF9F27", "#7F77DD", "#E07020", "#888888"]
     metric_keys = ["Recall@K", "Precision@K", "MRR@K"]
 
@@ -174,8 +176,8 @@ def plot_curves(all_metrics: dict, save_path: str | None = None) -> None:
 def plot_distributions(all_sample_dfs: dict, save_path: str | None = None) -> None:
     labels = list(all_sample_dfs.keys())
     score_cols = [
-        ("faiss_recall", f"FAISS Recall@{max(FAISS_KS)}"),
-        ("faiss_mrr",    f"FAISS MRR@{max(FAISS_KS)}"),
+        ("faiss_recall", f"SapBERT Recall@{max(FAISS_KS)}"),
+        ("faiss_mrr",    f"SapBERT MRR@{max(FAISS_KS)}"),
         ("llm_recall",   f"LLM Recall@{max(LLM_KS)}"),
         ("llm_mrr",      f"LLM MRR@{max(LLM_KS)}"),
     ]
@@ -211,7 +213,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Run all onto-onto evaluations and plot results")
     parser.add_argument("--skip_eval",      action="store_true",  help="Only plot; skip running evals")
     parser.add_argument("--sampling_ratio", type=float, default=0.05)
-    parser.add_argument("--t",              type=float, default=0.6)
+    parser.add_argument("--t",              type=float, default=0.7)
     parser.add_argument("--max_length",     type=int,   default=25)
     parser.add_argument("--llm_model",      default="gpt-oss:20b")
     parser.add_argument("--seed",           type=int,   default=42)
@@ -248,7 +250,7 @@ def main() -> None:
         }
         all_sample_dfs[label] = compute_per_sample(df, k=max(FAISS_KS))
 
-        print(f"\n[{label}] FAISS @{max(FAISS_KS)} — "
+        print(f"\n[{label}] SapBERT @{max(FAISS_KS)} — "
               f"Recall={faiss_report['Recall@K'][max(FAISS_KS)]:.3f}  "
               f"MRR={faiss_report['MRR@K'][max(FAISS_KS)]:.3f}  |  "
               f"LLM @{max(LLM_KS)} — "

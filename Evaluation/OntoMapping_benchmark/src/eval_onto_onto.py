@@ -84,8 +84,8 @@ def main():
     parser.add_argument("--target_onto", default="LNC", help="Target ontology to embed and index")
     parser.add_argument("--max_length", type=int, default=25, help="SapBERT tokenisation max length")
     parser.add_argument("--sampling_ratio", type=float, default=0.05, help="Fraction of rows to evaluate")
-    parser.add_argument("--k", type=int, default=5, help="FAISS nearest-neighbour count")
-    parser.add_argument("--t", type=float, default=0.6, help="Cosine similarity threshold")
+    parser.add_argument("--k", type=int, default=50, help="FAISS nearest-neighbour count")
+    parser.add_argument("--t", type=float, default=0.7, help="Cosine similarity threshold")
     parser.add_argument("--llm_model", default="gpt-oss:20b", help="Evaluator LLM model name")
     parser.add_argument("--results_dir", default="results/OntoMapping_benchmark/onto_onto/")
     parser.add_argument("--seed", type=int, default=42)
@@ -176,7 +176,7 @@ def main():
 
     print("\n=== LLM Supervisor — Recall / Precision / MRR @K (CUI-based) ===")
     llm_metrics = ranking_report(
-        results, target_col="gt_cui_list", pred_col="llm_cuis", ks=[1, 2, 3]
+        results, target_col="gt_cui_list", pred_col="llm_cuis", ks=[1, 2, 3, 4, 5]
     )
     print(llm_metrics.to_string())
 
