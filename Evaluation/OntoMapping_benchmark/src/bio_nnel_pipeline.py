@@ -20,7 +20,7 @@ def preprocess_umls(huggingface_path:str = "andorei/BioNNE-L", my_umls_path:str 
     umls = load_dataset(huggingface_path, "Vocabulary", split="train")
 
     # Keep english rows
-    umls_eng = umls.filter(lambda x: x['lang'] == 'ENG')
+    umls_eng = umls.filter(lambda batch: [l == 'ENG' for l in batch['lang']], batched=True)
     umls_df = umls_eng.to_pandas()
 
     # Load my umls
@@ -68,7 +68,7 @@ def load_bionnel_eng_umls(huggingface_path: str = "andorei/BioNNE-L" ) -> pd.Dat
     umls = load_dataset(huggingface_path, "Vocabulary", split="train")
 
     # Keep english rows
-    umls_eng = umls.filter(lambda x: x['lang'] == 'ENG')
+    umls_eng = umls.filter(lambda batch: [l == 'ENG' for l in batch['lang']], batched=True)
     umls_df = umls_eng.to_pandas()
     return umls_df
 

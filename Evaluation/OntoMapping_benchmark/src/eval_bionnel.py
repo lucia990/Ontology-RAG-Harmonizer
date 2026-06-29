@@ -53,7 +53,7 @@ def main():
         default="Evaluation/OntoMapping_benchmark/DATA/bionnel_en_test.tsv",
         help="BioNNEL test TSV (columns: document_id, text, entity_type, spans, UMLS_CUI)",
     )
-    parser.add_argument("--sample_size", type=int, default=50, help="Number of rows to evaluate")
+    parser.add_argument("--sample_size", type=int, default=100, help="Number of rows to evaluate")
     parser.add_argument("--max_length", type=int, default=25, help="SapBERT tokenisation max length")
     parser.add_argument("--k", type=int, default=50, help="FAISS nearest-neighbour count")
     parser.add_argument("--t", type=float, default=0.7, help="Cosine similarity threshold")
@@ -88,14 +88,21 @@ def main():
             embed_bionnel_umls(umls_df, MAX_LENGTH=args.max_length, out_dir="UMLS_mapper/data/raw")
 
     # ── 3. Build & store FAISS index ──────────────────────────────────────────
-    # Always rebuild to ensure the index matches the current embeddings file.
-    with timer("Building FAISS index for BioNNE-L vocabulary"):
-        create_target_faiss(str(emb_path), VOCAB_NAME, args.max_length)
+    faiss_path = f"UMLS_mapper/data/processed/faiss_index_{args.max_length}.bin"
+    faiss_is_fresh = (
+        Path(faiss_path).exists()
+        and emb_path.exists()
+        and Path(faiss_path).stat().st_mtime >= emb_path.stat().st_mtime
+    )
+    if faiss_is_fresh:
+        logger.info(f"FAISS index is up to date — skipping rebuild.")
+    else:
+        with timer("Building FAISS index for BioNNE-L vocabulary"):
+            create_target_faiss(str(emb_path), VOCAB_NAME, args.max_length)
 
     # ── 4. Reset singleton so RAGMapper reloads with the new index ────────────
     _use_module._umls_search_engine_instance = None
 
-    faiss_path = f"UMLS_mapper/data/processed/faiss_index_{args.max_length}.bin"
     meta_path = f"UMLS_mapper/data/processed/metadata_{args.max_length}.csv"
 
     # ── 5. Initialise RAGMapper ───────────────────────────────────────────────
