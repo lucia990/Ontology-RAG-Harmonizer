@@ -8,5 +8,5 @@ tqdm==4.66.5
 transformers==4.52.4
 langchain
 langchain_ollama
-dotenv
+python-dotenv
 openpyxl

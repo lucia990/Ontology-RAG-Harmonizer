@@ -14,8 +14,10 @@ LLMs are hosted on a remote Ollama server (configured via `.env`). All scripts m
 ## Setup
 
 ```bash
-pip install -r requirements.txt
+pip install -e .
 ```
+
+This installs the repo as an editable package (via `pyproject.toml`), making all subpackages (`UMLS_mapper`, `RAG_mapper`, `Evaluation`, `preprocessing`) importable from any working directory without `PYTHONPATH` setup. All pinned dependencies are declared in `pyproject.toml` and mirrored in `requirements.txt`.
 
 Copy `.env` (already present, not committed) with:
 ```
@@ -133,6 +135,7 @@ results/<dir>/rag_output_{MAX_LENGTH}_{source_onto}_{target_onto}.csv
 |---|---|
 | `granite4:latest` | Mapper LLM agent (candidate ranking) |
 | `gpt-oss:20b` | Evaluator/supervisor agent |
+
 | `gemma4:latest` | Alternative mapper (benchmark runs) |
 | SapBERT (local) | Embedding model at `UMLS_mapper/sapbert_model/` |
 
