@@ -26,3 +26,6 @@ results/LuNikJay_benchmark/
 # Large data / generated outputs (not source)
 UMLS_mapper/data/processed/
 results/
+
+# Embedded third-party repo — not part of this project
+UMLS_mapper/llama.cpp/
