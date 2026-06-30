@@ -89,6 +89,7 @@ def main():
     parser.add_argument("--llm_model", default="gpt-oss:20b", help="Evaluator LLM model name")
     parser.add_argument("--results_dir", default="results/OntoMapping_benchmark/onto_onto/")
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--checkpoint_every", type=int, default=10, help="Save intermediate results every N rows")
     args = parser.parse_args()
 
     os.makedirs(args.results_dir, exist_ok=True)
@@ -102,6 +103,24 @@ def main():
     n_sample = max(1, int(np.floor(args.sampling_ratio * len(df))))
     sample_df = df.sample(n=n_sample, random_state=args.seed)
     logger.info(f"Sampled {n_sample} / {len(df)} rows ({args.sampling_ratio * 100:.0f}%)")
+
+    # ── Checkpoint ────────────────────────────────────────────────────────────
+    out_path = os.path.join(args.results_dir, f"eval_{args.source_onto}_{args.target_onto}.csv")
+    records: list = []
+    completed_cuis: set = set()
+    if os.path.exists(out_path):
+        try:
+            ckpt = pd.read_csv(out_path)
+            for col in ("gt_cui_list", "faiss_cuis", "llm_cuis"):
+                if col in ckpt.columns:
+                    ckpt[col] = ckpt[col].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
+            records = ckpt.to_dict("records")
+            completed_cuis = set(ckpt["gt_cui"].astype(str).tolist())
+            logger.info(f"Checkpoint: {len(completed_cuis)} rows already done, resuming.")
+        except Exception as e:
+            logger.warning(f"Could not load checkpoint: {e} — starting fresh.")
+    remaining_sample_df = sample_df[~sample_df.index.astype(str).isin(completed_cuis)]
+    logger.info(f"Remaining to process: {len(remaining_sample_df)} / {n_sample}")
 
     # ── 3. Embed target ontology from CONSO ───────────────────────────────────
     with timer(f"Embedding '{args.target_onto}' from CONSO (MAX_LENGTH={args.max_length})"):
@@ -126,44 +145,45 @@ def main():
     source_name_col = f"{args.source_onto}_names"
     queries = sample_df[source_name_col].apply(lambda names: max(names, key=len))
 
-    rag = RAGMapper(
-        var_list=list(queries),
-        var_desc=list(queries),
-        FAISS_INDEX_PATH=faiss_path,
-        METADATA_PATH=meta_path,
-        k=args.k,
-        t=args.t,
-    )
+    if len(remaining_sample_df) > 0:
+        rag = RAGMapper(
+            var_list=list(queries),
+            var_desc=list(queries),
+            FAISS_INDEX_PATH=faiss_path,
+            METADATA_PATH=meta_path,
+            k=args.k,
+            t=args.t,
+        )
 
-    # ── 7. Run RAG pipeline ───────────────────────────────────────────────────
-    records = []
-    for i, (row_idx, row) in enumerate(sample_df.iterrows()):
-        query = queries.loc[row_idx]
-        gt_cui = row_idx  # CUI is the DataFrame index
-        logger.info(f"[{i + 1}/{n_sample}] {query!r}")
+        # ── 7. Run RAG pipeline ───────────────────────────────────────────────────
+        for idx, (row_idx, row) in enumerate(remaining_sample_df.iterrows()):
+            query = queries.loc[row_idx]
+            gt_cui = row_idx  # CUI is the DataFrame index
+            logger.info(f"[{len(completed_cuis) + idx + 1}/{n_sample}] {query!r}")
 
-        try:
-            candidates_df, eval_df = rag.evaluate(query, var_desc=query, llm_model=args.llm_model)
-            faiss_cuis = candidates_df["CUI"].tolist() if isinstance(candidates_df, pd.DataFrame) else []
-            llm_cuis = extract_llm_cuis(eval_df)
-        except Exception as e:
-            logger.warning(f"Failed for {query!r}: {e}")
-            faiss_cuis, llm_cuis = [], []
+            try:
+                candidates_df, eval_df = rag.evaluate(query, var_desc=query, llm_model=args.llm_model)
+                faiss_cuis = candidates_df["CUI"].tolist() if isinstance(candidates_df, pd.DataFrame) else []
+                llm_cuis = extract_llm_cuis(eval_df)
+            except Exception as e:
+                logger.warning(f"Failed for {query!r}: {e}")
+                faiss_cuis, llm_cuis = [], []
 
-        records.append({
-            "query": query,
-            "gt_cui": gt_cui,
-            "gt_cui_list": [gt_cui],
-            "faiss_cuis": faiss_cuis,
-            "llm_cuis": llm_cuis,
-        })
+            records.append({
+                "query": query,
+                "gt_cui": gt_cui,
+                "gt_cui_list": [gt_cui],
+                "faiss_cuis": faiss_cuis,
+                "llm_cuis": llm_cuis,
+            })
+
+            if (idx + 1) % args.checkpoint_every == 0:
+                pd.DataFrame(records).to_csv(out_path, index=False)
+                logger.info(f"Checkpoint saved ({len(records)} rows) → {out_path}")
 
     results = pd.DataFrame(records)
 
     # ── 8. Save results ───────────────────────────────────────────────────────
-    out_path = os.path.join(
-        args.results_dir, f"eval_{args.source_onto}_{args.target_onto}.csv"
-    )
     results.to_csv(out_path, index=False)
     logger.info(f"Results saved → {out_path}")
 

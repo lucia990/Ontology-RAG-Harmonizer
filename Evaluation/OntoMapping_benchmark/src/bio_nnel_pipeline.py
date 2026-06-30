@@ -1,4 +1,5 @@
 from datasets import load_dataset
+import gc
 import pandas as pd
 import numpy as np
 import os
@@ -89,30 +90,35 @@ def embed_bionnel_umls(umls_df: pd.DataFrame, MAX_LENGTH:int = 25, BATCH_SIZE: i
 
         print(f'*************** Compute embeddings with max Length: {MAX_LENGTH}***************\n')
         all_embs = []
-        for i in tqdm(np.arange(0, N, BATCH_SIZE)):
-            print(f"\nTokenizing batch {i}...\n")
-            batch_text = list(umls_df.concept_name)[i:i + BATCH_SIZE]
-            toks = tokenizer.batch_encode_plus(
-                batch_text,
-                padding='max_length',
-                max_length=MAX_LENGTH,
-                truncation=True,
-                return_tensors="pt"
-            )
+        with torch.no_grad():
+            for i in tqdm(np.arange(0, N, BATCH_SIZE)):
+                print(f"\nTokenizing batch {i}...\n")
+                batch_text = list(umls_df.concept_name)[i:i + BATCH_SIZE]
+                toks = tokenizer.batch_encode_plus(
+                    batch_text,
+                    padding='max_length',
+                    max_length=MAX_LENGTH,
+                    truncation=True,
+                    return_tensors="pt"
+                )
 
-            toks_cuda = {}
-            print(f'\nEmbedding batch {i}...\n')
-            for k, v in toks.items():
-                toks_cuda[k] = v.cuda()
-            cls_rep = model(**toks_cuda)[0][:, 0, :]
-            print(cls_rep.shape)
-            all_embs.append(cls_rep.cpu().detach().numpy())
+                toks_cuda = {}
+                print(f'\nEmbedding batch {i}...\n')
+                for k, v in toks.items():
+                    toks_cuda[k] = v.cuda()
+                cls_rep = model(**toks_cuda)[0][:, 0, :]
+                print(cls_rep.shape)
+                all_embs.append(cls_rep.cpu().detach().numpy())
 
         all_embs = np.concatenate(all_embs, axis=0)
 
         umls_df['Text_Embs'] = [emb for emb in all_embs]
         umls_df.to_parquet(file_path,  index=False)
         print(f"------{N} Sapbert embeddings saved in {out_dir}/text_embs_{MAX_LENGTH}_BIO-NNEL.parquet")
+
+        del model, tokenizer, all_embs
+        gc.collect()
+        torch.cuda.empty_cache()
 
         create_target_faiss(file_path, 'Bio-NNEL' , MAX_LENGTH)
         print('Embedding and indexing ended successfully!')

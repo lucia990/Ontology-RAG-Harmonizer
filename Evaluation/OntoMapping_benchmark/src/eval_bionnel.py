@@ -11,6 +11,7 @@ Run from repo root:
 """
 
 import argparse
+import ast
 import os
 from pathlib import Path
 
@@ -60,6 +61,7 @@ def main():
     parser.add_argument("--llm_model", default="gpt-oss:20b", help="Evaluator LLM model name")
     parser.add_argument("--results_dir", default="results/OntoMapping_benchmark/bionnel/")
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--checkpoint_every", type=int, default=10, help="Save intermediate results every N rows")
     args = parser.parse_args()
 
     os.makedirs(args.results_dir, exist_ok=True)
@@ -73,6 +75,24 @@ def main():
     n_sample = min(args.sample_size, len(deduped_df))
     sample_df = deduped_df.iloc[:n_sample].reset_index(drop=True)
     logger.info(f"Sample: {n_sample} unique mentions (from {len(test_df)} total, {len(deduped_df)} unique)")
+
+    # ── Checkpoint ────────────────────────────────────────────────────────────
+    out_path = os.path.join(args.results_dir, "eval_bionnel.csv")
+    records: list = []
+    completed_texts: set = set()
+    if os.path.exists(out_path):
+        try:
+            ckpt = pd.read_csv(out_path)
+            for col in ("gt_cui_list", "faiss_cuis", "llm_cuis"):
+                if col in ckpt.columns:
+                    ckpt[col] = ckpt[col].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
+            records = ckpt.to_dict("records")
+            completed_texts = set(ckpt["text"].tolist())
+            logger.info(f"Checkpoint: {len(completed_texts)} rows already done, resuming.")
+        except Exception as e:
+            logger.warning(f"Could not load checkpoint: {e} — starting fresh.")
+    remaining_df = sample_df[~sample_df["text"].isin(completed_texts)].reset_index(drop=True)
+    logger.info(f"Remaining to process: {len(remaining_df)} / {n_sample}")
 
     # ── 2. Embed BioNNE-L vocabulary (skips if parquet already exists) ────────
     emb_path = Path(f"UMLS_mapper/data/raw/text_embs_{args.max_length}_{VOCAB_NAME}.parquet")
@@ -106,44 +126,47 @@ def main():
     meta_path = f"UMLS_mapper/data/processed/metadata_{args.max_length}.csv"
 
     # ── 5. Initialise RAGMapper ───────────────────────────────────────────────
-    rag = RAGMapper(
-        var_list=[],
-        var_desc=[],
-        FAISS_INDEX_PATH=faiss_path,
-        METADATA_PATH=meta_path,
-        k=args.k,
-        t=args.t,
-    )
+    if len(remaining_df) > 0:
+        rag = RAGMapper(
+            var_list=[],
+            var_desc=[],
+            FAISS_INDEX_PATH=faiss_path,
+            METADATA_PATH=meta_path,
+            k=args.k,
+            t=args.t,
+        )
 
-    # ── 6. Run RAG pipeline ───────────────────────────────────────────────────
-    records = []
-    for i, row in sample_df.iterrows():
-        query = row["text"]
-        var_desc = row["entity_type"]
-        gt_cui = row["UMLS_CUI"]
-        logger.info(f"[{i + 1}/{n_sample}] {query!r}  ({var_desc})")
+        # ── 6. Run RAG pipeline ───────────────────────────────────────────────────
+        for idx, row in enumerate(remaining_df.itertuples(index=False)):
+            query = row.text
+            var_desc = row.entity_type
+            gt_cui = row.UMLS_CUI
+            logger.info(f"[{len(completed_texts) + idx + 1}/{n_sample}] {query!r}  ({var_desc})")
 
-        try:
-            candidates_df, eval_df = rag.evaluate(query, var_desc=var_desc, llm_model=args.llm_model)
-            faiss_cuis = candidates_df["CUI"].tolist() if isinstance(candidates_df, pd.DataFrame) else []
-            llm_cuis = extract_llm_cuis(eval_df)
-        except Exception as e:
-            logger.warning(f"Failed for {query!r}: {e}")
-            faiss_cuis, llm_cuis = [], []
+            try:
+                candidates_df, eval_df = rag.evaluate(query, var_desc=var_desc, llm_model=args.llm_model)
+                faiss_cuis = candidates_df["CUI"].tolist() if isinstance(candidates_df, pd.DataFrame) else []
+                llm_cuis = extract_llm_cuis(eval_df)
+            except Exception as e:
+                logger.warning(f"Failed for {query!r}: {e}")
+                faiss_cuis, llm_cuis = [], []
 
-        records.append({
-            "text": query,
-            "entity_type": var_desc,
-            "gt_cui": gt_cui,
-            "gt_cui_list": [gt_cui],
-            "faiss_cuis": faiss_cuis,
-            "llm_cuis": llm_cuis,
-        })
+            records.append({
+                "text": query,
+                "entity_type": var_desc,
+                "gt_cui": gt_cui,
+                "gt_cui_list": [gt_cui],
+                "faiss_cuis": faiss_cuis,
+                "llm_cuis": llm_cuis,
+            })
+
+            if (idx + 1) % args.checkpoint_every == 0:
+                pd.DataFrame(records).to_csv(out_path, index=False)
+                logger.info(f"Checkpoint saved ({len(records)} rows) → {out_path}")
 
     results = pd.DataFrame(records)
 
     # ── 7. Save results ───────────────────────────────────────────────────────
-    out_path = os.path.join(args.results_dir, "eval_bionnel.csv")
     results.to_csv(out_path, index=False)
     logger.info(f"Results saved → {out_path}")
 
