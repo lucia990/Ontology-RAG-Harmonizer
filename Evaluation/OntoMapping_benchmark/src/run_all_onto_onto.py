@@ -40,6 +40,10 @@ EVAL_KS = [1, 2, 3, 4, 5]  # cut-offs for Recall/Precision/MRR (both stages)
 FAISS_KS = EVAL_KS
 LLM_KS   = EVAL_KS
 
+# Okabe-Ito colorblind-safe palette
+CB_PALETTE = ["#0072B2", "#D55E00", "#009E73", "#E69F00", "#56B4E9", "#CC79A7", "#000000"]
+_MARKERS   = ["o", "s", "^", "D", "v", "P", "X"]
+
 
 # ── Discovery ─────────────────────────────────────────────────────────────────
 
@@ -138,24 +142,41 @@ def plot_summary(all_metrics: dict, save_path: str | None = None) -> None:
     x = np.arange(len(pairs))
     width = 0.35
 
-    fig, axes = plt.subplots(1, 2, figsize=(max(10, len(pairs) * 1.6), 5))
-    fig.suptitle("Onto-to-Onto Benchmark — All Combinations", fontsize=13)
+    fig, axes = plt.subplots(1, 2, figsize=(max(10, len(pairs) * 1.8), 5))
+    fig.suptitle("Onto-to-Onto Benchmark — All Combinations", fontsize=13, fontweight="bold")
 
     for ax, metric in zip(axes, ["Recall@K", "MRR@K"]):
         faiss_k = max(FAISS_KS)
-        llm_k = max(LLM_KS)
+        llm_k   = max(LLM_KS)
         faiss_scores = [all_metrics[p]["faiss"][metric].get(faiss_k, 0) for p in pairs]
         llm_scores   = [all_metrics[p]["llm"][metric].get(llm_k, 0)   for p in pairs]
 
-        ax.bar(x - width / 2, faiss_scores, width, label=f"SapBERT @{faiss_k}",      color="#378ADD")
-        ax.bar(x + width / 2, llm_scores,   width, label=f"LLM Supervisor @{llm_k}", color="#D4537E")
-        ax.set_title(metric, fontsize=12)
+        bars_f = ax.bar(x - width / 2, faiss_scores, width,
+                        label=f"SapBERT @{faiss_k}", color=CB_PALETTE[0],
+                        alpha=0.9, edgecolor="white", linewidth=0.6)
+        bars_l = ax.bar(x + width / 2, llm_scores, width,
+                        label=f"LLM Supervisor @{llm_k}", color=CB_PALETTE[1],
+                        alpha=0.9, edgecolor="white", linewidth=0.6)
+
+        for bar in bars_f:
+            h = bar.get_height()
+            ax.text(bar.get_x() + bar.get_width() / 2, h + 0.01,
+                    f"{h:.2f}", ha="center", va="bottom", fontsize=7.5,
+                    color=CB_PALETTE[0], fontweight="bold")
+        for bar in bars_l:
+            h = bar.get_height()
+            ax.text(bar.get_x() + bar.get_width() / 2, h + 0.01,
+                    f"{h:.2f}", ha="center", va="bottom", fontsize=7.5,
+                    color=CB_PALETTE[1], fontweight="bold")
+
+        ax.set_title(metric, fontsize=12, fontweight="bold", pad=8)
         ax.set_xticks(x)
         ax.set_xticklabels(pairs, rotation=30, ha="right", fontsize=9)
-        ax.set_ylim(0, 1.05)
-        ax.legend(fontsize=9)
+        ax.set_ylim(0, 1.15)
+        ax.set_ylabel("Score", fontsize=10)
+        ax.legend(fontsize=9, framealpha=0.9)
         ax.spines[["top", "right"]].set_visible(False)
-        ax.grid(axis="y", linestyle="--", alpha=0.4)
+        ax.grid(axis="y", linestyle="--", alpha=0.4, color="#aaaaaa")
 
     plt.tight_layout()
     if save_path:
@@ -165,27 +186,32 @@ def plot_summary(all_metrics: dict, save_path: str | None = None) -> None:
 
 
 def plot_curves(all_metrics: dict, save_path: str | None = None) -> None:
-    fig, axes = plt.subplots(1, 3, figsize=(14, 4))
-    fig.suptitle("Metric Curves by Vocabulary Pair (SapBERT)", fontsize=13)
-    colors = ["#378ADD", "#D4537E", "#1D9E75", "#EF9F27", "#7F77DD", "#E07020", "#888888"]
-    metric_keys = ["Recall@K", "Precision@K", "MRR@K"]
+    fig, axes = plt.subplots(1, 3, figsize=(15, 4.5))
+    fig.suptitle("Metric Curves by Vocabulary Pair (SapBERT)", fontsize=13, fontweight="bold")
 
-    for ax, metric in zip(axes, metric_keys):
+    for ax, metric in zip(axes, ["Recall@K", "Precision@K", "MRR@K"]):
         for i, (label, metrics) in enumerate(all_metrics.items()):
             ks = sorted(metrics["faiss"][metric].keys())
             ys = [metrics["faiss"][metric][k] for k in ks]
-            ax.plot(ks, ys, marker="o", markersize=5, linewidth=2,
-                    label=label, color=colors[i % len(colors)])
-        ax.set_title(metric, fontsize=12)
-        ax.set_xlabel("K")
+            ax.plot(ks, ys,
+                    marker=_MARKERS[i % len(_MARKERS)],
+                    markersize=6, linewidth=2,
+                    label=label,
+                    color=CB_PALETTE[i % len(CB_PALETTE)])
+
+        ax.set_title(metric, fontsize=12, fontweight="bold", pad=8)
+        ax.set_xlabel("K", fontsize=10)
+        ax.set_ylabel("Score", fontsize=10)
         ax.set_ylim(0, 1.05)
         ax.set_xticks(FAISS_KS)
         ax.spines[["top", "right"]].set_visible(False)
-        ax.grid(axis="y", linestyle="--", alpha=0.4)
+        ax.grid(axis="y", linestyle="--", alpha=0.4, color="#aaaaaa")
 
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="lower center", ncol=min(len(all_metrics), 4),
-               fontsize=9, frameon=False, bbox_to_anchor=(0.5, -0.12))
+    fig.legend(handles, labels,
+               loc="lower center", ncol=min(len(all_metrics), 4),
+               fontsize=9, frameon=True, framealpha=0.9,
+               bbox_to_anchor=(0.5, -0.14))
     plt.tight_layout()
     if save_path:
         fig.savefig(save_path, dpi=150, bbox_inches="tight")
@@ -201,24 +227,36 @@ def plot_distributions(all_sample_dfs: dict, save_path: str | None = None) -> No
         ("llm_recall",   f"LLM Recall@{max(LLM_KS)}"),
         ("llm_mrr",      f"LLM MRR@{max(LLM_KS)}"),
     ]
+    # SapBERT panels use blue; LLM panels use vermillion; medians in orange
+    face_colors   = [CB_PALETTE[0], CB_PALETTE[0], CB_PALETTE[1], CB_PALETTE[1]]
+    median_colors = [CB_PALETTE[3], CB_PALETTE[3], CB_PALETTE[3], CB_PALETTE[3]]
 
-    fig, axes = plt.subplots(2, 2, figsize=(max(12, len(labels) * 1.4), 9))
-    fig.suptitle("Per-Sample Score Distributions across Vocabulary Combinations", fontsize=13)
+    fig, axes = plt.subplots(2, 2, figsize=(max(12, len(labels) * 1.6), 9))
+    fig.suptitle("Per-Sample Score Distributions across Vocabulary Combinations",
+                 fontsize=13, fontweight="bold")
 
-    for (col, title), ax in zip(score_cols, axes.flat):
+    for (col, title), fcolor, mcolor, ax in zip(score_cols, face_colors, median_colors, axes.flat):
         data = [all_sample_dfs[lbl][col].dropna().values for lbl in labels]
-        data = [d if len(d) > 1 else np.array([0.0, 0.0]) for d in data]  # violinplot needs ≥2 pts
-        parts = ax.violinplot(data, positions=range(len(labels)), showmedians=True, showextrema=True)
+        data = [d if len(d) > 1 else np.array([0.0, 0.0]) for d in data]
+
+        parts = ax.violinplot(data, positions=range(len(labels)),
+                              showmedians=True, showextrema=True)
         for pc in parts["bodies"]:
-            pc.set_facecolor("#7F77DD")
-            pc.set_alpha(0.55)
-        parts["cmedians"].set_color("#D4537E")
-        ax.set_title(title, fontsize=11)
+            pc.set_facecolor(fcolor)
+            pc.set_alpha(0.5)
+        parts["cmedians"].set_color(mcolor)
+        parts["cmedians"].set_linewidth(2)
+        for key in ("cbars", "cmins", "cmaxes"):
+            parts[key].set_color(fcolor)
+            parts[key].set_alpha(0.6)
+
+        ax.set_title(title, fontsize=11, fontweight="bold", pad=8)
         ax.set_xticks(range(len(labels)))
         ax.set_xticklabels(labels, rotation=30, ha="right", fontsize=8)
         ax.set_ylim(-0.05, 1.1)
+        ax.set_ylabel("Score", fontsize=10)
         ax.spines[["top", "right"]].set_visible(False)
-        ax.grid(axis="y", linestyle="--", alpha=0.4)
+        ax.grid(axis="y", linestyle="--", alpha=0.4, color="#aaaaaa")
 
     plt.tight_layout()
     if save_path:
@@ -235,7 +273,7 @@ def main() -> None:
     parser.add_argument("--sampling_ratio", type=float, default=0.05)
     parser.add_argument("--t",              type=float, default=0.7)
     parser.add_argument("--max_length",     type=int,   default=25)
-    parser.add_argument("--llm_model",      default="gpt-oss:20b")
+    parser.add_argument("--llm_model",      default="qwen3.6")
     parser.add_argument("--seed",           type=int,   default=42)
     args = parser.parse_args()
 

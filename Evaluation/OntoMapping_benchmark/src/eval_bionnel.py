@@ -15,6 +15,7 @@ import ast
 import os
 from pathlib import Path
 
+import matplotlib.pyplot as plt
 import pandas as pd
 
 import UMLS_mapper.src.umls_search_engine as _use_module
@@ -45,6 +46,53 @@ def extract_llm_cuis(eval_df: pd.DataFrame) -> list:
         ]
     except Exception:
         return []
+
+
+_CB_BLUE      = "#0072B2"
+_CB_VERMILLION = "#D55E00"
+
+
+def plot_bionnel_results(results: pd.DataFrame, ks: list, save_dir: str) -> None:
+    """Plot Recall@K and MRR@K curves for SapBERT retrieval vs LLM Supervisor."""
+    faiss_rep = ranking_report(results, "gt_cui_list", "faiss_cuis", ks=ks)
+    llm_rep   = ranking_report(results, "gt_cui_list", "llm_cuis",   ks=ks)
+
+    fig, axes = plt.subplots(1, 2, figsize=(11, 4.5))
+    fig.suptitle(
+        f"BioNNEL Entity Linking  (n = {len(results)})",
+        fontsize=13, fontweight="bold", y=1.02,
+    )
+
+    for ax, metric in zip(axes, ["Recall@K", "MRR@K"]):
+        fv = [faiss_rep[metric][k] for k in ks]
+        lv = [llm_rep[metric][k]   for k in ks]
+
+        ax.plot(ks, fv, marker="o", linewidth=2.5, markersize=8,
+                color=_CB_BLUE,       label="SapBERT retrieval")
+        ax.plot(ks, lv, marker="s", linewidth=2.5, markersize=8, linestyle="--",
+                color=_CB_VERMILLION, label="LLM Supervisor")
+
+        for k, v in zip(ks, fv):
+            ax.text(k, v + 0.03, f"{v:.2f}", ha="center", va="bottom",
+                    fontsize=8.5, color=_CB_BLUE, fontweight="bold")
+        for k, v in zip(ks, lv):
+            ax.text(k, v - 0.04, f"{v:.2f}", ha="center", va="top",
+                    fontsize=8.5, color=_CB_VERMILLION, fontweight="bold")
+
+        ax.set_title(metric, fontsize=12, fontweight="bold", pad=8)
+        ax.set_xlabel("K", fontsize=11)
+        ax.set_ylabel("Score", fontsize=11)
+        ax.set_xticks(ks)
+        ax.set_ylim(0, 1.15)
+        ax.legend(fontsize=10, framealpha=0.9, loc="lower right")
+        ax.spines[["top", "right"]].set_visible(False)
+        ax.grid(axis="y", linestyle="--", alpha=0.4, color="#aaaaaa")
+
+    plt.tight_layout()
+    save_path = os.path.join(save_dir, "bionnel_metrics.png")
+    fig.savefig(save_path, dpi=150, bbox_inches="tight")
+    logger.info(f"Plot saved → {save_path}")
+    plt.show()
 
 
 def main():
@@ -182,6 +230,9 @@ def main():
         results, target_col="gt_cui_list", pred_col="llm_cuis", ks=[1, 2, 3, 4, 5]
     )
     print(llm_metrics.to_string())
+
+    # ── 9. Plot ───────────────────────────────────────────────────────────────
+    plot_bionnel_results(results, ks=[1, 2, 3, 4, 5], save_dir=args.results_dir)
 
 
 if __name__ == "__main__":
