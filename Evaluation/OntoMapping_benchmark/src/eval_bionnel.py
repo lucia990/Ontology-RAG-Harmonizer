@@ -67,9 +67,9 @@ def plot_bionnel_results(results: pd.DataFrame, ks: list, save_dir: str) -> None
         fv = [faiss_rep[metric][k] for k in ks]
         lv = [llm_rep[metric][k]   for k in ks]
 
-        ax.plot(ks, fv, marker="o", linewidth=2.5, markersize=8,
+        ax.plot(ks, fv, marker="o", linewidth=2.5, markersize=5,
                 color=_CB_BLUE,       label="SapBERT retrieval")
-        ax.plot(ks, lv, marker="s", linewidth=2.5, markersize=8, linestyle="--",
+        ax.plot(ks, lv, marker="s", linewidth=2.5, markersize=5, linestyle="--",
                 color=_CB_VERMILLION, label="LLM Supervisor")
 
         for k, v in zip(ks, fv):
