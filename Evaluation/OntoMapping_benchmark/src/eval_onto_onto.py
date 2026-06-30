@@ -15,6 +15,7 @@ import argparse
 import ast
 import os
 
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import pyarrow.parquet as pq
@@ -73,6 +74,55 @@ def extract_llm_cuis(eval_df: pd.DataFrame) -> list:
         return []
 
 
+_CB_BLUE       = "#0072B2"
+_CB_VERMILLION = "#D55E00"
+
+
+def plot_onto_onto_results(
+    results: pd.DataFrame, ks: list, source_onto: str, target_onto: str, save_dir: str
+) -> None:
+    """Plot Recall@K and MRR@K curves for FAISS retrieval vs LLM Supervisor."""
+    faiss_rep = ranking_report(results, "gt_cui_list", "faiss_cuis", ks=ks)
+    llm_rep   = ranking_report(results, "gt_cui_list", "llm_cuis",   ks=ks)
+
+    fig, axes = plt.subplots(1, 2, figsize=(11, 4.5))
+    fig.suptitle(
+        f"Ontology mapping: {source_onto} → {target_onto}  (n = {len(results)})",
+        fontsize=13, fontweight="bold", y=1.02,
+    )
+
+    for ax, metric in zip(axes, ["Recall@K", "MRR@K"]):
+        fv = [faiss_rep[metric][k] for k in ks]
+        lv = [llm_rep[metric][k]   for k in ks]
+
+        ax.plot(ks, fv, marker="o", linewidth=2.5, markersize=8,
+                color=_CB_BLUE,       label="SapBERT retrieval")
+        ax.plot(ks, lv, marker="s", linewidth=2.5, markersize=8, linestyle="--",
+                color=_CB_VERMILLION, label="LLM Supervisor")
+
+        for k, v in zip(ks, fv):
+            ax.text(k, v + 0.03, f"{v:.2f}", ha="center", va="bottom",
+                    fontsize=8.5, color=_CB_BLUE, fontweight="bold")
+        for k, v in zip(ks, lv):
+            ax.text(k, v - 0.04, f"{v:.2f}", ha="center", va="top",
+                    fontsize=8.5, color=_CB_VERMILLION, fontweight="bold")
+
+        ax.set_title(metric, fontsize=12, fontweight="bold", pad=8)
+        ax.set_xlabel("K", fontsize=11)
+        ax.set_ylabel("Score", fontsize=11)
+        ax.set_xticks(ks)
+        ax.set_ylim(0, 1.15)
+        ax.legend(fontsize=10, framealpha=0.9, loc="lower right")
+        ax.spines[["top", "right"]].set_visible(False)
+        ax.grid(axis="y", linestyle="--", alpha=0.4, color="#aaaaaa")
+
+    plt.tight_layout()
+    save_path = os.path.join(save_dir, f"onto_onto_{source_onto}_{target_onto}.png")
+    fig.savefig(save_path, dpi=150, bbox_inches="tight")
+    logger.info(f"Plot saved → {save_path}")
+    plt.show()
+
+
 def main():
     parser = argparse.ArgumentParser(description="Ontology-to-ontology evaluation via RAG pipeline")
     parser.add_argument(
@@ -90,9 +140,26 @@ def main():
     parser.add_argument("--results_dir", default="results/OntoMapping_benchmark/onto_onto/")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--checkpoint_every", type=int, default=10, help="Save intermediate results every N rows")
+    parser.add_argument("--plot_only", action="store_true",
+                        help="Skip evaluation; load existing results CSV and plot")
     args = parser.parse_args()
 
     os.makedirs(args.results_dir, exist_ok=True)
+
+    # ── Plot-only shortcut ────────────────────────────────────────────────────
+    if args.plot_only:
+        out_path = os.path.join(args.results_dir, f"eval_{args.source_onto}_{args.target_onto}.csv")
+        if not os.path.exists(out_path):
+            raise FileNotFoundError(f"No results file found at {out_path}. Run without --plot_only first.")
+        results = pd.read_csv(out_path)
+        for col in ("gt_cui_list", "faiss_cuis", "llm_cuis"):
+            if col in results.columns:
+                results[col] = results[col].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
+        logger.info(f"Loaded {len(results)} rows from {out_path}")
+        plot_onto_onto_results(results, ks=[1, 2, 3, 4, 5],
+                               source_onto=args.source_onto, target_onto=args.target_onto,
+                               save_dir=args.results_dir)
+        return
 
     # ── 1. Load ground-truth mapping ──────────────────────────────────────────
     with timer("Loading mapping table"):
@@ -199,6 +266,11 @@ def main():
         results, target_col="gt_cui_list", pred_col="llm_cuis", ks=[1, 2, 3, 4, 5]
     )
     print(llm_metrics.to_string())
+
+    # ── 10. Plot ──────────────────────────────────────────────────────────────
+    plot_onto_onto_results(results, ks=[1, 2, 3, 4, 5],
+                           source_onto=args.source_onto, target_onto=args.target_onto,
+                           save_dir=args.results_dir)
 
 
 if __name__ == "__main__":

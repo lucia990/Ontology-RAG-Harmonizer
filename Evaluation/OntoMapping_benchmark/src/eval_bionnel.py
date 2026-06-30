@@ -110,9 +110,24 @@ def main():
     parser.add_argument("--results_dir", default="results/OntoMapping_benchmark/bionnel/")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--checkpoint_every", type=int, default=10, help="Save intermediate results every N rows")
+    parser.add_argument("--plot_only", action="store_true",
+                        help="Skip evaluation; load existing results CSV and plot")
     args = parser.parse_args()
 
     os.makedirs(args.results_dir, exist_ok=True)
+
+    # ── Plot-only shortcut ────────────────────────────────────────────────────
+    if args.plot_only:
+        out_path = os.path.join(args.results_dir, "eval_bionnel.csv")
+        if not os.path.exists(out_path):
+            raise FileNotFoundError(f"No results file found at {out_path}. Run without --plot_only first.")
+        results = pd.read_csv(out_path)
+        for col in ("gt_cui_list", "faiss_cuis", "llm_cuis"):
+            if col in results.columns:
+                results[col] = results[col].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
+        logger.info(f"Loaded {len(results)} rows from {out_path}")
+        plot_bionnel_results(results, ks=[1, 2, 3, 4, 5], save_dir=args.results_dir)
+        return
 
     # ── 1. Load & sample test data ────────────────────────────────────────────
     with timer("Loading BioNNEL test data"):
